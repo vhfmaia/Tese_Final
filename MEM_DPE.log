@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  20 MAY 2023 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  20 MAY 2023 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,15 +1000,17 @@ File: Figures/Cap3/Falta_imagem_larga.png Graphic file (type png)
 Package pdftex.def Info: Figures/Cap3/Falta_imagem_larga.png  used on input line 491.
 (pdftex.def)             Requested size: 376.4274pt x 179.24855pt.
  [29 <./Figures/Cap3/Falta_imagem_larga.png>]
-File: Figures/Cap3/Falta_imagem_larga.png Graphic file (type png)
-<use Figures/Cap3/Falta_imagem_larga.png>
-Package pdftex.def Info: Figures/Cap3/Falta_imagem_larga.png  used on input line 503.
-(pdftex.def)             Requested size: 334.60568pt x 159.33588pt.
-File: Figures/Cap3/Falta_imagem_larga.png Graphic file (type png)
-<use Figures/Cap3/Falta_imagem_larga.png>
-Package pdftex.def Info: Figures/Cap3/Falta_imagem_larga.png  used on input line 512.
-(pdftex.def)             Requested size: 334.60568pt x 159.33588pt.
-) (./Cap4_Resultados/Cap4.tex [30] [31] [32
+<Figures/Cap3/Ensaio_simples.png, id=691, 526.96875pt x 376.40625pt>
+File: Figures/Cap3/Ensaio_simples.png Graphic file (type png)
+<use Figures/Cap3/Ensaio_simples.png>
+Package pdftex.def Info: Figures/Cap3/Ensaio_simples.png  used on input line 503.
+(pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
+<Figures/Cap3/Desenho_ensaio_simples.png, id=692, 526.96875pt x 376.40625pt>
+File: Figures/Cap3/Desenho_ensaio_simples.png Graphic file (type png)
+<use Figures/Cap3/Desenho_ensaio_simples.png>
+Package pdftex.def Info: Figures/Cap3/Desenho_ensaio_simples.png  used on input line 512.
+(pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
+) (./Cap4_Resultados/Cap4.tex [30 <./Figures/Cap3/Ensaio_simples.png>] [31 <./Figures/Cap3/Desenho_ensaio_simples.png>] [32
 
 ]
 Cap\'{\i }tulo 4.
@@ -1020,7 +1022,7 @@ Cap\'{\i }tulo 5.
 
 ] [37]) (./Appendix/Ap1.tex [38]
 Ap\^endice A.
-<Figures/Apendix/bac_de_trempe.png, id=731, 402.75468pt x 569.87906pt>
+<Figures/Apendix/bac_de_trempe.png, id=733, 402.75468pt x 569.87906pt>
 File: Figures/Apendix/bac_de_trempe.png Graphic file (type png)
 <use Figures/Apendix/bac_de_trempe.png>
 Package pdftex.def Info: Figures/Apendix/bac_de_trempe.png  used on input line 6.
@@ -1029,7 +1031,7 @@ Package pdftex.def Info: Figures/Apendix/bac_de_trempe.png  used on input line 6
 
 ] [40 <./Figures/Apendix/Bac_de_trempe.png>]
 Ap\^endice B.
-<Figures/Apendix/Chemical_Comp_Coroa.png, id=740, 512.66531pt x 614.295pt>
+<Figures/Apendix/Chemical_Comp_Coroa.png, id=742, 512.66531pt x 614.295pt>
 File: Figures/Apendix/Chemical_Comp_Coroa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Coroa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input line 14.
@@ -1040,7 +1042,7 @@ Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input 
 
 ]
 Ap\^endice C.
-<Figures/Apendix/Chemical_Comp_Caixa.png, id=749, 470.50781pt x 663.98062pt>
+<Figures/Apendix/Chemical_Comp_Caixa.png, id=751, 470.50781pt x 663.98062pt>
 File: Figures/Apendix/Chemical_Comp_Caixa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Caixa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Caixa.png  used on input line 22.
@@ -1050,18 +1052,18 @@ Package rerunfilecheck Info: File `MEM_DPE.out' has not changed.
 (rerunfilecheck)             Checksum: 2EDC62CC817B789E53595DF1603D09D6;5526.
  ) 
 Here is how much of TeX's memory you used:
- 20611 strings out of 476001
- 390561 string characters out of 5793198
+ 20625 strings out of 476001
+ 391087 string characters out of 5793198
  1867068 words of memory out of 5000000
- 40503 multiletter control sequences out of 15000+600000
+ 40515 multiletter control sequences out of 15000+600000
  532548 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,13n,131p,1776b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on MEM_DPE.pdf (62 pages, 45094990 bytes).
+Output written on MEM_DPE.pdf (62 pages, 45942178 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
+ 884 PDF objects out of 1000 (max. 8388607)
  681 compressed objects within 7 object streams
  158 named destinations out of 1000 (max. 500000)
- 531 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
