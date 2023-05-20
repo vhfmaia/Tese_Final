@@ -28,9 +28,10 @@
 \contentsline {subsection}{\numberline {3.3.2}Simulação da tampa simples}{27}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Prototipagem da tampa simples}{29}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Ensaio da proposta inicial}{30}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}Análise de Resultados}{31}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusão}{33}{chapter.5}%
-\contentsline {chapter}{Referências}{33}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Apêndice}{37}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Apêndice}{39}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Apêndice}{41}{appendix.C}%
+\contentsline {subsection}{\numberline {3.3.5}Novos protótipos e melhorias}{31}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {4}Análise de Resultados}{35}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusão}{37}{chapter.5}%
+\contentsline {chapter}{Referências}{37}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Apêndice}{41}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Apêndice}{43}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Apêndice}{45}{appendix.C}%

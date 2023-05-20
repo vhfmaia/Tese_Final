@@ -203,16 +203,9 @@ Portanto, sendo prensadas a roda de coroa e caixa diferencial “nua”, a caixa
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[htb]
-
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 Uma vez que os parâmetros de \% C e CE dos materiais da roda de coroa e da caixa “nua”, são importantes para perceber a suscetibilidade de fissuração a hidrogénio, a Tabela \ref{tab:Comp_materiais} indica a composição indicativa do aço 27MC5, das rodas de coroa, e do ferro fundido EN-GJS-600-10 das caixas diferenciais “nuas”. É importante referir que para o calculo posterior do CE, nas Equações \ref{eq:CE_calculado_27MC5} e \ref{eq:CE_calculado_GJS-600-10}, são utilizados os valores médios de cada elemento da composição do material, o que pode causar alguma diferença em materiais cuja composição se encontre numa posição mais extrema do espectro de conformidades. No entanto, uma vez que este espectro não é demasiado vasto, pode-se utilizar a média como visualização da soldabilidade deste material. Para além disso, é também utilizado o percentual de carbono após a carbonitruração, de 0,7\% , uma vez que a zona afetada termicamente das rodas de coroa de série é enriquecida por carbonitruração.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \usepackage{booktabs}
-
-
 \begin{table}[htb]
     \centering
     \caption[Composição dos materiais da caixa diferencial]%
@@ -495,6 +488,7 @@ Tendo então resultados satisfatórios na simulação, prosseguiu-se com a próx
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Ensaio da proposta inicial} \label{ssec:materiais_ensaio_simples}
 Como referido na subsecção anterior, foi realizado um ensaio da ferramenta modificada, onde o objetivo era verificar se os resultados obtidos pela simulação CFD eram condizentes com a realidade, para isto, separou-se uma carga montada com 150 rodas de coroa DB45, onde de um dos pratos, substituindo uma das colunas de rodas de coroa com a ferramenta modificada, como pode ser visto na Figura \ref{fig:ensaio_simples}. Também pode ser visto na Figura \ref{fig:esquema_ensaio_simples}, um desenho esquemático que orienta a disposição da ferramenta modificada num dos pratos. Para além disso, a carga modificada seguiu com um aviso escrito em papel, um aviso por e-mail e um aviso verbal, da forma que se deveria realizar o ensaio, ou seja, que as peças estavam identificadas de 1 a 10, onde 1 seria a roda de coroa mais em baixo, e 10 a roda de coroa mais em cima, que a carga poderia ser identificada pela presença de uma tampa na coluna central do primeiro prato e que, após o revenido, as peças não deveriam seguir para a granalhagem, e que deveriam ser separadas para serem levadas ao laboratório de ensaios mecânicos.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -515,3 +509,52 @@ Como referido na subsecção anterior, foi realizado um ensaio da ferramenta mod
     \label{fig:esquema_ensaio_simples}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\par
+Para a realização das medições de dureza no Laboratório de Ensaios Mecânicos (LEMM) foram removidas as rodas de coroa de baixo, ou Nº 1, do meio, ou Nº 6 e de cima, ou Nº 10. Foram feitas filiações das zonas de soldadura do diferencial, denominadas por “Zona 1”, zonas de prensagem, denominadas por “Zona 2”, zonas de soldadura da “Cible”, denominada por “Zona 3” e nas zonas do topo de soldadura, denominada por “Zona 4”, na zona do dentado, e a dureza superficial. A Figura \ref{fig:zonas_filiacoes_dureza} ilustra, num desenho de uma roda de coroa DB45, a posição das zonas das filiações de dureza.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb!]
+    \centering
+    \includegraphics[width = 0.5\textwidth]{Figures/Cap3/Falta_Imagem.png}
+    \caption[Zonas das filiações de dureza]%
+    {Desenho indicativo das zonas onde são feitas as filiações de dureza das rodas de coroa, de forma a verificar se a proteção do diâmetro interno é efetiva e que nao há alterações nos valores de dureza do dentado.}
+    \label{fig:zonas_filiacoes_dureza}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Os resultados destas filiações de dureza serão discutidos no Capítulo \ref{ch:resultados}, no entanto, para efeitos da continuidade do trabalho, é necessário dizer que, mesmo que os resultados tenham sido satisfatórios, os valores das durezas em todas as zonas nas rodas de coroa inferiores foram consideravelmente superiores aos valores nas rodas de coroa do meio e de cima. Além disso, na roda de coroa Nº 10, a dureza na zona de soldadura da Cible não foi afetada pela proteção, além da “zona 1” ter durezas ligeiramente superiores às durezas na mesma zona nas outras rodas de coroa, o que leva à suspeita de que a existência de uma aba seria necessária para uniformizar os valores de durezas em todas as 10 coroas da coluna. Por fim, verificou-se que a soldadura feita na falsa coroa à torre da ferramenta porta-peças sofreu rotura, o que também pode explicar o motivo das durezas em todas as zonas da roda de coroa Nº 1 serem muito maiores que as demais.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Novos protótipos e melhorias} \label{ssec:novos_prototipos}
+Devido aos problemas encontrados no ensaio do protótipo inicial, foram desenvolvidos dois outros protótipos. O primeiro, denominado “Tampa O” sendo uma modificação do protótipo inicial, apenas com a adição de uma aba de proteção para a cible. O segundo, alterando a geometria de um “copo” para um formato ajustado à torre da ferramenta porta-peças das peças de série, denominado “Tampa Y”. A Figura \ref{fig:novos_prototipos} ilustra as geometrias novas. A ferramenta inicial foi então denominada “Tampa P”, em homenagem ao “Eng. Pinto” responsável pela sua geometria e pela ideia de proteger as rodas de coroa quanto à Têmpera.
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}  
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+    \end{subfigure}
+    \caption[Modelos CAD dos novos protótipos de tampa]%
+    {Modelos em CAD 3D dos novos protótipos que buscam melhorar os parâmetros resultantes do ensaio com a ferramenta inicial. À direita a “Tampa O” e à esquerda a “Tampa Y”.}
+    \label{fig:novos_prototipos}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\par
+Além da modificação das tampas, também foi modificada a junção da falsa coroa com a torre, uma vez que no protótipo inicial foi realizada uma soldadura muito simples, com apenas três “pingos” de soldadura em todo o diâmetro, desta vez, foi feita uma soldadura completa, em toda o diâmetro. Sendo as suspeitas de que os resultados do ensaio inicial foram afetados pela rotura da soldadura verdade, os próximos ensaios devem conferir resultados mais uniformes em todas as rodas de coroa da coluna tratada. Por fim, um novo protótipo foi testado para verificar a necessidade da utilização de uma tampa, sendo assim o próximo ensaio constituído por 5 colunas completas; uma coluna protegida pela tampa Y; uma coluna protegida pela tampa O; uma coluna protegida pela tampa P; uma coluna protegida apenas pela falsa coroa modificada, em baixo; e uma coluna sem proteção alguma, denominada coluna de série. Um desenho com o esquema de configuração deste prato para ensaio pode ser visto na Figura \ref{fig:configuracao_ensaio}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb!]
+    \centering
+    \includegraphics[width = 0.5\textwidth]{Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png}
+    \caption[Desenho com a configuração do ensaio dos vários protótipos]%
+    {Desenho indicativo da configuração das ferramentas num prato para realização do ensaio com os vários protótipos. Em cima à esquerda, a tampa Y, em cima à direita a tampa O, em baixo à esquerda, a ferramenta sem tampa; em baixo à direita, a tampa P; e no centro, uma coluna de série.}
+    \label{fig:configuracao_ensaio}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage    
+\par
+Para a realização deste ensaio, as rodas de coroa precisaram ser marcadas não só de 1 a 10, mas também de forma alfabética, com as rodas de coroa “A” correspondentes à tampa Y, “B” correspondentes à tampa O, “C” correspondentes à tampa P, “D” correspondentes à coluna sem tampa, e “S” correspondentes à coluna de série. Portanto, a roda de coroa com marcação “B10” corresponde à roda de coroa do topo da coluna protegida pela tampa O, por exemplo. Além disso, na entrada do forno de revenido houve um problema quanto ao reconhecimento das peças, visto que o sistema utiliza o diâmetro do perfil da imagem da peça central, e as tampas não são identificadas automaticamente, portanto, para evitar problemas, as tampas foram removidas sempre após a primeira máquina de lavar, uma vez que após a têmpera as tampas encontram-se à 170\textdegree C e estão muito quentes para serem manuseadas.
