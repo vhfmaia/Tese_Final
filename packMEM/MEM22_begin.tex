@@ -1,0 +1,205 @@
+%%RM2022
+%% requires \usepackage{xstring}
+
+\newcommand{\tipologiaDPE}[1]{%
+\IfStrEqCase{#1}{
+    {D}{Dissertação apresentada}
+    %{P}{Relatório de Projeto apresentado}
+    {P}{Trabalho de Projeto apresentado}
+    {E}{Relatório de Estágio apresentado}}
+    [tipologia errada]
+}
+%%RM2022
+
+
+% -------------------------------------------------------------
+% Definição da capa (com e sem figuras)
+% -------------------------------------------------------------
+\iffalse            % \iffalse: capa sem imagem, \iftrue: capa com imagem
+   \TitlePage                             % Capa da tese com uma imagem
+%      \GRID                              % Desenha grelha rectangular de 3mm
+      \HEADER{\BAR\FIG{\includegraphics{./Imagens/nice.pdf}}}    % Imagem para a capa
+             {\thesisyear}
+      \TITLE{\authorname}
+            {\thesistitle \vspace*{5mm} \thesistitleen}
+   \EndTitlePage
+\else
+   \TitlePage    % Capa da tese sem imagens, com citação
+%      \GRID                              % Desenha grelha rectangular de 3mm
+      \HEADER{\BAR\FIG{\begin{minipage}{100mm}   % Largura da caixa da citação (<120mm)
+             {}    % Citação 1. Colocar {} para retirar citação
+         \begin{flushright} 
+             {}  % Citação 2. Colocar {} para retirar citação
+         \end{flushright}
+      \end{minipage}}}
+          {\thesisyear}
+    \IfStrEqCase{\lang}{
+    {E}{
+     \TITLE{\authorname}
+      \thesistitleen 
+      \vspace*{5mm}
+     \TEXT{} {\textsf{\Large{\thesistitle}}}
+    }
+    {P}{
+   \TITLE{\authorname}
+      \thesistitle
+      \vspace*{5mm}
+      \TEXT{} {\textsf{\Large{\thesistitleen}}}
+    }
+    }
+ 
+\EndTitlePage
+\fi
+\titlepage\ \endtitlepage    % Página de verso em branco
+
+
+% -------------------------------------------------------------
+% Definição da capa interior
+% -------------------------------------------------------------
+
+\TitlePage
+%   \PGRID                                    % Desenha grelha rectangular de 3mm
+   \HEADER{}{\thesisyear}
+   \IfStrEqCase{\lang}{
+    {E}{
+    %versão inglês
+      \TITLE{\authorname}
+        {\thesistitleen %\\[5mm]
+        }
+  \vspace*{5mm}
+  \TEXT{}
+       {\textsf{\Large{\thesistitle}} \\[5mm]
+       \ifodd \norient{} 
+       {\tipologiaDPE{\documenttype}à Universidade de Aveiro para cumprimento dos requisitos necessários à obtenção do grau de \thesisdegreept{} em \sciarea, realizada sob orientação científica de \supervisor{}, \supdegree{}, do \supfili{} da Universidade de Aveiro.}
+       \else 
+       {\tipologiaDPE{\documenttype}à Universidade de Aveiro para cumprimento dos requisitos necessários à obtenção do grau de \thesisdegreept{} em \sciarea, realizada sob orientação científica de \supervisor{}, \supdegree{}, do \supfili{} da Universidade de Aveiro, e de \cosupervisor{}, \cosupdegree{} do \cosupfili{} da \cosupuni{}. } 
+       \fi
+       } 
+    }
+    {P}{
+    %versão português
+      \TITLE{\authorname}
+        {\thesistitle %\\[5mm]
+        }
+  \vspace*{5mm}
+  \TEXT{}
+       {\textsf{\Large{\thesistitleen}} \\[5mm]
+       \ifodd \norient{} 
+       {\tipologiaDPE{\documenttype}à Universidade de Aveiro para cumprimento dos requisitos necessários à obtenção do grau de \thesisdegreept{} em \sciarea, realizada sob orientação científica de \supervisor{}, \supdegree{}, do \supfili{} da Universidade de Aveiro.}
+       \else 
+       {\tipologiaDPE{\documenttype}à Universidade de Aveiro para cumprimento dos requisitos necessários à obtenção do grau de \thesisdegreept{} em \sciarea, realizada sob orientação científica de \supervisor{}, \supdegree{}, do \supfili{} da Universidade de Aveiro, e de \cosupervisor{}, \cosupdegree{} do \cosupfili{} da \cosupuni{}. } 
+       \fi
+       }
+    }
+    }
+    
+    \vspace*{110mm}
+  \TEXT{}
+       {\small{\apoio}}
+  
+    \EndTitlePage
+    
+    
+  
+%%RM2022
+
+
+\titlepage\ \endtitlepage                        % Página de verso em branco
+
+
+% -------------------------------------------------------------
+% Definição da página do júri da dissertação (PT/EN)
+% -------------------------------------------------------------
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{O júri~/~The jury\newline}}
+       {}
+  \TEXT{Presidente~/~President}
+       {\textbf{\tribpresident}\newline {\small
+        \tribpresidentcat{António Manuel Godinho Completo}}}
+  \vspace*{5mm}
+  \TEXT{Vogais~/~Committee}
+       {\textbf{\tribi}\newline {\small
+        \tribicat{António Manuel Godinho Completo} \textit{\tribifili}}}       
+  \vspace*{5mm}
+  \TEXT{}
+  {\ifodd\orientjuri{}{\textbf{\profdoc{} \supervisor}\newline {\small
+        \supdegree{} da Universidade de Aveiro (Orientador)}}
+       \else{\textbf{\profdoc{} \cosupervisor}\newline {\small
+        \cosupdegree{} da \textit{\cosupuniit{}} (co-orientador)}}
+  \fi}
+        
+\EndTitlePage
+
+\titlepage\ \endtitlepage                        % Página de verso em branco
+
+
+% -------------------------------------------------------------
+% Definição da página dos agradecimentos
+% -------------------------------------------------------------
+\TitlePage
+  \vspace*{55mm}
+  \TEXT{\textbf{Agradecimentos~/\newline Acknowledgements}}
+      {\agradecimentos}
+\EndTitlePage
+\titlepage\ \endtitlepage                        % Página de verso em branco
+
+% -------------------------------------------------------------
+% Definição da página do resumo (EN)
+% -------------------------------------------------------------
+\TitlePage
+   \vspace*{55mm}
+   \TEXT{\textbf{Keywords}}
+        {\keyword{}}
+   \vspace*{5mm}
+   \TEXT{\textbf{Abstract}}
+        {\abstr{}}
+\EndTitlePage
+\titlepage\ \endtitlepage                        % Página de verso em branco
+
+
+% -------------------------------------------------------------
+% Definição da página do resumo (PT)
+% -------------------------------------------------------------
+\TitlePage
+   \vspace*{55mm}
+   \TEXT{\textbf{Palavras-chave}}
+        {\palavraschave{}}
+   \vspace*{5mm}
+   \TEXT{\textbf{Resumo}}  
+        {\resumo{}}
+\EndTitlePage
+\titlepage\ \endtitlepage                        % Página de verso em branco
+
+
+% -------------------------------------------------------------
+% Listas e definições iniciais da dissertação
+% -------------------------------------------------------------
+\pagenumbering{roman}          % Numeração romana para as primeiras páginas
+\tableofcontents               % Índice da dissertação
+\listoftables                  % Lista de tabelas
+\listoffigures                 % Lista de figuras
+\input{Nomenclature/Nomenclature}         % Lista de nomenclatura
+\cleardoublepage
+%\titlepage\ \endtitlepage      % Página de verso em branco
+\pagenumbering{arabic}         % Numeração árabe para as páginas restantes
+
+
+% ----------------------------------------------------------------
+% Definição de headers e footers
+% ----------------------------------------------------------------
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.#1}{}} % Capítulos em minúsculas
+\fancyhf{}                                                  % Reset aos headers e footers
+  \fancyhead[LE,RO]{\thepage}                               % Header Left-Even (LE), Right-Odd (RO)
+  \fancyhead[LO]{\leftmark}                                 % Header Left-Odd (LO)
+  \fancyhead[RE]{\leftmark}                                 % Header Right-Even (RE)
+  \fancyfoot[LE]{\authornam}                               % Footer Left-Even (LE)
+  \fancyfoot[LO]{\authornam}                               % Footer Left-Odd (LO)
+%  \fancyfoot[RE]{\textit{Dissertação de \thesisdegree}}     % Footer Right-Even (RE)
+%  \fancyfoot[RO]{\textit{Dissertação de \thesisdegree}}     % Footer Right-Odd (RO)
+  \fancyfoot[RE]{\textit{\thesisdegree\ Degree}}     % Footer Right-Even (RE)
+  \fancyfoot[RO]{\textit{\thesisdegree\ Degree}}     % Footer Right-Odd (RO)
+  \renewcommand{\headrulewidth}{0.25pt}                     % Espessura da linha de header
+  \renewcommand{\footrulewidth}{0.25pt}                     % Espessura da linha de footer
+  \addtolength{\headheight}{0.5pt}                          % Espaçamento para a linha

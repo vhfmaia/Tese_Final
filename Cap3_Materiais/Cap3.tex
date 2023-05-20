@@ -1,0 +1,423 @@
+\chapter{Materiais e Métodos} \label{ch:materiais}
+\setlength{\headheight}{13.6pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introdução} \label{sec:materiais_intro}
+
+Como já foi referido, o principal objetivo deste trabalho é desenvolver uma ferramenta porta-peças para proteger o diâmetro interno das rodas de coroa \textbf{BD35}, \textbf{DB45} e \textbf{JT4}, de forma a melhorar a operação de torneamento duro e diminuir a ocorrência de não conformidades devidas à fissurações a frio. 
+\vspace{5mm}
+
+\par
+Assim, este capítulo começa por descrever o \textbf{caso de estudo}, isto é, as rodas de coroa em que será feito o processo de carbonitruração e seu processo de maquinação antes deste processo(que é mencionado a seguir como “processo de obtenção da peça branca”), as ferramentas porta-peças atualmente utilizadas no processo de carbonitruração das rodas de coroa supracitadas(que a partir deste ponto são chamadas peças negras), e o processo de torneamento, onde é obtida a geometria final das coroas que posteriormente serão prensadas e soldadas à caixa diferencial.
+\vspace{5mm}
+
+\par
+É então apresentado o processo de simulação por CFD que as rodas de coroa serão sujeitos, para a linha de série e para todas as soluções propostas, e em seguida, é apresentada uma solução inicial, chamada de \textbf{“Tampa P”}, simples, onde as únicas diferenças desta solução para a ferramenta atualmente utilizada são a modificação da \textit{falsa coroa} para não permitir a passagem de fluido \textbf{por baixo} e a adição de uma \textit{tampa} \textbf{em cima} com efeito análogo. Somado a isto, são apresentadas três soluções complementares, cujo objetivo é melhorar alguns parâmetros obtidos no ensaio da solução inicial \textbf{“P”}, no caso das tampas \textbf{“Y”} e \textbf{“O”}, ou simplificar o sistema, no caso da solução \textbf{“Sem tampa”}.
+\vspace{5mm}
+
+\par
+Por fim, são descritos os \textbf{parâmetros de conformidade} e o processo de ensaio para verificação dos impactos das várias modificações, que posteriormente serão analisados e discutidos no capítulo \ref{ch:resultados}, e uma vez que estes serão utilizados para validar os parâmetros de conformidade, serão também apresentados os métodos de ensaio de dureza, de verificação dimensional e o ensaio de difusibilidade do hidrogénio.
+\vspace{5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Caso de estudo} \label{sec:materiais_CS}
+\subsection{Processo de obtenção da peça branca} \label{ssec:materiais_CS_peca_branca}
+
+O processo de produção da peça branca, inicia-se com um bruto de aço de baixa liga \textbf{AFNOR 27MC5}, ou \textbf{EN-1.7149}. Cada série de coroas tem um bruto de dimensões específicas, bem como programas de maquinação e padrões de conformidade específicos. Como exemplo, na Figura \ref{fig:Bruto_desenho} vê-se as dimensões do bruto das coroas DB45 de aproximadamente 204,4 mm de diâmetro externo, 106 mm de diâmetro interno e 39 mm de espessura.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Bruto_fotografia.png}
+        \caption{}
+        \label{fig:Bruto_fotografia}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Bruto_CAD.png}
+        \caption{}
+        \label{fig:Bruto_desenho}
+    \end{subfigure}
+    \caption[Imagens do bruto para fabricação da peça branca]%
+    {À esquerda, uma fotografia de um bruto utilizado para obter a peça branca. À direita, um desenho com as dimensões do bruto e hachuras com o formato e dimensões da peça branca final.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par
+Deste bruto, serão removidos os excessos de material do diâmetro interno, das faces superior e inferior, e maquinado o dentado, tudo isto feito de forma automática, sendo apenas necessária a intervenção do operador na alimentação inicial dos brutos na linha de produção, na troca das ferramentas, seja por desgaste ou por mudança da série a maquinar, ou em casos de defeitos de máquina. Cada operação é realizada num centro de maquinagem diferente, e o transporte é realizado por meio de transportadores mecânicos, o que torna o processo mais ágil e permite a continuação do processo produtivo em caso de avaria de algum dos centros.
+
+\par
+Após estarem maquinadas as rodas de coroa, estas estão prontas para seguir para o processo de carbonitruração, processo que tornar-lhes-á peças negras. Portanto, após a saída do último centro de maquinagem, as coroas são direcionadas a uma ilha em que um braço mecânico carrega de forma ordenada uma carga, composta por três pratos de cinco colunas cada, totalizando quinze colunas por carga. O número de rodas de coroa por coluna varia entre 10, no caso das séries “DB45” e 11, no caso das séries “DB35” e “JT4”. Isto é devido ao peso máximo suportado pelo elevador do forno de carbonitruração, que tem um limite de 550kg. Sendo as séries “DB45” mais espessas, portanto, mais pesadas, existe a necessidade da redução do número de rodas de coroa de 55 para 50 por prato.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Peca_branca_fotografia.png}
+        \caption[]%
+        {}
+        \label{fig:Peca_branca_fotografia}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Carga_fotografia.png}
+        \caption{}
+        \label{fig:Carga_peca_branca}
+    \end{subfigure}
+    \caption[Peça branca final e Prato de Rodas de coroa série DB35]%
+    {À esquerda, uma fotografia de uma coroa DB45 peça branca. À direita, uma fotografia de um prato montado com 50 rodas de coroa DB45 “peça branca” maquinadas.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Processo de obtenção da peça negra} \label{ssec:materiais_CS_carbonitruracao}
+Chegando a carga na zona dos tratamentos térmicos, esta é carregada para uma máquina de pré-oxidação, este processo precede a carbonitruração e é utilizado para melhorar a aderência da camada de carbono e azoto adquirida. Para uma melhor perceção do sistema, as Figuras \ref{fig:Prato}, \ref{fig:Torre} e \ref{fig:Falsa_coroa} ilustram as tres partes da ferramenta porta-peças atualmente utilizados em toda a linha dos tratamentos térmicos. O material dos componentes da ferramenta porta-peças é o \textbf{aço refratário EN 1.4807}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.33\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Prato}
+    \end{subfigure}%
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Torre}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Falsa_coroa}
+    \end{subfigure}
+    \caption[Fotografias dos tres componentes da ferramenta porta-peças]%
+    {Fotografias do prato, da torre, e da falsa coroa da ferramenta porta-peças, respetivamente.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par
+A pré-oxidação é realizada ao aquecer o material a uma temperatura de 500\textdegree C por cerca de 90 minutos, num ambiente controlado, de forma a obter uma fina camada de óxidos na superfície das rodas de coroa que atua permitindo uma difusão mais controlada do carbono e do azoto na superfície do material durante a etapa de carbonitruração que resulta em uma distribuição mais uniforme destes elementos na camada formada, uniformizando as propriedades mecânicas adquiridas pelo processo. Para além disso, a camada de óxidos diminui a probabilidade de fissurações a quente, uma vez que funciona como um degrau de aquecimento e evita o choque térmico, já que o forno de carbonitruração encontra-se a temperaturas de quase 900\textdegree C. Por fim, a camada de óxidos também promove uma aderência mais forte entre a camada de carbonitruração e o núcleo metálico, o que diminui a probabilidade de ocorrência de descamações. Após esta etapa, as peças têm uma coloração característica, próxima do azul escuro, característica do processo de oxidação e da temperatura atingida neste processo.
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{figure}[htb]
+%     \centering
+%     \includegraphics[width = 0.6\textwidth]{Figures/Cap3/Falta_Imagem.png}
+%     \caption[Roda de coroa DB45 após pré-oxidação]%
+%     {Imagem de uma coroa de série DB45 após tratamento de pré-oxidação.}
+%     \label{fig:apos_pre_ox}
+% \end{figure}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Logo após a pré-oxidação, as peças são conduzidas por transportadores mecânicos para um sitio de carregamento, para serem transportadas para o forno de carbonitruração. Neste forno, as peças são novamente aquecidas, desta vez a uma temperatura de 870\textdegree C, por um tempo de cerca de aproximadamente 180 minutos. Nesta etapa, as peças estão submetidas a uma atmosfera de aproximadamente 0,7\% Carbono e 20\% de Azoto, controladas por meio de um débito de amoníaco (NH\textsubscript{3}), metanol (CH\textsubscript{3}OH), propano (C\textsubscript{3}H\textsubscript{8}) e gás de azoto (N\textsubscript{2}). O processo é realizado numa câmara a uma pressão de 3 bar, de forma a permitir que a maior quantidade de átomos de carbono e azoto penetrem nas rodas de coroa.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Após os aproximadamente 180 minutos no forno de carbonitruração, as peças são descarregadas do forno e rapidamente submergidas num tanque de têmpera de dimensões de base 700x700mm e  970mm de altura, num fluido de têmpera “Shell Voluta H300”, que encontra-se a aproximadamente 170\textdegree C durante cerca de 15 minutos. Após o processo de têmpera, as peças seguem para duas operações seguidas de lavagem, cada uma com duração de cerca de 90 minutos, e só então são submetidas à um processo de revenido, de forma a aliviar as tensões internas do material e adequar os valores de dureza e tenacidade às conformidade exigidas no produto final.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{Figures/Cap3/Tanque_Tempera.png}
+    \caption[Tanque de têmpera]%
+    {Imagem esquemática do tanque de têmpera no qual é realizada a têmpera das rodas de coroa.}
+    \label{fig:tanque_tempera}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par
+O revenido é realizado durante 5 horas, em 5 etapas seguidas de 60 minutos cada, a 190\textdegree C, sendo então arrefecido lentamente à saída do forno de revenido. Após o arrefecimento das rodas de coroa, estas então são inseridas num processo de granalhagem, de forma limpar os contaminantes que restem dos processos anteriores, como resquícios de óleo não removidos no processo de lavagem, sobras de detergente ou camadas superficiais de óxidos. Uma vez que o processo de granalhagem é concluído, as rodas de coroa são conduzidas à linha de torneamento duro, onde serão removidas imperfeições e deformações resultantes do processo de obtenção da peça negra.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Processo de torneamento duro} \label{ssec:materiais_CS_torneamento}
+Uma vez que as peças negras tem uma dureza superficial extremamente alta, por volta dos 700HV, é necessária a utilização de ferramentas e parâmetros de corte especiais para obter os requisitos dimensionais nas rodas de coroa. Para este efeito, são utilizadas pastilhas com revestimento de nitreto de boro cúbico (CBN), material este que pode atingir até 2000\textdegree C sem grandes perdas de dureza e em temperatura ambiente, apresenta valores de dureza por volta dos 1100HV. Neste processo, o diâmetro interno das rodas de coroa é torneada a zona de soldadura, a zona de prensagem, e é feito um rasgo para a zona de escapamento de gases de soldadura. As dimensões das rodas de coroa antes e depois do torneamento duro podem ser vistas nas Figuras \ref{fig:Coroa_antes_torneamento} e \ref{fig:Coroa_apos_torneamento}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Coroa_antes_torneamento}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/DB45_apos_torn.png}
+        \caption{}
+        \label{fig:Coroa_apos_torneamento}
+    \end{subfigure}
+    \caption[Imagens das rodas de coroa antes e após o torneamento duro]%
+    {À esquerda, um esquema das dimensões das rodas de coroa DB45 antes do torneamento duro. À direita, o mesmo esquema após a operação de torneamento duro.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par
+Um dos problemas abordados neste projeto é justamente o custo da operação de torneamento duro. Os custos da ferramenta e a baixa quantidade de operações realizadas por cada ferramenta que resultam num tempo considerável em que a máquina não está a trabalhar e o alto consumo energético devido às condições de corte, que são maioritariamente causados pela alta dureza no diâmetro interno das rodas de coroa. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Sendo assim, havendo a possibilidade da redução desta dureza, existe uma margem para a diminuição dos custos de operação, seja com a mudança da ferramenta para uma alternativa de menor custo, pelo aumento da quantidade de operações realizadas por cada ferramenta, pela alteração dos parâmetros de corte de forma a reduzir o consumo energético ou o tempo de ciclo, ou até por uma junção de todas as possibilidades anteriores.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Prensagem e Soldadura} \label{ssec:materials_CS_prens_e_sold}
+Após o torneamento duro, as rodas de coroa são prensadas para em sequencia serem soldadas às caixas diferenciais, estas “caixas nuas”, em ferro fundido EN-GJS-600-10 são também produzidas na fábrica, no entanto, não sendo estas escopo deste projeto, seu processo produtivo não será abordado neste documento. Cada série de roda de coroa tem uma série de caixa diferencial designada, como exemplo, vê-se uma caixa diferencial “nua” na Figura \ref{fig:Caixa_nua_DB45}, e uma caixa diferencial montada na Figura \ref{fig:Caixa_montada_DB45}.
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Caixa_nua.png}
+        \caption[]%
+        {}
+        \label{fig:Caixa_nua_DB45}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Caixa_montada.png}
+        \caption{}
+        \label{fig:Caixa_montada_DB45}
+    \end{subfigure}
+    \caption[Caixa diferencial “nua”, e caixa diferencial montada.]%
+    {À esquerda, uma fotografia de uma caixa diferencial “nua” antes de ser prensada a uma roda de coroa. À direita, uma caixa diferencial já prensada.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Portanto, sendo prensadas a roda de coroa e caixa diferencial “nua”, a caixa diferencial deverá ser soldada, neste caso uma soldadura à laser com adição de INCONEL-82. Como referido no Subcapítulo \ref{ssec:soldadura-soldabilidade}, pode-se utilizar a correlação de Graville da Figura \ref{fig:Graville} para tentar prever a probabilidade de ocorrência de fissuração a frio no conjunto. Novamente, é importante referir que fissurações a hidrogénio são causadas por 3 fatores; microestrutura suscetível, neste caso, uma grande quantidade de martensite; uma fonte de hidrogénio difusível, neste caso, a atmosfera rica em hidrogénio da carbonitruração; e tensões residuais do processo de soldadura. Na Figura \ref{fig:microestrutura_diametro_serie} é possível verificar que o diâmetro interno das rodas de coroa estão preenchidas por microestruturas de martensite e austenite residual, com maior quantidade de austenite residual na extremidade mais próxima da superfície de tratamento. Isto pode ser explicado pela temperatura final de martensite de um aço ser mais baixa quanto maior a composição de carbono, e sendo a presença de carbono tão maior quanto menor for a profundidade observada, há uma maior presença de carbono na superfície, portanto, uma maior quantidade de austenite que não foi transformada.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption{}
+        \label{fig:microestrutura_diametro_serie}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Microestrutura_serie.png}
+        \caption{}
+        \label{fig:imagem_diametro_serie}
+    \end{subfigure}
+    \caption[Microestrutura e perfil do diâmetro interno.]%
+    {À esquerda, uma imagem da microestrutura da peça branca. À direita, uma imagem da microestrutura de uma roda de coroa DB45 após têmpera.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Uma vez que os parâmetros de \% C e CE dos materiais da roda de coroa e da caixa “nua”, são importantes para perceber a suscetibilidade de fissuração a hidrogénio, a Tabela \ref{tab:Comp_materiais} indica a composição indicativa do aço 27MC5, das rodas de coroa, e do ferro fundido EN-GJS-600-10 das caixas diferenciais “nuas”. É importante referir que para o calculo posterior do CE, nas Equações \ref{eq:CE_calculado_27MC5} e \ref{eq:CE_calculado_GJS-600-10}, são utilizados os valores médios de cada elemento da composição do material, o que pode causar alguma diferença em materiais cuja composição se encontre numa posição mais extrema do espectro de conformidades. No entanto, uma vez que este espectro não é demasiado vasto, pode-se utilizar a média como visualização da soldabilidade deste material. Para além disso, é também utilizado o percentual de carbono após a carbonitruração, de 0,7\% , uma vez que a zona afetada termicamente das rodas de coroa de série é enriquecida por carbonitruração.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \usepackage{booktabs}
+
+
+\begin{table}[htb]
+    \centering
+    \caption[Composição dos materiais da caixa diferencial]%
+    {Valores de conformidade da composição dos materiais constituintes das rodas de coroa e caixas “nuas”.}
+    \label{tab:Comp_materiais}
+    \begin{tabular}{lrr} 
+    \toprule
+    \textbf{Elemento de liga} & \multicolumn{1}{c}{\textbf{Composição 27MC5 (\%)}} & \multicolumn{1}{c}{\textbf{Composição GJS-600-10 (\%)}}  \\ 
+    \hline\hline
+    Carbono (C)      & 0,23 à 0,31                               & 3,1 à 3,4                                       \\
+    Manganês (Mn)    & 1,10 à 1,40                               & Até 0,5                                         \\
+    Níquel (Ni)      & Até 0,30                                  & Não especificado                                \\
+    Vanádio (V)      & Não especificado                          & Não especificado                                \\
+    Molibdénio (Mo)  & Não especificado                          & Não especificado                                \\
+    Crómio (Cr)      & 1,00 à 1,40                               & Não especificado                                \\
+    Cobre (Cu)       & Até 0,40                                  & Até 0,15                                        \\
+    Titânio (Ti)     & Até 0,010                                 & Não especificado                                \\
+    Alumínio (Al)    & Até 0,050                                 & Não especificado                                \\
+    Silício (Si)     & Até 0,40                                  & 4,1 à 4,5                                       \\
+    Enxofre (S)      & 0,020 à 0,040                             & Até 0,02                                        \\
+    Fósforo (P)      & Até 0,025                                 & Até 0,05                                        \\
+    Estanho (Sn)     & Não especificado                          & Até 0,05                                        \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+    \centering
+    \label{eq:CE_calculado_27MC5}
+    \mathrm{CE\textsubscript{(27MC5)}} = 0,7 + \frac{1,25}{6}+\frac{1,20+0+0}{5}+\frac{0,20+0,15}{15}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+    \centering
+    \label{eq:CE_calculado_GJS-600-10}
+    \mathrm{CE\textsubscript{(GJS-600-10)}} = 3,25 + \frac{0,25}{6}+\frac{0+0+0}{5}+\frac{0,08+0}{15}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Com isto, temos que os valores de \%C e CE são, respetivamente 0,7 e 1,17 para o aço, e 3,25 e 3,3 para o ferro fundido. Quando comparados com os valores de referencia descritos na Tabela \ref{tab:CE}, ambos os materiais tem uma má soldabilidade, somado a isto, a martensite tem uma má condutividade térmica quando comparada com outras microestruturas do aço. 
+\par
+Ainda que usemos o valor de referencia para o percentual de carbono do aço sem tratamento termoquímico, temos um valor de CE de 0,72, o que ainda seria considerado um material com má soldabilidade. Devido a estes problemas, os parâmetros de soldadura são minuciosamente selecionados de forma a permitir uma boa formação da ZAT e uma penetração total da zona de soldadura, sendo o principal parâmetro para a obtenção destes resultados numa soldadura a laser a potencia de soldadura.
+\newpage
+\par
+Para além disso, se utilizarmos a correlação de Graville, da Figura \ref{fig:Graville}, ambos os materiais têm uma grande probabilidade de ocorrência de fissuração, e o facto de serem peças de revolução, torna estas peças especialmente suscetíveis à fissurações, devido a zona de recobrimento (Figura \ref{fig:recobrimento}). Uma vez que a zona de inicio e término de soldadura da-se no mesmo ponto, esta zona sofre o equivalente a uma soldadura de dois passes. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width = 0.52\textwidth]{Figures/Cap3/Recobrimento.png}
+    \caption[Zona de recobrimento de uma roda de coroa DB45]%
+    {Fotografia de uma roda de coroa DB45 após o processo de soldadura, com destaque em vermelho para a zona de recobrimento.}
+    \label{fig:recobrimento}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+A adição de carbono, azoto, e a eventual adição de hidrogénio no forno de carbonitruração, e a transformação da microestrutura para martensite só aumentam a probabilidade de ocorrência de fissuração num conjunto que ja é extremamente suscetível a este fenómeno, portanto, uma vez que seja possível evitar o tratamento da zona de soldadura, seria possível diminuir a quantidade de não conformidades devidas aos defeitos de soldadura. Como ponto de comparação, a quantidade de peças não conformes devido aos defeitos de soldadura, ronda por volta dos 10\%, quantidade esta que aumenta demasiado o custo de fabrico das caixas diferenciais, uma vez que quaisquer não conformidades provenientes da soldadura resultam no sucateamento total da caixa, mesmo depois do processo produtivo estar quase completo.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conceção da ferramenta} \label{sec:materiais_concecao}
+Tendo em conta os problemas descritos na secção anterior, cria-se a necessidade da conceção de uma ferramenta que impeça ou limite a existência dos efeitos que aumentam a probabilidade de ocorrência de fissurações à hidrogénio. Como a complexidade de tornar o diâmetro interno das rodas de coroa impermeáveis quanto à carbonitruração parece uma tarefa muito complicada, a primeira alternativa é tentar evitar a têmpera na zona do diâmetro interno.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Simulação das peças de série} \label{ssec:materiais_concecao_sim_serie}
+\par
+De modo a perceber o comportamento das peças de série no tanque de têmpera, foi realizada uma simulação CFD do sistema. Para isto foi necessário modelar as três rodas de coroa de série (DB35, DB45 e JT4), bem como as ferramentas porta-peças atualmente utilizadas na etapa de carbonitruração. Estes modelos 3D foram realizados com o auxílio do software SolidWorks, e, de forma a evitar posteriormente quaisquer problemas quanto à construção da malha de elementos finitos e a simulação do sistema, optou-se por modelar as rodas de coroa sem os dentes.
+\par
+Isto simplifica a construção da malha, sendo agora as rodas de coroa apenas um disco com um furo no centro, e diminui o número de elementos necessários para modelar o sistema. Os modelos das três rodas de coroa podem ser vistas nas Figuras \ref{fig:CAD_DB35}, \ref{fig:CAD_DB45} e \ref{fig:CAD_JT4}. Já para as ferramentas porta-peças, não foi necessário simplificar os modelos, uma vez que a geometria destes já é bastante simples e não traz grandes problemas em termos de construção de malha. O prato, a falsa coroa, e a torre podem ser vistos respetivamente nas Figuras \ref{fig:CAD_Prato}, \ref{fig:CAD_Falsa}, e \ref{fig:CAD_Torre}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.33\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_DB35.png}
+        \caption{}
+        \label{fig:CAD_DB35}
+    \end{subfigure}%
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_DB45.png}
+        \caption{}
+        \label{fig:CAD_DB45}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_JT4.png}
+        \caption{}
+        \label{fig:CAD_JT4}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{.33\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_PRATO.png}
+        \caption{}
+        \label{fig:CAD_Prato}
+    \end{subfigure}%
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_FALSA.png}
+        \caption{}
+        \label{fig:CAD_Falsa}
+    \end{subfigure}
+    \centering
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/CAD_TORRE.png}
+        \caption{}
+        \label{fig:CAD_Torre}
+    \end{subfigure}
+    \caption[Modelos 3D das rodas de coroa e dos elementos da ferramenta porta-peças.]%
+    {\textbf{(a)} Modelo CAD 3D de uma roda de coroa DB35; \textbf{(b)} Modelo de uma roda de coroa DB45; \textbf{(c)} Modelo de uma roda de coroa JT4; \textbf{(d)} Modelo de um prato da ferramenta porta-peças; \textbf{(e)} Modelo de uma falsa coroa da ferramenta porta-peças; \textbf{(a)} Modelo de uma torre da ferramenta porta-peças.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \par
+% Após todos os elementos do sistema estarem modelados, realizou-se a montagem do sistema a ser simulado. Basicamente, como no porta-peças real, cada prato contêm 5 torres, e cada torre contem 10 rodas de coroa, no caso da DB45 e 11 rodas de coroa, no caso da DB35 e JT4.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htb]
+    \centering
+    \caption[Propriedades mecânicas e térmicas do aço 27MC5]%
+    {Propriedades mecânicas e térmicas do aço 27MC5 usadas nas simulações CFD.}
+    \label{tab:Propriedades_27MC5}
+    \begin{tabular}{lrr} 
+    \toprule
+    \multicolumn{1}{c}{\textbf{Propriedades}} & \multicolumn{1}{c}{\textbf{Aço 27MC5}}            & \multicolumn{1}{c}{\textbf{Refratário EN 1.4807}}  \\ 
+    \hline\hline
+    Densidade ($\rho$)                        & 7800 kg m\textsuperscript{-3}                     & 8000 kg m\textsuperscript{-3}                      \\
+    Módulo de Young (E)                       & 190 GPa                                           & 190 GPa                                            \\
+    Coeficiente de poisson ($\nu$)            & 0,29                                              & 0,29                                               \\
+    Tensão de limite elástico (\textit{T})             & 380 MPa                                           & 120 MPa                                            \\
+    Coef. de expansão térmica (\textit{a})             & 0,13 $\mu$K\textsuperscript{-1}                   & 0,15 $\mu$K\textsuperscript{-1}                    \\
+    Coef. de condutividade térmica (\textit{K})        & 46 W m\textsuperscript{-1}K\textsuperscript{-1}   & 12 W m\textsuperscript{-1}K\textsuperscript{-1}    \\
+    Calor específico (\textit{c})                      & 470 J kg\textsuperscript{-1}K\textsuperscript{-1} & 480 J kg\textsuperscript{-1}K\textsuperscript{-1}  \\
+    \toprule
+    \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\par
+Uma vez que o modelo CFD necessita de alguns dados dos materiais e do fluido térmico, estes podem ser encontrados nas Tabelas \ref{tab:Propriedades_27MC5} e \ref{tab:Propriedades_VolutaH300}, e uma imagem do modelo montado pode ser vista na Figura \ref{fig:modelo_montado}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htb]
+    \centering
+    \caption[Propriedades do fluido de têmpera Voluta H300]%
+    {Propriedades mecânicas e térmicas do aço 27MC5 usadas nas simulações CFD.}
+    \label{tab:Propriedades_VolutaH300}
+    \begin{tabular}{lrrr} 
+    \toprule
+    \multicolumn{1}{c}{\textbf{Propriedades Voluta H300}} & \multicolumn{1}{c}{\textbf{20 °C}} & \multicolumn{1}{c}{\textbf{100 °C}} & \multicolumn{1}{c}{\textbf{100 °C}}  \\ 
+    \hline\hline
+    Densidade ($\rho$)                                    & 780 kg m\textsuperscript{-3}       & 600 kg m\textsuperscript{-3}        & 600 kg m\textsuperscript{-3}         \\
+    Viscosidade cinemática ($\mu$)                        & 571 cSt                            & 190 cSt                             & 4,8 cSt                              \\
+    Temperatura de transf. de fase (\textit{T})           & \multicolumn{3}{c}{400 °C}                                                                                      \\
+    Coef. de condutividade térmica (\textit{K})           & \multicolumn{3}{c}{46 W m\textsuperscript{-1}K\textsuperscript{-1}}                                             \\
+    Calor específico (\textit{cp})                        & \multicolumn{3}{c}{470 J kg\textsuperscript{-1}K\textsuperscript{-1}}                                           \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.5\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption[Modelo 3D de um prato montado]%
+        {Modelo CAD 3D de um prato de rodas de coroa DB45 montado.}
+        \label{fig:modelo_montado}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_Imagem.png}
+        \caption[Esquema de malhas utilizado na simulação CFD.]%
+        {Esquema de malhas utilizado na simulação CFD.}
+        \label{fig:malha_simulacao}
+    \end{subfigure}
+    \caption{}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Por fim, utiliza-se o add-on \textit{Flow Simulation} do software SolidWorks para criar um programa de simulações, de forma a visualizar o comportamento do fluido de têmpera nas condições de tratamento. Para além dos dados indicados nas tabelas acima, às peças foi definida uma temperatura de 870 \textdegree C, e foram utilizados um coeficiente de rugosidade em todas as faces das coroas de 50$\mu$m, uma rugosidade de 500 $\mu$m em todas as faces dos componentes da ferramenta porta-peças, e foi definida uma malha “grosseira” para os elementos sólidos, e uma malha “normal” para os elementos de fluido. Ver Figura \ref{fig:malha_simulacao}.
+\par
+Os limites computacionais do fluido foram definidos de acordo com as dimensões do tanque que encontra-se descrito na Figura \ref{fig:tanque_tempera}, ou seja, (700x700) mm\textsuperscript{2} de base e 900 mm de altura, e o plano inferior do tanque foi assumido como uma entrada uniforme de fluido de tempera a uma velocidade de 1,45 m/s, e a uma temperatura de 170 \textdegree C de acordo com o documento do tanque que pode ser visualizado no Apêndice \ref{ap:ap1}.
+\par
+Uma vez que, mesmo com geometrias pouco complexas e com a utilização de uma malha “grosseira” nos elementos sólidos, a simulação em questão tem um grande custo computacional, esta consumiu cerca de 9 horas até estar completa, e com isto, como pode ser visto na Figura \ref{fig:resultado_serie}, é possível  que o fluxo de fluido é tão grande ou talvez até mais volumoso no diâmetro interno das rodas de coroa que no dentado, portanto, confirmando mais uma vez que é realizada uma têmpera no diâmetro interno da mesma maneira que no dentado. No entanto, não há necessidade da existência de grandes durezas no diâmetro interno, e a presença de martensite é indesejada, por conta da ocorrência de fissurações a hidrogénio.
+\par
+Dito isso, confirma-se a necessidade da conceção de um sistema de tamponamento para evitar o fluxo de fluido térmico por este diâmetro, ao adicionar uma “tampa” simples, e soldar a coluna á falsa coroa, criando assim uma “geometria protegida” contra a têmpera.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{Figures/Cap3/resultado_serie.png}
+    \caption[Resultado da simulação CFD da têmpera das rodas de coroa de série]%
+    {Imagem de um corte no plano XZ, a meio da coluna central, do fluxo de fluido resultante da imersão do prato de coroas DB45 de série no tanque de têmpera, onde o gradiente de cores corresponde à velocidade do fluido, com \colorbox{Blue}{\textcolor{White}{azul escuro sendo 0 m/s}}, e \colorbox{Red}{\textcolor{White}{vermelho sendo 5 m/s ou maior.}}}
+    \label{fig:resultado_serie}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Simulação da tampa simples}  \label{ssec:materiais_concecao_simples}
+Como dito na subsecção anterior, foi desenvolvida uma nova ferramenta porta-peças onde se aproveitou a falsa coroa, a torre e o prato, foi adicionado um copo para permitir a soldadura da torre na falsa coroa. A imagem da ferramenta porta-peças em corte, com uma coluna de rodas de coroa DB45 montada pode ser vista na Figura \ref{fig:simples_montada}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{Figures/Cap3/Simples_montada.png}
+    \caption[Vista em corte da ferramenta porta-peças proposta]%
+    {Imagem de um corte no plano XZ, a meio da coluna de rodas de coroa montada, da solução proposta para a ferramenta-porta peças que protege o diâmetro interno dessas rodas de coroa.}
+    \label{fig:simples_montada}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

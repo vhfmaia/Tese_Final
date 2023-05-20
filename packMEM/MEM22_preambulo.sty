@@ -1,0 +1,147 @@
+\ProvidesPackage{packMEM/MEM22_preambulo}[2022/05/22 v1.0 MEM thesis]
+%RM2022
+\newcommand{\lang}{pt}
+\DeclareOption{en}{\renewcommand{\lang}{E}}
+\DeclareOption{pt}{\renewcommand{\lang}{P}}
+\ProcessOptions\relax
+
+
+%========P=A=C=K=A=G=E====L=O=A=D=I=N=G================================
+%Caracteres acentuados do Português
+\usepackage[utf8]{inputenc} %compatibilização de caracteres typeset PT
+%........................................................................
+\usepackage{amssymb}                              
+% Símbolos da American Mathematical Society
+\usepackage[citebordercolor={1 1 1},linkbordercolor={1 1 1}]{hyperref}       
+% Links activos no PDF
+% Opção citebordercolor={0.9 0.9 0.9} para cor do border
+% Opção linkbordercolor={0.9 0.9 0.9} para cor do border
+%........................................................................
+\usepackage{textcomp}                             
+% Símbolos e caracteres especiais
+%........................................................................
+%\usepackage{indentfirst}                         
+% Indentação do primeiro parágrafo de cada secção
+%........................................................................
+\usepackage{fancyhdr}                             
+% Utilização de fancy headings
+%........................................................................
+%\usepackage[square,sort&compress]{natbib}        
+% Ordenação e gestão de referências bibliográficas
+%........................................................................
+\usepackage{epsfig}                               
+% Permite utilização de figuras em formato EPS
+%........................................................................
+\usepackage{multirow}                      
+% Agrupamento de linhas em tabelas
+%........................................................................
+\usepackage{layout}
+%........................................................................
+%\usepackage{subfigure} %substituido por package subcaption
+%........................................................................
+\usepackage{cite}
+%........................................................................
+%\usepackage{citesort}
+%........................................................................
+\usepackage{textcomp}
+%........................................................................
+%\usepackage{wasysym}
+%........................................................................
+\usepackage{longtable}
+%........................................................................
+\usepackage{xstring}     %necessário para operações condicionais do template (RM2022)
+%...................................................................
+\usepackage{caption}
+\usepackage{subcaption}
+%...................................................................
+\usepackage{siunitx} % Required for table alignment
+\usepackage{lscape}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+
+% -------------------------------------------------------------
+% Preâmbulo do documento
+% -------------------------------------------------------------
+% Grau EN
+\newcommand{\thesisdegree}{Master}                          
+% Grau PT
+\newcommand{\thesisdegreept}{Mestre}        
+% Área científica da tese
+\newcommand{\sciarea}{Engenharia Mecânica}                       
+% Gaus gerais do júri/orientação
+\newcommand{\profdoc}{Prof. Doutor}
+\newcommand{\doctor}{Doutor}
+
+% -------------------------------------------------------------
+% Preâmbulo do documento - Outros comandos
+% -------------------------------------------------------------
+\newcommand{\dd}{\textrm{d}} % Operador diferencial
+\newcommand{\ngs}{\sigma}    % Sigma minúsculo
+\newcommand{\nga}{\alpha}    % Alfa minúsculo
+\newcommand{\ngb}{\beta}     % Beta minúsculo
+
+% -------------------------------------------------------------
+% Preâmbulo do documento - Margens e mancha gráfica
+% -------------------------------------------------------------
+\setlength{\textwidth}{147mm}    % Largura da mancha gráfica
+\setlength{\textheight}{225mm}   % Altura da mancha gráfica
+\setlength{\topmargin}{0mm}      % Margem de topo (default=1in)
+\setlength\oddsidemargin{5mm}    % Margem direita páginas direitas
+\setlength\evensidemargin{5mm}   % Margem esquerda páginas esquerdas
+
+% -------------------------------------------------------------
+% Comandos Próprios
+% -------------------------------------------------------------
+\newcommand{\mbf}{\mathbf}
+\newcommand{\trm}{\textrm}
+\newcommand{\jmfootnote}[1]{\footnote{{\color{red}\normalsize{\texttt{#1}}}}} 
+\newcommand{\mrm}{\mathrm}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{nomencl}
+
+
+% -------------------------------------------------------------
+% Clear Header Style on the Last Empty Odd pages
+% -------------------------------------------------------------
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+    \hbox{
+\begin{minipage}[center]{15cm}
+{\color{white} .}
+\vspace{11cm}
+\begin{flushleft}
+%\begin{flushright}
+ %\rule{12cm}{0.4pt} \\
+%\textit{Esta página foi intencionalmente deixada em branco.}
+\hspace{1cm} Intentionally blank page.
+%\end{flushright}
+\end{flushleft}
+\end{minipage}
+}%
+    \thispagestyle{empty}%              % Empty header styles
+    \newpage%
+    \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+
+%%RM2022
+\IfStrEqCase{\lang}{
+    {E}{
+    \renewcommand\bibname{References}
+        
+        
+    }
+    {P}{
+    \usepackage[portuguese]{babel}
+    \usepackage[T1]{fontenc}
+    \addto\captionsportuguese{
+    \renewcommand\bibname{Referências}
+    \renewcommand\contentsname{Índice}}
+    }
+    }
+%%RM2022
+
+
+%\renewcommand\bibname{References}
