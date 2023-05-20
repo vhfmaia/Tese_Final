@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex MEM_DPE"] 1684601058 "MEM_DPE.aux" "MEM_DPE.bbl" "MEM_DPE" 1684603809 0
+["bibtex MEM_DPE"] 1684604706 "MEM_DPE.aux" "MEM_DPE.bbl" "MEM_DPE" 1684605035 0
   "./biblio/file_BiB.bib" 1684432492 9253 9a5bb9de4979942b4238ec39cb8f63b7 ""
-  "MEM_DPE.aux" 1684603806 26225 ebdb16556f6f243582c9d892bc4a4c8e "pdflatex"
+  "MEM_DPE.aux" 1684605033 26161 4fe931fe1fe566b62b2391f20ad5ac6a "pdflatex"
   "c:/texlive/2023/texmf-dist/bibtex/bst/base/ieeetr.bst" 1683232705 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "packMEM/MEM22_begin.aux" 1684603797 833 42ea51b1836d693802d8c55414460dd5 "pdflatex"
+  "packMEM/MEM22_begin.aux" 1684605026 833 42ea51b1836d693802d8c55414460dd5 "pdflatex"
   (generated)
   "MEM_DPE.bbl"
   "MEM_DPE.blg"
   (rewritten before read)
-["pdflatex"] 1684603794 "c:/Users/pp01661/OneDrive - Alliance/Área de Trabalho/Entrega Final/MEM_DPE.tex" "MEM_DPE.pdf" "MEM_DPE" 1684603809 0
+["pdflatex"] 1684605023 "c:/Users/pp01661/OneDrive - Alliance/Área de Trabalho/Entrega Final/MEM_DPE.tex" "MEM_DPE.pdf" "MEM_DPE" 1684605035 0
   "Appendix/Ap1.tex" 1684500279 923 2ab1bfffdfd20f686541758e5eb49ff5 ""
   "Cap1_Intro/Cap1.tex" 1684432573 5008 f69ac8743b73fef71c7b5cc280d4c3b9 ""
   "Cap2_SOA/Cap2.tex" 1684490874 39247 ff11143e3f52c500a358fe9b49bec4aa ""
-  "Cap3_Materiais/Cap3.tex" 1684603793 46480 4d53a7c568a755f72e945e4d3599390a ""
+  "Cap3_Materiais/Cap3.tex" 1684605013 46478 61eda266067b149a61759cff26e54dd1 ""
   "Cap4_Resultados/Cap4.tex" 1683798313 142 bef483e8c44af9223e9a47ee8ecc4100 ""
   "Cap5_Conclusao/Cap5.tex" 1683798279 129 093c491e703cb6e649fc27fe361747cd ""
   "Figures/Apendix/Bac_de_trempe.png" 1684249860 176808 082ab71e58ea6ed6fb7f1fbbf6368a20 ""
@@ -62,14 +62,14 @@
   "Figures/Cap3/Tanque_Tempera.png" 1684248092 370201 cede29468e3b5b13cb03a54222ead33b ""
   "Figures/Cap3/resultado_serie.png" 1684594470 983287 48b5ac0a5e3ba720c10b101fa5f48440 ""
   "Figures/Cap3/resultado_simples.png" 1684594496 842733 d824abed61ceb69b2fff31518c289946 ""
-  "MEM_DPE.aux" 1684603806 26225 ebdb16556f6f243582c9d892bc4a4c8e "pdflatex"
-  "MEM_DPE.bbl" 1684601059 3783 1fda5e6b22b76a467bf785f9cb97b27d "bibtex MEM_DPE"
-  "MEM_DPE.lof" 1684603806 5016 421563ef178be24bb1fb5d454106b1da "pdflatex"
-  "MEM_DPE.lot" 1684603806 870 c694ddbb1611bfa82c5e19cbd61f5540 "pdflatex"
+  "MEM_DPE.aux" 1684605033 26161 4fe931fe1fe566b62b2391f20ad5ac6a "pdflatex"
+  "MEM_DPE.bbl" 1684604707 3783 1fda5e6b22b76a467bf785f9cb97b27d "bibtex MEM_DPE"
+  "MEM_DPE.lof" 1684605033 5074 9ee0723d4ae2dc68872d474a95dd98a7 "pdflatex"
+  "MEM_DPE.lot" 1684605033 870 c694ddbb1611bfa82c5e19cbd61f5540 "pdflatex"
   "MEM_DPE.nls" 0 -1 0 ""
-  "MEM_DPE.out" 1684603806 5526 2edc62cc817b789e53595df1603d09d6 "pdflatex"
+  "MEM_DPE.out" 1684605033 5526 2edc62cc817b789e53595df1603d09d6 "pdflatex"
   "MEM_DPE.tex" 1684500842 2743 28328be063109e167f598a1d3bda126e ""
-  "MEM_DPE.toc" 1684603806 2970 7e127f83ef97f8fbcd23748c861d285e "pdflatex"
+  "MEM_DPE.toc" 1684605033 2970 7e127f83ef97f8fbcd23748c861d285e "pdflatex"
   "Nomenclature/Nomenclature.tex" 1683196302 421 834ed08f7eb600f90424896b9a59c50a ""
   "User_Doc_Def.tex" 1684220406 2873 01d3a966e193f54a35173bb95a47977a ""
   "c:/Users/pp01661/OneDrive - Alliance/Área de Trabalho/Entrega Final/MEM_DPE.tex" 1684500842 2743 28328be063109e167f598a1d3bda126e ""
@@ -241,7 +241,7 @@
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683244468 7887272 64c8f89ba3332bce42d60682da42e928 ""
   "c:/texlive/2023/texmf.cnf" 1683244182 713 e69b156964470283e0530f5060668171 ""
   "packMEM/DEMThesis.sty" 1684500856 6150 73be5742749b071ca2969eff8dbd7813 ""
-  "packMEM/MEM22_begin.aux" 1684603797 833 42ea51b1836d693802d8c55414460dd5 "pdflatex"
+  "packMEM/MEM22_begin.aux" 1684605026 833 42ea51b1836d693802d8c55414460dd5 "pdflatex"
   "packMEM/MEM22_begin.tex" 1684156940 8162 a3391d84505764e9b4e0bd6d0ed82f60 ""
   "packMEM/MEM22_preambulo.sty" 1683294887 5729 dcca4ebd98c2d0c8473b53657cbee86e ""
   "packMEM/reportJM.cls" 1683294853 23642 a8777188b98963ee873a1cd45c79592f ""
