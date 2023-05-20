@@ -1,0 +1,68 @@
+% -------------------------------------------------------------
+% |  Template de tese do MEM -  UA                            |
+% -------------------------------------------------------------
+% |  Adaptado do template da UA                               |
+% |  Maio, 2022 RMoreira                                      |
+% |  Universidade de Aveiro                                   |
+% -------------------------------------------------------------
+
+% todos os dados iniciais (nomes, tipo de trabalho, palavras chaves, ...
+% resumo, agradecimentos, etc, são definidos no ficheiro "User_Doc_Def.tex"
+
+
+\documentclass[11pt,twoside,a4paper,openright]{packMEM/reportJM}   
+
+% -------------------------------------------------------------
+% Preâmbulo do documento - versão provisória ou versão final?
+% -------------------------------------------------------------
+\usepackage[final]{packMEM/DEMThesis}  % versão  final
+%\usepackage{packMEM/DEMThesis}          % versão  provisória
+
+\usepackage[pt]{packMEM/MEM22_preambulo}  %definições base de formatação do documento
+%substituir "pt" por "en" para versão inglesa
+
+\input{User_Doc_Def}   % definições de informação do trabalho (autor, título, orientação, júri, etc ***(definir essa informação neste ficheiro)***
+
+%======================================================================================
+
+% -------------------------------------------------------------
+% Início do documento
+% -------------------------------------------------------------
+\begin{document}
+    \include{packMEM/MEM22_begin.tex}  %preâmbulo geral do documento 
+
+% ----------------------------------------------------------------
+% Corpo da tese
+% ----------------------------------------------------------------
+
+    \input{Cap1_Intro/Cap1}
+    \input{Cap2_SOA/Cap2}
+    \input{Cap3_Materiais/Cap3}
+    \input{Cap4_Resultados/Cap4}
+    \input{Cap5_Conclusao/Cap5}
+
+
+%% ------------------------------------------
+\IfStrEqCase{\lang}{
+    {E}{\addcontentsline{toc}{chapter}{References}}
+    {P}{\addcontentsline{toc}{chapter}{Referências}}}
+%% ------------------------------------------
+% ----------------------------------------------------------------
+% Referências bibliográficas - Base de dados
+% ----------------------------------------------------------------
+%\bibliographystyle{agsm}   % (Lesieutre, 2003)
+%\bibliographystyle{plain}  % [1]
+\bibliographystyle{ieeetr} % [1]
+%\bibliographystyle{biblio/long_enjm}
+
+\bibliography{biblio/file_BiB}{}
+
+% Anexos
+\appendix
+\input{Appendix/Ap1.tex}
+% \input{Appendix/Ap2.tex}
+
+% ----------------------------------------------------------------
+% Fim do documento
+% ----------------------------------------------------------------
+\end{document}
