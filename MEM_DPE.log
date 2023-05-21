@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  21 MAY 2023 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  21 MAY 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1038,11 +1038,11 @@ File: Figures/Cap3/Layout_ensaio_gallets.png Graphic file (type png)
 <use Figures/Cap3/Layout_ensaio_gallets.png>
 Package pdftex.def Info: Figures/Cap3/Layout_ensaio_gallets.png  used on input line 566.
 (pdftex.def)             Requested size: 292.77757pt x 209.12274pt.
-) (./Cap4_Resultados/Cap4.tex [33 <./Figures/Cap3/Layout_ensaio_gallets.png>] [34
-
-]
+ [33 <./Figures/Cap3/Layout_ensaio_gallets.png>]) (./Cap4_Resultados/Cap4.tex [34]
 Cap\'{\i }tulo 4.
-) (./Cap5_Conclusao/Cap5.tex [35] [36
+) (./Cap5_Conclusao/Cap5.tex [35
+
+] [36
 
 ]
 Cap\'{\i }tulo 5.
@@ -1080,15 +1080,15 @@ Package rerunfilecheck Info: File `MEM_DPE.out' has not changed.
 (rerunfilecheck)             Checksum: 130E973DD9779DA120C3BB4498F47BAF;5740.
  ) 
 Here is how much of TeX's memory you used:
- 20673 strings out of 476001
- 392552 string characters out of 5793198
+ 20674 strings out of 476001
+ 392568 string characters out of 5793198
  1868068 words of memory out of 5000000
- 40552 multiletter control sequences out of 15000+600000
+ 40553 multiletter control sequences out of 15000+600000
  532548 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,13n,131p,1776b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on MEM_DPE.pdf (64 pages, 67551874 bytes).
+Output written on MEM_DPE.pdf (64 pages, 67552745 bytes).
 PDF statistics:
  917 PDF objects out of 1000 (max. 8388607)
  705 compressed objects within 8 object streams
