@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  21 MAY 2023 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  22 MAY 2023 09:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -533,7 +533,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count350
 \l__pdf_internal_box=\box73
-) (./MEM_DPE.aux (./packMEM/MEM22_begin.aux))
+) (./MEM_DPE.aux)
 \openout1 = `MEM_DPE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -580,7 +580,6 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 31.
- (./MEM_DPE.out) (./MEM_DPE.out)
 \@outlinefile=\write3
 \openout3 = `MEM_DPE.out'.
 
@@ -603,7 +602,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 35
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<packMEM/uaLogoNew.pdf, id=147, 60.225pt x 75.28125pt>
+<packMEM/uaLogoNew.pdf, id=4, 60.225pt x 75.28125pt>
 File: packMEM/uaLogoNew.pdf Graphic file (type pdf)
 <use packMEM/uaLogoNew.pdf>
 Package pdftex.def Info: packMEM/uaLogoNew.pdf  used on input line 35.
@@ -674,36 +673,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.172 \titlepage\ \endtitlepage
-                                                       % Página de verso em... [1] (./MEM_DPE.toc [1
-
-])
+                                                       % Página de verso em... [1]
+No file MEM_DPE.toc.
 \tf@toc=\write4
 \openout4 = `MEM_DPE.toc'.
 
- [2] (./MEM_DPE.lot)
+[1
+
+] [2
+
+]
+No file MEM_DPE.lot.
 \tf@lot=\write5
 \openout5 = `MEM_DPE.lot'.
 
- [3
+[3] [4
 
-] [4
-
-] (./MEM_DPE.lof
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 44.
- (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [5])
+]
+No file MEM_DPE.lof.
 \tf@lof=\write6
 \openout6 = `MEM_DPE.lof'.
 
- (./Nomenclature/Nomenclature.tex
+(./Nomenclature/Nomenclature.tex
 \@nomenclaturefile=\write7
 \openout7 = `MEM_DPE.nlo'.
 
 Package nomencl Info: Writing nomenclature file MEM_DPE.nlo on input line 2.
 )
 No file MEM_DPE.nls.
-[6]) (./Cap1_Intro/Cap1.tex
+[5] [6
+
+]) (./Cap1_Intro/Cap1.tex
 Cap\'{\i }tulo 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -714,15 +714,30 @@ l.16 \newpage
 
 
 
+]
 
-]) (./Cap2_SOA/Cap2.tex [2]
+LaTeX Warning: Reference `ch:intro' on page 2 undefined on input line 27.
+
+
+LaTeX Warning: Reference `ch:soa' on page 2 undefined on input line 29.
+
+
+LaTeX Warning: Reference `ch:materiais' on page 2 undefined on input line 31.
+
+
+LaTeX Warning: Reference `ch:resultados' on page 2 undefined on input line 33.
+
+
+LaTeX Warning: Reference `ch:conclusao' on page 2 undefined on input line 35.
+
+) (./Cap2_SOA/Cap2.tex [2]
 Cap\'{\i }tulo 2.
-<Figures/Cap2/Caixa_de_velocidades.png, id=370, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_de_velocidades.png, id=98, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_de_velocidades.png Graphic file (type png)
 <use Figures/Cap2/Caixa_de_velocidades.png>
 Package pdftex.def Info: Figures/Cap2/Caixa_de_velocidades.png  used on input line 11.
 (pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
-<Figures/Cap2/Caixa_diferencial.png, id=371, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_diferencial.png, id=99, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_diferencial.png Graphic file (type png)
 <use Figures/Cap2/Caixa_diferencial.png>
 Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 17.
@@ -730,133 +745,350 @@ Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 
 [3
 
  <./Figures/Cap2/Caixa_de_velocidades.png> <./Figures/Cap2/Caixa_diferencial.png>]
-<Figures/Cap2/Completo_rodas.png, id=378, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Completo2019' on page 4 undefined on input line 29.
+
+<Figures/Cap2/Completo_rodas.png, id=108, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo_rodas.png Graphic file (type png)
 <use Figures/Cap2/Completo_rodas.png>
 Package pdftex.def Info: Figures/Cap2/Completo_rodas.png  used on input line 35.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Completo2019.png, id=380, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Completo2019.png, id=110, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo2019.png Graphic file (type png)
 <use Figures/Cap2/Completo2019.png>
 Package pdftex.def Info: Figures/Cap2/Completo2019.png  used on input line 41.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [4 <./Figures/Cap2/Completo_Rodas.png> <./Figures/Cap2/Completo2019.png>]
-<Figures/Cap2/Iron_Carbon_Diagram.png, id=392, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Completo2019' on page 4 undefined on input line 46.
+
+
+LaTeX Warning: Citation `Completo2019' on page 4 undefined on input line 46.
+
+[4 <./Figures/Cap2/Completo_Rodas.png> <./Figures/Cap2/Completo2019.png>]
+
+LaTeX Warning: Citation `Chaus2006' on page 5 undefined on input line 58.
+
+
+LaTeX Warning: Reference `fig:Iron_Carbon_Diagram' on page 5 undefined on input line 61.
+
+<Figures/Cap2/Iron_Carbon_Diagram.png, id=118, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Iron_Carbon_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Iron_Carbon_Diagram.png>
 Package pdftex.def Info: Figures/Cap2/Iron_Carbon_Diagram.png  used on input line 65.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
-<Figures/Cap2/Ferrite_Martensite.png, id=397, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `FollSD' on page 5 undefined on input line 67.
+
+
+LaTeX Warning: Citation `FollSD' on page 5 undefined on input line 67.
+
+
+LaTeX Warning: Citation `Krauss2015' on page 5 undefined on input line 75.
+
+
+LaTeX Warning: Reference `fig:Crystal' on page 5 undefined on input line 75.
+
+<Figures/Cap2/Ferrite_Martensite.png, id=119, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Ferrite_Martensite.png Graphic file (type png)
 <use Figures/Cap2/Ferrite_Martensite.png>
 Package pdftex.def Info: Figures/Cap2/Ferrite_Martensite.png  used on input line 81.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/CFC_CS.png, id=398, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CFC_CS.png, id=120, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CFC_CS.png Graphic file (type png)
 <use Figures/Cap2/CFC_CS.png>
 Package pdftex.def Info: Figures/Cap2/CFC_CS.png  used on input line 87.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/Cap2/Iron_Carbon_Diagram.png>]
-<Figures/Cap2/Tempera_Arrefecimento.png, id=411, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Reference `fig:CFC_CS' on page 5 undefined on input line 96.
+
+[5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/Cap2/Iron_Carbon_Diagram.png>]
+
+LaTeX Warning: Reference `fig:tempera_arref' on page 6 undefined on input line 99.
+
+<Figures/Cap2/Tempera_Arrefecimento.png, id=131, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Tempera_Arrefecimento.png Graphic file (type png)
 <use Figures/Cap2/Tempera_Arrefecimento.png>
 Package pdftex.def Info: Figures/Cap2/Tempera_Arrefecimento.png  used on input line 103.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [6 <./Figures/Cap2/Ferrite_Martensite.png> <./Figures/Cap2/CFC_CS.png>]
-<Figures/Cap2/Hardness_Temperature_Carbon.png, id=421, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Krauss2015' on page 6 undefined on input line 112.
+
+
+LaTeX Warning: Citation `Krauss2001' on page 6 undefined on input line 115.
+
+
+LaTeX Warning: Reference `fig:Hardness_Temperature_Carbon' on page 6 undefined on input line 115.
+
+[6 <./Figures/Cap2/Ferrite_Martensite.png> <./Figures/Cap2/CFC_CS.png>]
+<Figures/Cap2/Hardness_Temperature_Carbon.png, id=140, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hardness_Temperature_Carbon.png Graphic file (type png)
 <use Figures/Cap2/Hardness_Temperature_Carbon.png>
 Package pdftex.def Info: Figures/Cap2/Hardness_Temperature_Carbon.png  used on input line 121.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [7 <./Figures/Cap2/Tempera_Arrefecimento.png> <./Figures/Cap2/Hardness_Temperature_Carbon.png>]
-<Figures/Cap2/Nitriding_3_microstructure.png, id=436, 1053.9375pt x 376.40625pt>
+
+
+LaTeX Warning: Citation `Krauss2001' on page 7 undefined on input line 123.
+
+
+LaTeX Warning: Citation `Krauss2001' on page 7 undefined on input line 123.
+
+[7 <./Figures/Cap2/Tempera_Arrefecimento.png> <./Figures/Cap2/Hardness_Temperature_Carbon.png>]
+
+LaTeX Warning: Reference `ssec:soa_tratamentos_carbonitruracao' on page 8 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Oberg1989' on page 8 undefined on input line 129.
+
+
+LaTeX Warning: Citation `EDAX2023' on page 8 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:Nitriding_3_microstructure' on page 8 undefined on input line 134.
+
+<Figures/Cap2/Nitriding_3_microstructure.png, id=150, 1053.9375pt x 376.40625pt>
 File: Figures/Cap2/Nitriding_3_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Nitriding_3_microstructure.png>
 Package pdftex.def Info: Figures/Cap2/Nitriding_3_microstructure.png  used on input line 138.
 (pdftex.def)             Requested size: 376.4274pt x 134.43785pt.
-<Figures/Cap2/Nitriding_gradients.jpg, id=444, 447.69026pt x 319.77876pt>
+
+LaTeX Warning: Citation `EDAX2023' on page 8 undefined on input line 140.
+
+
+LaTeX Warning: Citation `EDAX2023' on page 8 undefined on input line 140.
+
+
+LaTeX Warning: Citation `Karaoglu2002' on page 8 undefined on input line 145.
+
+
+LaTeX Warning: Reference `tab:Nitriding_cond' on page 8 undefined on input line 145.
+
+
+LaTeX Warning: Reference `fig:Nitriding_gradients' on page 8 undefined on input line 145.
+
+
+LaTeX Warning: Citation `Karaoglu2002' on page 8 undefined on input line 150.
+
+
+LaTeX Warning: Citation `Karaoglu2002' on page 8 undefined on input line 150.
+
+<Figures/Cap2/Nitriding_gradients.jpg, id=151, 447.69026pt x 319.77876pt>
 File: Figures/Cap2/Nitriding_gradients.jpg Graphic file (type jpg)
 <use Figures/Cap2/Nitriding_gradients.jpg>
 Package pdftex.def Info: Figures/Cap2/Nitriding_gradients.jpg  used on input line 168.
 (pdftex.def)             Requested size: 250.95586pt x 179.25055pt.
- [8 <./Figures/Cap2/Nitriding_3_microstructure.png>]
-<Figures/Cap2/Carbonitriding_microstructure.png, id=460, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Karaoglu2002' on page 8 undefined on input line 170.
+
+
+LaTeX Warning: Citation `Karaoglu2002' on page 8 undefined on input line 170.
+
+[8 <./Figures/Cap2/Nitriding_3_microstructure.png>]
+
+LaTeX Warning: Citation `Herring2011' on page 9 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Bryson2009' on page 9 undefined on input line 180.
+
+
+LaTeX Warning: Reference `fig:Carbonitriding_microstructure' on page 9 undefined on input line 180.
+
+<Figures/Cap2/Carbonitriding_microstructure.png, id=162, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_microstructure.png>
 Package pdftex.def Info: Figures/Cap2/Carbonitriding_microstructure.png  used on input line 184.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [9 <./Figures/Cap2/Nitriding_gradients.jpg>]
-<Figures/Cap2/Carbonitriding_depth.png, id=471, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Herring2011' on page 9 undefined on input line 186.
+
+
+LaTeX Warning: Citation `Herring2011' on page 9 undefined on input line 186.
+
+[9 <./Figures/Cap2/Nitriding_gradients.jpg>]
+
+LaTeX Warning: Citation `Rajan2011' on page 10 undefined on input line 191.
+
+
+LaTeX Warning: Reference `fig:Carbonitriding_depth' on page 10 undefined on input line 191.
+
+<Figures/Cap2/Carbonitriding_depth.png, id=171, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_depth.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_depth.png>
 Package pdftex.def Info: Figures/Cap2/Carbonitriding_depth.png  used on input line 195.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
-<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=475, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Herring2011' on page 10 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Herring2011' on page 10 undefined on input line 197.
+
+
+LaTeX Warning: Reference `fig:Carbon_Hardness_Carbonitriding' on page 10 undefined on input line 201.
+
+<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=172, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbon_Hardness_Carbonitriding.png Graphic file (type png)
 <use Figures/Cap2/Carbon_Hardness_Carbonitriding.png>
 Package pdftex.def Info: Figures/Cap2/Carbon_Hardness_Carbonitriding.png  used on input line 205.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [10 <./Figures/Cap2/Carbonitriding_microstructure.png>] [11 <./Figures/Cap2/Carbonitriding_depth.png>]
-<Figures/Cap2/Cold_Cracking.png, id=499, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Herring2011' on page 10 undefined on input line 207.
+
+
+LaTeX Warning: Citation `Herring2011' on page 10 undefined on input line 207.
+
+
+LaTeX Warning: Reference `ssec:soa_tratamentos_tempera' on page 10 undefined on input line 212.
+
+[10 <./Figures/Cap2/Carbonitriding_microstructure.png>]
+
+LaTeX Warning: Reference `eq:CE-IIW' on page 11 undefined on input line 220.
+
+
+LaTeX Warning: Reference `tab:CE' on page 11 undefined on input line 220.
+
+[11 <./Figures/Cap2/Carbonitriding_depth.png>]
+
+LaTeX Warning: Citation `Karsamas2003' on page 12 undefined on input line 233.
+
+
+LaTeX Warning: Citation `Park2018' on page 12 undefined on input line 233.
+
+
+LaTeX Warning: Citation `Vladimir2000' on page 12 undefined on input line 240.
+
+
+LaTeX Warning: Citation `Vladimir2000' on page 12 undefined on input line 240.
+
+<Figures/Cap2/Cold_Cracking.png, id=188, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Cold_Cracking.png Graphic file (type png)
 <use Figures/Cap2/Cold_Cracking.png>
 Package pdftex.def Info: Figures/Cap2/Cold_Cracking.png  used on input line 262.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Graville_Diagram.png, id=500, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Graville_Diagram.png, id=189, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Graville_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Graville_Diagram.png>
 Package pdftex.def Info: Figures/Cap2/Graville_Diagram.png  used on input line 268.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [12 <./Figures/Cap2/Carbon_Hardness_Carbonitriding.png>]
-<Figures/Cap2/Hdif_CE.png, id=516, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Citation `Olson2007' on page 12 undefined on input line 273.
+
+
+LaTeX Warning: Citation `Olson2007' on page 12 undefined on input line 273.
+
+[12 <./Figures/Cap2/Carbon_Hardness_Carbonitriding.png>]
+
+LaTeX Warning: Citation `Seo2008' on page 13 undefined on input line 277.
+
+
+LaTeX Warning: Citation `Santos2021' on page 13 undefined on input line 279.
+
+
+LaTeX Warning: Reference `fig:Hdif_CE' on page 13 undefined on input line 279.
+
+
+LaTeX Warning: Reference `fig:CE_Hdif_Crack' on page 13 undefined on input line 279.
+
+<Figures/Cap2/Hdif_CE.png, id=199, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hdif_CE.png Graphic file (type png)
 <use Figures/Cap2/Hdif_CE.png>
 Package pdftex.def Info: Figures/Cap2/Hdif_CE.png  used on input line 285.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/CE_Hdif_Crack.png, id=517, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CE_Hdif_Crack.png, id=200, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CE_Hdif_Crack.png Graphic file (type png)
 <use Figures/Cap2/CE_Hdif_Crack.png>
 Package pdftex.def Info: Figures/Cap2/CE_Hdif_Crack.png  used on input line 291.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [13 <./Figures/Cap2/Cold_Cracking.png> <./Figures/Cap2/Graville_Diagram.png>]
-<Figures/Cap2/CCT_SOA.png, id=531, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Reference `fig:Graville' on page 13 undefined on input line 300.
+
+
+LaTeX Warning: Citation `Olson2007' on page 13 undefined on input line 300.
+
+[13 <./Figures/Cap2/Cold_Cracking.png> <./Figures/Cap2/Graville_Diagram.png>]
+
+LaTeX Warning: Reference `fig:CCT_SOA' on page 14 undefined on input line 309.
+
+<Figures/Cap2/CCT_SOA.png, id=210, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CCT_SOA.png Graphic file (type png)
 <use Figures/Cap2/CCT_SOA.png>
 Package pdftex.def Info: Figures/Cap2/CCT_SOA.png  used on input line 313.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [14 <./Figures/Cap2/Hdif_CE.png> <./Figures/Cap2/CE_Hdif_Crack.png>]) (./Cap3_Materiais/Cap3.tex [15 <./Figures/Cap2/CCT_SOA.png>] [16
+
+LaTeX Warning: Citation `Karli2016' on page 14 undefined on input line 315.
+
+
+LaTeX Warning: Citation `Karli2016' on page 14 undefined on input line 315.
+
+
+LaTeX Warning: Citation `Martin2020' on page 14 undefined on input line 320.
+
+
+LaTeX Warning: Reference `eq:Martensite_start' on page 14 undefined on input line 322.
+
+
+LaTeX Warning: Reference `eq:Martensite_finish' on page 14 undefined on input line 322.
+
+
+LaTeX Warning: Citation `Honeycombe1995' on page 14 undefined on input line 322.
+
+[14 <./Figures/Cap2/Hdif_CE.png> <./Figures/Cap2/CE_Hdif_Crack.png>]
+
+LaTeX Warning: Reference `eq:A_C1' on page 15 undefined on input line 336.
+
+
+LaTeX Warning: Reference `eq:A_C3' on page 15 undefined on input line 336.
+
+
+LaTeX Warning: Citation `Platl2020' on page 15 undefined on input line 336.
+
+) (./Cap3_Materiais/Cap3.tex [15 <./Figures/Cap2/CCT_SOA.png>] [16
 
 ]
 Cap\'{\i }tulo 3.
 
+LaTeX Warning: Reference `ch:resultados' on page 17 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig:Bruto_desenho' on page 17 undefined on input line 24.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-<Figures/Cap3/Bruto_fotografia.png, id=572, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Bruto_fotografia.png, id=241, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Bruto_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Bruto_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Bruto_fotografia.png  used on input line 31.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Bruto_CAD.png, id=573, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Bruto_CAD.png, id=242, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Bruto_CAD.png Graphic file (type png)
 <use Figures/Cap3/Bruto_CAD.png>
 Package pdftex.def Info: Figures/Cap3/Bruto_CAD.png  used on input line 37.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Peca_branca_fotografia.png, id=574, 2107.875pt x 1505.625pt>
+<Figures/Cap3/Peca_branca_fotografia.png, id=243, 2107.875pt x 1505.625pt>
 File: Figures/Cap3/Peca_branca_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Peca_branca_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Peca_branca_fotografia.png  used on input line 56.
 (pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
-<Figures/Cap3/Carga_fotografia.png, id=575, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Carga_fotografia.png, id=244, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Carga_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Carga_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Carga_fotografia.png  used on input line 63.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
 
+
+LaTeX Warning: Reference `fig:Prato' on page 18 undefined on input line 72.
+
+
+LaTeX Warning: Reference `fig:Torre' on page 18 undefined on input line 72.
+
+
+LaTeX Warning: Reference `fig:Falsa_coroa' on page 18 undefined on input line 72.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./Figures/Cap3/Bruto_fotografia.png> <./Figures/Cap3/Bruto_CAD.png>]
-<Figures/Cap3/Falta_Imagem.png, id=584, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falta_Imagem.png, id=253, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 79.
@@ -870,122 +1102,229 @@ File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 93.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
  [19 <./Figures/Cap3/Peca_branca_fotografia.png> <./Figures/Cap3/Carga_fotografia.png> <./Figures/Cap3/Falta_Imagem.png>]
-<Figures/Cap3/Tanque_Tempera.png, id=592, 677.53125pt x 376.40625pt>
+<Figures/Cap3/Tanque_Tempera.png, id=264, 677.53125pt x 376.40625pt>
 File: Figures/Cap3/Tanque_Tempera.png Graphic file (type png)
 <use Figures/Cap3/Tanque_Tempera.png>
 Package pdftex.def Info: Figures/Cap3/Tanque_Tempera.png  used on input line 122.
 (pdftex.def)             Requested size: 250.95586pt x 139.41745pt.
-<Figures/Cap3/DB45_antes_torn.png, id=595, 526.96875pt x 376.40625pt>
+
+
+LaTeX Warning: Reference `fig:Coroa_antes_torneamento' on page 20 undefined on input line 134.
+
+
+LaTeX Warning: Reference `fig:Coroa_apos_torneamento' on page 20 undefined on input line 134.
+
+<Figures/Cap3/DB45_antes_torn.png, id=265, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/DB45_antes_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_antes_torn.png>
 Package pdftex.def Info: Figures/Cap3/DB45_antes_torn.png  used on input line 140.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/DB45_apos_torn.png, id=596, 526.96875pt x 376.40625pt>
+<Figures/Cap3/DB45_apos_torn.png, id=266, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/DB45_apos_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_apos_torn.png>
 Package pdftex.def Info: Figures/Cap3/DB45_apos_torn.png  used on input line 146.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [20 <./Figures/Cap3/Tanque_Tempera.png>] [21 <./Figures/Cap3/DB45_antes_torn.png> <./Figures/Cap3/DB45_apos_torn.png>]
-<Figures/Cap3/Caixa_nua.png, id=608, 1580.90625pt x 1129.21875pt>
+[20 <./Figures/Cap3/Tanque_Tempera.png>]
+
+LaTeX Warning: Reference `fig:Caixa_nua_DB45' on page 21 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig:Caixa_montada_DB45' on page 21 undefined on input line 162.
+
+[21 <./Figures/Cap3/DB45_antes_torn.png> <./Figures/Cap3/DB45_apos_torn.png>]
+<Figures/Cap3/Caixa_nua.png, id=280, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_nua.png Graphic file (type png)
 <use Figures/Cap3/Caixa_nua.png>
 Package pdftex.def Info: Figures/Cap3/Caixa_nua.png  used on input line 169.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Caixa_montada.png, id=609, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Caixa_montada.png, id=281, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_montada.png Graphic file (type png)
 <use Figures/Cap3/Caixa_montada.png>
 Package pdftex.def Info: Figures/Cap3/Caixa_montada.png  used on input line 176.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
+
+
+LaTeX Warning: Reference `ssec:soldadura-soldabilidade' on page 22 undefined on input line 185.
+
+
+LaTeX Warning: Reference `fig:Graville' on page 22 undefined on input line 185.
+
+
+LaTeX Warning: Reference `fig:microestrutura_diametro_serie' on page 22 undefined on input line 185.
+
 File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 191.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Microestrutura_serie.png, id=613, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Microestrutura_serie.png, id=282, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Microestrutura_serie.png Graphic file (type png)
 <use Figures/Cap3/Microestrutura_serie.png>
 Package pdftex.def Info: Figures/Cap3/Microestrutura_serie.png  used on input line 197.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [22 <./Figures/Cap3/Caixa_nua.png> <./Figures/Cap3/Caixa_montada.png> <./Figures/Cap3/Microestrutura_serie.png>] [23]
-<Figures/Cap3/Recobrimento.png, id=634, 1576.38937pt x 1111.15125pt>
+
+LaTeX Warning: Reference `tab:Comp_materiais' on page 22 undefined on input line 207.
+
+
+LaTeX Warning: Reference `eq:CE_calculado_27MC5' on page 22 undefined on input line 207.
+
+
+LaTeX Warning: Reference `eq:CE_calculado_GJS-600-10' on page 22 undefined on input line 207.
+
+[22 <./Figures/Cap3/Caixa_nua.png> <./Figures/Cap3/Caixa_montada.png> <./Figures/Cap3/Microestrutura_serie.png>]
+
+LaTeX Warning: Reference `tab:CE' on page 23 undefined on input line 250.
+
+[23]
+
+LaTeX Warning: Reference `fig:Graville' on page 24 undefined on input line 255.
+
+
+LaTeX Warning: Reference `fig:recobrimento' on page 24 undefined on input line 255.
+
+<Figures/Cap3/Recobrimento.png, id=299, 1576.38937pt x 1111.15125pt>
 File: Figures/Cap3/Recobrimento.png Graphic file (type png)
 <use Figures/Cap3/Recobrimento.png>
 Package pdftex.def Info: Figures/Cap3/Recobrimento.png  used on input line 259.
 (pdftex.def)             Requested size: 217.49464pt x 153.30511pt.
- [24 <./Figures/Cap3/Recobrimento.png>]
-<Figures/Cap3/CAD_DB35.png, id=646, 524.71031pt x 374.90062pt>
+[24 <./Figures/Cap3/Recobrimento.png>]
+
+LaTeX Warning: Reference `fig:CAD_DB35' on page 25 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:CAD_DB45' on page 25 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:CAD_JT4' on page 25 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:CAD_Prato' on page 25 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:CAD_Falsa' on page 25 undefined on input line 275.
+
+
+LaTeX Warning: Reference `fig:CAD_Torre' on page 25 undefined on input line 275.
+
+<Figures/Cap3/CAD_DB35.png, id=308, 524.71031pt x 374.90062pt>
 File: Figures/Cap3/CAD_DB35.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB35.png>
 Package pdftex.def Info: Figures/Cap3/CAD_DB35.png  used on input line 281.
 (pdftex.def)             Requested size: 124.22171pt x 88.75378pt.
-<Figures/Cap3/CAD_DB45.png, id=647, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_DB45.png, id=309, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_DB45.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB45.png>
 Package pdftex.def Info: Figures/Cap3/CAD_DB45.png  used on input line 288.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_JT4.png, id=648, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_JT4.png, id=310, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_JT4.png Graphic file (type png)
 <use Figures/Cap3/CAD_JT4.png>
 Package pdftex.def Info: Figures/Cap3/CAD_JT4.png  used on input line 295.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_PRATO.png, id=649, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_PRATO.png, id=311, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_PRATO.png Graphic file (type png)
 <use Figures/Cap3/CAD_PRATO.png>
 Package pdftex.def Info: Figures/Cap3/CAD_PRATO.png  used on input line 302.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_FALSA.png, id=650, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_FALSA.png, id=312, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_FALSA.png Graphic file (type png)
 <use Figures/Cap3/CAD_FALSA.png>
 Package pdftex.def Info: Figures/Cap3/CAD_FALSA.png  used on input line 309.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_TORRE.png, id=651, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_TORRE.png, id=313, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_TORRE.png Graphic file (type png)
 <use Figures/Cap3/CAD_TORRE.png>
 Package pdftex.def Info: Figures/Cap3/CAD_TORRE.png  used on input line 316.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
- [25 <./Figures/Cap3/CAD_DB35.png> <./Figures/Cap3/CAD_DB45.png> <./Figures/Cap3/CAD_JT4.png> <./Figures/Cap3/CAD_PRATO.png> <./Figures/Cap3/CAD_FALSA.png> <./Figures/Cap3/CAD_TORRE.png>]
-<Figures/Cap3/Prato_montado.png, id=661, 1053.9375pt x 752.8125pt>
+[25 <./Figures/Cap3/CAD_DB35.png> <./Figures/Cap3/CAD_DB45.png> <./Figures/Cap3/CAD_JT4.png> <./Figures/Cap3/CAD_PRATO.png> <./Figures/Cap3/CAD_FALSA.png> <./Figures/Cap3/CAD_TORRE.png>]
+
+LaTeX Warning: Reference `tab:Propriedades_27MC5' on page 26 undefined on input line 349.
+
+
+LaTeX Warning: Reference `tab:Propriedades_VolutaH300' on page 26 undefined on input line 349.
+
+
+LaTeX Warning: Reference `fig:modelo_montado' on page 26 undefined on input line 349.
+
+<Figures/Cap3/Prato_montado.png, id=322, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado.png>
 Package pdftex.def Info: Figures/Cap3/Prato_montado.png  used on input line 374.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Prato_montado_malha.png, id=662, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Prato_montado_malha.png, id=323, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado_malha.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado_malha.png>
 Package pdftex.def Info: Figures/Cap3/Prato_montado_malha.png  used on input line 380.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
- [26 <./Figures/Cap3/Prato_montado.png> <./Figures/Cap3/Prato_montado_malha.png>]
-<Figures/Cap3/resultado_serie.png, id=671, 790.45313pt x 376.40625pt>
+
+LaTeX Warning: Reference `fig:malha_simulacao' on page 26 undefined on input line 389.
+
+
+LaTeX Warning: Reference `fig:tanque_tempera' on page 26 undefined on input line 391.
+
+
+LaTeX Warning: Reference `ap:ap1' on page 26 undefined on input line 391.
+
+[26 <./Figures/Cap3/Prato_montado.png> <./Figures/Cap3/Prato_montado_malha.png>]
+
+LaTeX Warning: Reference `fig:resultado_serie' on page 27 undefined on input line 394.
+
+<Figures/Cap3/resultado_serie.png, id=330, 790.45313pt x 376.40625pt>
 File: Figures/Cap3/resultado_serie.png Graphic file (type png)
 <use Figures/Cap3/resultado_serie.png>
 Package pdftex.def Info: Figures/Cap3/resultado_serie.png  used on input line 400.
 (pdftex.def)             Requested size: 334.60568pt x 159.33588pt.
-<Figures/Cap3/Tampa_P.png, id=676, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Reference `fig:tampa_simples' on page 27 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:falsa_coroa_torre' on page 27 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:simples_montada' on page 27 undefined on input line 407.
+
+
+LaTeX Warning: Reference `fig:simples_corte' on page 27 undefined on input line 407.
+
+<Figures/Cap3/Tampa_P.png, id=331, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_P.png Graphic file (type png)
 <use Figures/Cap3/Tampa_P.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_P.png  used on input line 414.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
-<Figures/Cap3/Falsa_coroa_modificada.png, id=677, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falsa_coroa_modificada.png, id=332, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falsa_coroa_modificada.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa_modificada.png>
 Package pdftex.def Info: Figures/Cap3/Falsa_coroa_modificada.png  used on input line 420.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
- [27 <./Figures/Cap3/resultado_serie.png> <./Figures/Cap3/Tampa_P.png> <./Figures/Cap3/Falsa_coroa_modificada.png>]
-<Figures/Cap3/Coluna_P_Montada.png, id=683, 526.96875pt x 376.40625pt>
+[27 <./Figures/Cap3/resultado_serie.png> <./Figures/Cap3/Tampa_P.png> <./Figures/Cap3/Falsa_coroa_modificada.png>]
+<Figures/Cap3/Coluna_P_Montada.png, id=341, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada.png>
 Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada.png  used on input line 434.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/Coluna_P_Montada_Corte.png, id=684, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Coluna_P_Montada_Corte.png, id=342, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada_Corte.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada_Corte.png>
 Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada_Corte.png  used on input line 440.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/resultado_simples.png, id=686, 789.70032pt x 376.40625pt>
+
+
+LaTeX Warning: Reference `fig:resultado_simples' on page 28 undefined on input line 449.
+
+<Figures/Cap3/resultado_simples.png, id=343, 789.70032pt x 376.40625pt>
 File: Figures/Cap3/resultado_simples.png Graphic file (type png)
 <use Figures/Cap3/resultado_simples.png>
 Package pdftex.def Info: Figures/Cap3/resultado_simples.png  used on input line 453.
 (pdftex.def)             Requested size: 334.60568pt x 159.4852pt.
- [28 <./Figures/Cap3/Coluna_P_Montada.png> <./Figures/Cap3/Coluna_P_Montada_Corte.png> <./Figures/Cap3/resultado_simples.png>]
+[28 <./Figures/Cap3/Coluna_P_Montada.png> <./Figures/Cap3/Coluna_P_Montada_Corte.png> <./Figures/Cap3/resultado_simples.png>]
+
+LaTeX Warning: Reference `fig:Tampa_simples_3d' on page 29 undefined on input line 461.
+
+
+LaTeX Warning: Reference `fig:falsa_coroa_torre_3d' on page 29 undefined on input line 461.
+
+
+LaTeX Warning: Reference `fig:teste_impressao_3d' on page 29 undefined on input line 461.
+
 File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 467.
@@ -994,52 +1333,84 @@ File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 473.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Falta_imagem_larga.png, id=695, 790.45313pt x 376.40625pt>
+<Figures/Cap3/Falta_imagem_larga.png, id=352, 790.45313pt x 376.40625pt>
 File: Figures/Cap3/Falta_imagem_larga.png Graphic file (type png)
 <use Figures/Cap3/Falta_imagem_larga.png>
 Package pdftex.def Info: Figures/Cap3/Falta_imagem_larga.png  used on input line 484.
 (pdftex.def)             Requested size: 376.4274pt x 179.24855pt.
- [29 <./Figures/Cap3/Falta_imagem_larga.png>]
-<Figures/Cap3/Ensaio_simples.png, id=703, 526.96875pt x 376.40625pt>
+[29 <./Figures/Cap3/Falta_imagem_larga.png>]
+
+LaTeX Warning: Reference `fig:ensaio_simples' on page 30 undefined on input line 493.
+
+
+LaTeX Warning: Reference `fig:esquema_ensaio_simples' on page 30 undefined on input line 493.
+
+<Figures/Cap3/Ensaio_simples.png, id=361, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Ensaio_simples.png>
 Package pdftex.def Info: Figures/Cap3/Ensaio_simples.png  used on input line 497.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Desenho_ensaio_simples.png, id=704, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Desenho_ensaio_simples.png, id=362, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Desenho_ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Desenho_ensaio_simples.png>
 Package pdftex.def Info: Figures/Cap3/Desenho_ensaio_simples.png  used on input line 506.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
- [30 <./Figures/Cap3/Ensaio_simples.png> <./Figures/Cap3/Desenho_ensaio_simples.png>]
-<Figures/Cap3/Zonas_dureza.png, id=710, 526.96875pt x 376.40625pt>
+[30 <./Figures/Cap3/Ensaio_simples.png> <./Figures/Cap3/Desenho_ensaio_simples.png>]
+
+LaTeX Warning: Reference `fig:zonas_filiacoes_dureza' on page 31 undefined on input line 514.
+
+<Figures/Cap3/Zonas_dureza.png, id=370, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Zonas_dureza.png Graphic file (type png)
 <use Figures/Cap3/Zonas_dureza.png>
 Package pdftex.def Info: Figures/Cap3/Zonas_dureza.png  used on input line 518.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Tampa_O.png, id=713, 526.96875pt x 376.40625pt>
+
+LaTeX Warning: Reference `ch:resultados' on page 31 undefined on input line 525.
+
+
+LaTeX Warning: Reference `fig:novos_prototipos' on page 31 undefined on input line 528.
+
+<Figures/Cap3/Tampa_O.png, id=371, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_O.png Graphic file (type png)
 <use Figures/Cap3/Tampa_O.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_O.png  used on input line 533.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Tampa_Y.png, id=714, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_Y.png, id=372, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_Y.png Graphic file (type png)
 <use Figures/Cap3/Tampa_Y.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_Y.png  used on input line 538.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [31 <./Figures/Cap3/Zonas_dureza.png>]
-<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=721, 757.32938pt x 538.26094pt>
+[31 <./Figures/Cap3/Zonas_dureza.png>]
+
+LaTeX Warning: Reference `fig:configuracao_ensaio' on page 32 undefined on input line 548.
+
+<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=380, 757.32938pt x 538.26094pt>
 File: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png Graphic file (type png)
 <use Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png>
 Package pdftex.def Info: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png  used on input line 552.
 (pdftex.def)             Requested size: 209.12775pt x 148.6341pt.
- [32 <./Figures/Cap3/Tampa_O.png> <./Figures/Cap3/Tampa_Y.png> <./Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png>]
-<Figures/Cap3/Layout_ensaio_gallets.png, id=728, 822.07124pt x 587.19376pt>
+[32 <./Figures/Cap3/Tampa_O.png> <./Figures/Cap3/Tampa_Y.png> <./Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png>]
+
+LaTeX Warning: Reference `fig:ensaio_gales' on page 33 undefined on input line 562.
+
+
+LaTeX Warning: Reference `fig:gales' on page 33 undefined on input line 562.
+
+<Figures/Cap3/Layout_ensaio_gallets.png, id=388, 822.07124pt x 587.19376pt>
 File: Figures/Cap3/Layout_ensaio_gallets.png Graphic file (type png)
 <use Figures/Cap3/Layout_ensaio_gallets.png>
 Package pdftex.def Info: Figures/Cap3/Layout_ensaio_gallets.png  used on input line 566.
 (pdftex.def)             Requested size: 292.77757pt x 209.12274pt.
- [33 <./Figures/Cap3/Layout_ensaio_gallets.png>]) (./Cap4_Resultados/Cap4.tex [34]
+[33 <./Figures/Cap3/Layout_ensaio_gallets.png>]
+File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
+<use Figures/Cap3/Falta_Imagem.png>
+Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 576.
+(pdftex.def)             Requested size: 292.77757pt x 209.13766pt.
+) (./Cap4_Resultados/Cap4.tex [34]
 Cap\'{\i }tulo 4.
+
+LaTeX Warning: Reference `ch:intro' on page 35 undefined on input line 4.
+
 ) (./Cap5_Conclusao/Cap5.tex [35
 
 ] [36
@@ -1050,16 +1421,19 @@ Cap\'{\i }tulo 5.
 
 ] [39]) (./Appendix/Ap1.tex [40]
 Ap\^endice A.
-<Figures/Apendix/bac_de_trempe.png, id=764, 402.75468pt x 569.87906pt>
+<Figures/Apendix/bac_de_trempe.png, id=449, 402.75468pt x 569.87906pt>
 File: Figures/Apendix/bac_de_trempe.png Graphic file (type png)
 <use Figures/Apendix/bac_de_trempe.png>
 Package pdftex.def Info: Figures/Apendix/bac_de_trempe.png  used on input line 6.
 (pdftex.def)             Requested size: 334.60568pt x 473.45166pt.
-[41
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7.
+(c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [41
 
 ] [42 <./Figures/Apendix/Bac_de_trempe.png>]
 Ap\^endice B.
-<Figures/Apendix/Chemical_Comp_Coroa.png, id=773, 512.66531pt x 614.295pt>
+<Figures/Apendix/Chemical_Comp_Coroa.png, id=461, 512.66531pt x 614.295pt>
 File: Figures/Apendix/Chemical_Comp_Coroa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Coroa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input line 14.
@@ -1070,28 +1444,40 @@ Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input 
 
 ]
 Ap\^endice C.
-<Figures/Apendix/Chemical_Comp_Caixa.png, id=783, 470.50781pt x 663.98062pt>
+<Figures/Apendix/Chemical_Comp_Caixa.png, id=473, 470.50781pt x 663.98062pt>
 File: Figures/Apendix/Chemical_Comp_Caixa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Caixa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Caixa.png  used on input line 22.
 (pdftex.def)             Requested size: 334.60568pt x 472.19952pt.
 ) [45] [46 <./Figures/Apendix/Chemical_Comp_Caixa.png>] (./MEM_DPE.aux (./packMEM/MEM22_begin.aux))
-Package rerunfilecheck Info: File `MEM_DPE.out' has not changed.
-(rerunfilecheck)             Checksum: 130E973DD9779DA120C3BB4498F47BAF;5740.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `MEM_DPE.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MEM_DPE.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E82F64E8E6E0A2115A153B39859D95E0;5932.
  ) 
 Here is how much of TeX's memory you used:
- 20674 strings out of 476001
- 392568 string characters out of 5793198
- 1868068 words of memory out of 5000000
- 40553 multiletter control sequences out of 15000+600000
+ 20629 strings out of 476001
+ 391914 string characters out of 5793198
+ 1864068 words of memory out of 5000000
+ 40518 multiletter control sequences out of 15000+600000
  532548 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,13n,131p,1776b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 125i,13n,131p,1776b,1033s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on MEM_DPE.pdf (64 pages, 67552745 bytes).
+Output written on MEM_DPE.pdf (64 pages, 67542831 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 705 compressed objects within 8 object streams
- 164 named destinations out of 1000 (max. 500000)
- 574 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 608 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
