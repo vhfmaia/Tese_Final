@@ -1,7 +1,7 @@
-\nomenclatureentry{aEU@[{EU}]\begingroup \qquad - Europe union\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{aCOP@[{COP}]\begingroup \qquad - Coefficient of performance\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{a$\dot{Q}_\mathrm{L}$@[{$\dot{Q}_\mathrm{L}$}]\begingroup \qquad - Cooling capacity [W]\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{a${W_{\mathrm{net,in}}}$ @[{${W_{\mathrm{net,in}}}$ }]\begingroup \qquad - Work input [W]\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{aTES@[{TES}]\begingroup \qquad - Thermal Energy Storage\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{a$Q$ @[{$Q$ }]\begingroup \qquad - Total heat transferred\nomeqref {0}|nompageref}{v}
-\nomenclatureentry{a$m$@[{$m$}]\begingroup \qquad - Mass \nomeqref {0}|nompageref}{v}
+\nomenclatureentry{aEU@[{EU}]\begingroup \qquad - Europe union\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aCOP@[{COP}]\begingroup \qquad - Coefficient of performance\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{a$\dot{Q}_\mathrm{L}$@[{$\dot{Q}_\mathrm{L}$}]\begingroup \qquad - Cooling capacity [W]\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{a${W_{\mathrm{net,in}}}$ @[{${W_{\mathrm{net,in}}}$ }]\begingroup \qquad - Work input [W]\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aTES@[{TES}]\begingroup \qquad - Thermal Energy Storage\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{a$Q$ @[{$Q$ }]\begingroup \qquad - Total heat transferred\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup \qquad - Mass \nomeqref {0}|nompageref}{vi}
