@@ -4,4 +4,120 @@
 Como referido no Capítulo \ref{ch:intro}, este capítulo é dedicado à exposição e análise dos resultados obtidos das simulações e experimentos realizados ao longo do projeto da ferramenta porta-peças desenvolvida.
 \par
 Uma vez que os resultados para as tres séries de rodas de coroa são similares, serão discutidos apenas resultados de uma série de rodas de coroa, para isto, foi selecionada a série DB45. A razão da escolha desta série de rodas de coroa não é outra além da disponibilidade dos resultados, uma vez que foi o primeiro ensaio a ser realizado, os resultados estavam disponíveis para serem tratados atempadamente. Pouco antes do final da redação deste documento, também estavam disponíveis os resultados das rodas de coroa de série JT4, e os resultados das rodas de coroa de série DB35 só estariam disponíveis após a data de entrega deste documento.
-\section{Resultados das simulações} \label{ch:resultados_simulacoes}
+Para os resultados das simulações, foram necessários calcular as temperaturas de austenitização A\textsubscript{C1} e A\textsubscript{C3} do material, de acordo com as Equações \ref{eq:A_C1} e \ref{eq:A_C3}, respetivamente. A Tabela \ref{tab:temp_sim} indica estes valores, e outros valores importantes para a análise dos resultados das simulações que serão mostradas a seguir, na Secção \ref{sec:resultados_simulacoes}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[htb]
+    \centering
+    \caption[Valores de temperatura importantes para a análise de resultados]%
+    {Valores de temperaturas críticas, para o Aço 27MC5, antes e após a carbonitruração, respetivamente, importantes para a análise de resultados.}
+    \label{tab:temp_sim}
+    \begin{tabular}{lrr} 
+    \toprule
+    \textbf{Ponto Crítico}                  & \multicolumn{1}{c}{\textbf{Temperatura\textsubscript{Base}}} & \multicolumn{1}{c}{\textbf{Temperatura\textsubscript{(Carb.)}}}  \\ 
+    \hline\hline
+    Início de Austenitização \textbf{(A\textsubscript{C1})} & 707 °C                                            & 707 °C                                               \\
+    Final de Austenitização \textbf{(A\textsubscript{C3})}  & 788 °C                                            & 715 °C                                               \\
+    Início de Martensite \textbf{(M\textsubscript{S})}      & 370 °C                                            & 188 °C                                               \\
+    Final de Martensite \textbf{(M\textsubscript{F})}       & 175 °C                                            & -30 °C                                               \\
+    \hline
+    Início de Têmpera \textbf{(T\textsubscript{0})}         & \multicolumn{2}{c}{870 °C}                                                                                \\
+    Final de Têmpera \textbf{(T\textsubscript{F})}          & \multicolumn{2}{c}{170 °C}                                                                                \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Resultados das simulações} \label{sec:resultados_simulacoes}
+Alguns resultados das simulações já foram expostas no Capítulo \ref{ch:materiais} para efeitos de continuidade do documento, no entanto, alguns resultados necessitam ser analisados de forma a perceber as informações que podem ser adquiridas por simulação numérica.
+\par
+Como foi referido no passado capítulo, foi realizada uma simulação CFD de todos os protótipos desenvolvidos, entretanto, para além do esquema de velocidades do fluido de têmpera, é possível obter outros parâmetros de uma simulação CFD, entre estes, por exemplo, é possível obter os coeficientes de transferência de calor por convecção na interface entre os elementos finitos das rodas de coroa e os elementos finitos do fluido de têmpera, estes valores podem então ser inseridos numa simulação puramente térmica (Ver Figura \ref{fig:simulacao_termica}) onde é possível obter os valores das velocidades de arrefecimento nos vários pontos. Em especial, foram obtidos os valores da velocidade de arrefecimento num ponto do dentado e num ponto do diâmetro interno.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width = 0.6\textwidth]{Figures/Cap4/Falta_Imagem.png}
+    \caption[Simulação puramente térmica Solidworks]%
+    {Add-in do Solidworks simulation thermal para uma simulação puramente térmica.}
+    \label{fig:simulacao_termica}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Concluída a simulação, foram obtidos os valores do tempo em seis pontos, três para o dentado e três para o diâmetro interno. O primeiro ponto, é obtido quando os elementos atingem o valor de temperatura de austenitização A3, o segundo ponto, quando os elementos atingem a temperatura de austenitização A1, por fim, o terceiro ponto, quando os elementos atingem a temperatura de 170 \textdegree C. As Figuras \ref{fig:Dentado} são referentes aos pontos de temperaturas do dentado, e as Figuras \ref{fig:Diametro}
+De forma a facilitar a visualização, nos resultados, as rodas de coroa são vistas pelo plano superior. Foram escolhidas sempre as rodas de coroa Nº 6, ou seja, as rodas do meio da coluna, e as simulações foram feitas num modelo CAD sem o dentado, com o objetivo de diminuir o número de elementos utilizados em cada simulação. A tabela \ref{tab:pontos_sim} indica os valores dos pontos e o tempo em cada um deles, que foram retirados das imagens. Com estes valores é então possível determinar a velocidade de arrefecimento nos pontos em questão e então estimar a microestrutura final no dentado e no diâmetro interno. Para além disso, é possível também prever a dureza final nos dois pontos, tendo em conta a microestrutura, a velocidade de arrefecimento e a composição química do material.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.33\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption[]%
+        {}
+        \label{fig:A3_Dent}
+    \end{subfigure}%
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption{}
+        \label{fig:A1_Dent}
+    \end{subfigure}
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Tf_Dent}
+    \end{subfigure}
+    \caption[Pontos críticos dos elementos finitos do dentado]%
+    {Pontos críticos dos elementos finitos do dentado, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C3}, no centro, temperatura A\textsubscript{C1}, e à direita, temperatura T\textsubscript{F}, 170\textdegree C.}
+    \label{fig:Dentado}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.33\textwidth}\
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption[]%
+        {}
+        \label{fig:A3_Dint}
+    \end{subfigure}%
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption{}
+        \label{fig:A1_Dint}
+    \end{subfigure}
+    \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \caption{}
+        \label{fig:Tf_Dint}
+    \end{subfigure}
+    \caption[Pontos críticos dos elementos finitos do diâmetro interno]%
+    {Pontos críticos dos elementos finitos do diâmetro interno, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, no centro, temperatura A\textsubscript{C3}, e à direita, temperatura T\textsubscript{F}, 170\textdegree C.}
+    \label{fig:Diametro}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[htb]
+    \centering
+    \refstepcounter{table}
+    \label{tab:pontos_sim}
+    \begin{tabular}{lr} 
+    \toprule
+    \multicolumn{1}{c}{\textbf{Ponto Crítico}}            & \multicolumn{1}{c}{\textbf{Tempo (s)}}                         \\ 
+    \hline\hline
+    Início de Têmpera (t(T\textsubscript{0}))                             & 0,00 s                                         \\ 
+    \hline
+    Início de Austenitização no dentado (A\textsubscript{C1\_t})          & 0,45 s                                         \\
+    Final de Austenitização no dentado (A\textsubscript{C3\_t})           & 3,05 s                                         \\
+    Final de Têmpera no dentado (T\textsubscript{F\_t})                   & 42,00 s                                        \\ 
+    \hline\hline
+    Início de Austenitização no diâmetro interno (A\textsubscript{C1\_d}) & 27,65 s                                        \\
+    Final de Austenitização no dentado (A\textsubscript{C3\_t})           & 47,15 s                                        \\ 
+    Final de Têmpera (T\textsubscript{F\_d})                              & 270,00 s                                       \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par Nota-se que foi utilizado uma taxa de carbono de 0,7\% no dentado e de 0,24\% no diâmetro interno, o que pode não ser real porque nao se pode garantir que nao haja enriquecimento de carbono no diâmetro interno, mas, uma vez que nao há maneira de prever o valor final da percentagem de carbono no diâmetro interno, optou-se por utilizar o valor do material de base.
