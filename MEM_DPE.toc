@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.3}Soldadura}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Soldabilidade de aços-carbono}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Fissuração induzida por hidrogénio}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Diagramas da curva de arrefecimento continuo}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Diagramas da curva de arrefecimento continuo}{14}{subsection.2.3.3}%
 \contentsline {chapter}{\numberline {3}Materiais e Métodos}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introdução}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Caso de estudo}{18}{section.3.2}%

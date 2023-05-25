@@ -266,12 +266,12 @@ A fissuração induzida pelo hidrogénio é um tipo de corrosão que ocorre em c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
         \includegraphics[width = 0.9\textwidth]{Figures/Cap2/Cold_Cracking.png}
         \caption{}
         \label{fig:Fissuracao_1}
     \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[width = 0.9\textwidth]{Figures/Cap2/Graville_Diagram.png}
         \caption{}
@@ -284,13 +284,13 @@ A fissuração induzida pelo hidrogénio é um tipo de corrosão que ocorre em c
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
       \centering
       \includegraphics[width = 0.9\linewidth]{Figures/Cap2/Hdif_CE.png}
       \caption{}
       \label{fig:Hdif_CE}
     \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
+    \begin{subfigure}{.4\textwidth}
       \centering
       \includegraphics[width = 0.9\linewidth]{Figures/Cap2/CE_Hdif_Crack.png}
       \caption{}
@@ -314,6 +314,7 @@ Apesar de ainda não existir um mecanismo universalmente aceite para sua deteç�
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diagramas da curva de arrefecimento continuo}\label{ssec:diagramas_CCT}
 Por fim, é importante mencionar os diagramas CCT (Continuous Cooling Transformation), ou diagramas de curva de arrefecimento contínuo. Estes diagramas mostram as transformações de fase que ocorrem em um material à medida que ele é arrefecido continuamente a partir da temperatura de austenitização e são utilizados para tentar prever as fases que serão formadas de acordo com a velocidade de arrefecimento a que o material for submetido.
+\newpage
 \par
 As curvas de arrefecimento contínuo são obtidas por meio de ensaios onde o arrefecimento é controlado, onde uma amostra do material é aquecida até a temperatura de austenitização e arrefecida a uma taxa constante. Dependendo da composição química do material, diferentes taxas de arrefecimento podem dar origem a diferentes estruturas finais. A taxa de arrefecimento e a temperatura onde ocorrem as transformações da microestruturas são representadas por meio de curvas, como pode ser visto na Figura \ref{fig:CCT_SOA}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -341,6 +342,7 @@ Outro fator que pode influenciar a presença de austenite residual é a temperat
     \mathrm{M\textsubscript{(finish)}}^{\circ}\mathrm{C} = 346 - (474\%\mathrm{C}) - (33\%\mathrm{Mn}) - (17\%\mathrm{Ni}) - (21\%\mathrm{Mo})
 \end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \par
 Também é possível estimar as temperaturas de austenitização inicial(A\textsubscript{C1}) e final (A\textsubscript{C3}) através das equações \ref{eq:A_C1} e \ref{eq:A_C3}, respetivamente\cite{Platl2020}. No entanto, da mesma maneira que as equações para as temperaturas de martensite, estas são apenas estimativas e sempre que possível, deve-se optar pela realização de um ensaio experimental para determinar as temperaturas de transformação da microestrutura.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -352,8 +354,33 @@ Também é possível estimar as temperaturas de austenitização inicial(A\texts
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{equation}
     \label{eq:A_C3}
-    \mathrm{A\textsubscript{(C3)}}^{\circ}\mathrm{C} = 910 - (230\sqrt{\%\mathrm{C}}) - (15,2\%\mathrm{Ni}) + (44.7\%\mathrm{Si}) + (104\%\mathrm{V}) + (31,5\%\mathrm{Mo}) + (6,38\%\mathrm{W})
+    \begin{aligned}
+    \mathrm{A\textsubscript{(C3)}}^{\circ}\mathrm{C} = {}   & 910 - (230\sqrt{\%\mathrm{C}}) - (15,2\%\mathrm{Ni}) + (44.7\%\mathrm{Si})\\
+                                                            & + (104\%\mathrm{V}) + (31,5\%\mathrm{Mo}) + (6,38\%\mathrm{W})
+\end{aligned}
 \end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 Essas equações de previsão das temperaturas críticas são desenvolvidas com base em estudos experimentais e modelos termodinâmicos, levando em consideração as composições químicas e as características do material. Com os valores das temperaturas críticas, e com as curvas de transformação de fase mencionadas acima, é possível desenvolver um diagrama CCT estimado, sem a necessidade da realização de ensaios.
+\par
+Outro uso interessante das velocidades de arrefecimento, para além da previsão da microestrutura final, é a estimativa teórica da dureza final de um aço após um tratamento térmico. Uma estudo apresenta um modelo matemático gerado por um algoritmo computacional para tentar prever a dureza de um aço de acordo com a sua composição química, a velocidade de arrefecimento a que foi submetido, e a microestrutura final\cite{Trzaska2016}. As Equações \ref{eq:HV_fe} e \ref{eq:HV_ma}, indicam a estimativa de dureza consoante a velocidade de arrefecimento e elementos de liga para estruturas ferríticas e martensíticas, respetivamente.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+    \begin{aligned}
+    \mathrm{HV\textsubscript{(ferrite)}} = {}   & -73 + (253\%\mathrm{C}) + (52\%\mathrm{Mn}) + (10\%\mathrm{Si}) + (36\%\mathrm{Cr}) + (8\%\mathrm{Ni})\\
+                                                & + (20\%\mathrm{Mo}) + (80\%\mathrm{V}) + (0,11\%\mathrm{A\textsubscript{C1}}) + (12,5\%\mathrm{Vc\textsuperscript{1/4}})
+    \end{aligned}
+    \label{eq:HV_fe}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+    \begin{aligned}
+    \mathrm{HV\textsubscript{(martensite)}} = {}    & 200 + (824\sqrt{\%\mathrm{C}}) + (44\%\mathrm{Mn}) + (14\%\mathrm{Cr}) + (9\%\mathrm{Ni})\\
+                                                    &+ (171\%\mathrm{V}) + (0,11\%\mathrm{Cu}) + (4,13\%\mathrm{Vc\textsuperscript{1/4}})
+    \end{aligned}
+    \label{eq:HV_ma}
+\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+Este modelo, claro, tem suas limitações, pelo que está desenvolvido para um intervalo de percentagens de elementos de liga, e tem melhores resultados quando os valores estão mais próximos da média, no entanto, com erros absolutos por volta dos 20-30HVs, esta pode ser uma ferramenta valiosa para a previsão das durezas de um material quando se está a alterar os parâmetros de tratamento. 
