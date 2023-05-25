@@ -68,7 +68,7 @@ Após estarem maquinadas as rodas de coroa, estas estão prontas para seguir par
     {À esquerda, uma fotografia de uma coroa DB45 peça branca. À direita, uma fotografia de um prato montado com 50 rodas de coroa DB45 “peça branca” maquinadas.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Processo de obtenção da peça negra} \label{ssec:materiais_CS_carbonitruracao}
+\subsection{Processo de tratamentos térmicos} \label{ssec:materiais_CS_carbonitruracao}
 Chegando a carga na zona dos tratamentos térmicos, esta é carregada para uma máquina de pré-oxidação, este processo precede a carbonitruração e é utilizado para melhorar a aderência da camada de carbono e azoto adquirida. Para uma melhor perceção do sistema, as Figuras \ref{fig:Prato}, \ref{fig:Torre} e \ref{fig:Falsa_coroa} ilustram as tres partes da ferramenta porta-peças atualmente utilizados em toda a linha dos tratamentos térmicos. O material dos componentes da ferramenta porta-peças é o \textbf{aço refratário EN 1.4807}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,7 +127,7 @@ Após os aproximadamente 180 minutos no forno de carbonitruração, as peças s�
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \par
-O revenido é realizado durante 5 horas, em 5 etapas seguidas de 60 minutos cada, a 190\textdegree C, sendo então arrefecido lentamente à saída do forno de revenido. Após o arrefecimento das rodas de coroa, estas então são inseridas num processo de granalhagem, de forma limpar os contaminantes que restem dos processos anteriores, como resquícios de óleo não removidos no processo de lavagem, sobras de detergente ou camadas superficiais de óxidos. Uma vez que o processo de granalhagem é concluído, as rodas de coroa são conduzidas à linha de torneamento duro, onde serão removidas imperfeições e deformações resultantes do processo de obtenção da peça negra.
+O revenido é realizado durante 5 horas, em 5 zonas seguidas de 60 minutos cada, a 190\textdegree C, sendo então arrefecido lentamente à saída do forno de revenido. Após o arrefecimento das rodas de coroa, estas então são inseridas num processo de granalhagem, de forma limpar os contaminantes que restem dos processos anteriores, como resquícios de óleo não removidos no processo de lavagem, sobras de detergente ou camadas superficiais de óxidos. Uma vez que o processo de granalhagem é concluído, as rodas de coroa são conduzidas à linha de torneamento duro, onde serão removidas imperfeições e deformações resultantes do processo de obtenção da peça negra.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Processo de torneamento duro} \label{ssec:materiais_CS_torneamento}
@@ -263,7 +263,7 @@ Para além disso, se utilizarmos a correlação de Graville, da Figura \ref{fig:
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
-A adição de carbono, azoto, e a eventual adição de hidrogénio no forno de carbonitruração, e a transformação da microestrutura para martensite só aumentam a probabilidade de ocorrência de fissuração num conjunto que ja é extremamente suscetível a este fenómeno, portanto, uma vez que seja possível evitar o tratamento da zona de soldadura, seria possível diminuir a quantidade de não conformidades devidas aos defeitos de soldadura. Como ponto de comparação, a quantidade de peças não conformes devido aos defeitos de soldadura, ronda por volta dos 10\%, quantidade esta que aumenta demasiado o custo de fabrico das caixas diferenciais, uma vez que quaisquer não conformidades provenientes da soldadura resultam no sucateamento total da caixa, mesmo depois do processo produtivo estar quase completo.
+A adição de carbono, azoto, e a eventual adição de hidrogénio no forno de carbonitruração, e a transformação da microestrutura para martensite só aumentam a probabilidade de ocorrência de fissuração num conjunto que ja é extremamente suscetível a este fenómeno, portanto, uma vez que seja possível evitar o tratamento da zona de soldadura, seria possível diminuir a quantidade de não conformidades devidas aos defeitos de soldadura. Como ponto de comparação, a quantidade de peças não conformes devido aos defeitos de soldadura, ronda por volta das 1000 ppm, quantidade esta que aumenta demasiado o custo de fabrico das caixas diferenciais, uma vez que quaisquer não conformidades provenientes da soldadura resultam no sucateamento total da caixa, mesmo depois do processo produtivo estar quase completo.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conceção da ferramenta} \label{sec:materiais_concecao}
 Tendo em conta os problemas descritos na secção anterior, cria-se a necessidade da conceção de uma ferramenta que impeça ou limite a existência dos efeitos que aumentam a probabilidade de ocorrência de fissurações à hidrogénio. Como a complexidade de tornar o diâmetro interno das rodas de coroa impermeáveis quanto à carbonitruração parece uma tarefa muito complicada, a primeira alternativa é tentar evitar a têmpera na zona do diâmetro interno.
@@ -355,7 +355,7 @@ Uma vez que o modelo CFD necessita de alguns dados dos materiais e do fluido té
     \label{tab:Propriedades_VolutaH300}
     \begin{tabular}{lrrr} 
     \toprule
-    \multicolumn{1}{c}{\textbf{Propriedades Voluta H300}} & \multicolumn{1}{c}{\textbf{20 °C}} & \multicolumn{1}{c}{\textbf{100 °C}} & \multicolumn{1}{c}{\textbf{100 °C}}  \\ 
+    \multicolumn{1}{c}{\textbf{Propriedades Voluta H300}} & \multicolumn{1}{c}{\textbf{20 °C}} & \multicolumn{1}{c}{\textbf{100 °C}} & \multicolumn{1}{c}{\textbf{140 °C}}  \\ 
     \hline\hline
     Densidade ($\rho$)                                    & 780 kg m\textsuperscript{-3}       & 600 kg m\textsuperscript{-3}        & 600 kg m\textsuperscript{-3}         \\
     Viscosidade cinemática ($\mu$)                        & 571 cSt                            & 190 cSt                             & 4,8 cSt                              \\
@@ -386,7 +386,7 @@ Uma vez que o modelo CFD necessita de alguns dados dos materiais e do fluido té
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
-Por fim, utiliza-se o add-on \textit{Flow Simulation} do software SolidWorks para criar um programa de simulações, de forma a visualizar o comportamento do fluido de têmpera nas condições de tratamento. Para além dos dados indicados nas tabelas acima, às peças foi definida uma temperatura de 870 \textdegree C, e foram utilizados um coeficiente de rugosidade em todas as faces das coroas de 50$\mu$m, uma rugosidade de 500 $\mu$m em todas as faces dos componentes da ferramenta porta-peças, e foi definida uma malha “grosseira” para os elementos sólidos, e uma malha “normal” para os elementos de fluido. Ver Figura \ref{fig:malha_simulacao}.
+Por fim, utiliza-se o add-on \textit{Flow Simulation} do software SolidWorks para criar um programa de simulações, de forma a visualizar o comportamento do fluido de têmpera nas condições de tratamento. Para além dos dados indicados nas tabelas acima, às peças foi definida uma temperatura de 870 \textdegree C, e foram utilizados um coeficiente de rugosidade em todas as faces das rodas de coroa de 50$\mu$m, uma rugosidade de 500 $\mu$m em todas as faces dos componentes da ferramenta porta-peças, e foi definida uma malha “grosseira” para os elementos sólidos, e uma malha “normal” para os elementos de fluido. Ver Figura \ref{fig:malha_simulacao}.
 \par
 Os limites computacionais do fluido foram definidos de acordo com as dimensões do tanque que encontra-se descrito na Figura \ref{fig:tanque_tempera}, ou seja, (700x700) mm\textsuperscript{2} de base e 900 mm de altura, e o plano inferior do tanque foi assumido como uma entrada uniforme de fluido de tempera a uma velocidade de 1,45 m/s, e a uma temperatura de 170 \textdegree C de acordo com o documento do tanque que pode ser visualizado no Apêndice \ref{ap:ap1}.
 \newpage
