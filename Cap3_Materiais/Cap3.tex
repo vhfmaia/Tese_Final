@@ -7,7 +7,7 @@ Como já foi referido, o principal objetivo deste trabalho é desenvolver uma fe
 \vspace{5mm}
 
 \par
-Assim, este capítulo começa por descrever o \textbf{caso de estudo}, isto é, as rodas de coroa em que será feito o processo de carbonitruração e seu processo de maquinação antes deste processo(que é mencionado a seguir como “processo de obtenção da peça branca”), as ferramentas porta-peças atualmente utilizadas no processo de carbonitruração das rodas de coroa supracitadas(que a partir deste ponto são chamadas peças negras), e o processo de torneamento, onde é obtida a geometria final das coroas que posteriormente serão prensadas e soldadas à caixa diferencial.
+Assim, este capítulo começa por descrever o \textbf{caso de estudo}, isto é, as rodas de coroa em que será feito o processo de carbonitruração e seu processo de maquinação antes deste processo(que é mencionado a seguir como “processo de obtenção da peça branca”), as ferramentas porta-peças atualmente utilizadas no processo de carbonitruração das rodas de coroa supracitadas(que a partir deste ponto são chamadas peças negras), e o processo de torneamento, onde é obtida a geometria final das rodas de coroa que posteriormente serão prensadas e soldadas à caixa diferencial.
 \vspace{5mm}
 
 \par
@@ -21,7 +21,7 @@ Por fim, são descritos os \textbf{parâmetros de conformidade} e o processo de 
 \section{Caso de estudo} \label{sec:materiais_CS}
 \subsection{Processo de obtenção da peça branca} \label{ssec:materiais_CS_peca_branca}
 
-O processo de produção da peça branca, inicia-se com um bruto de aço de baixa liga \textbf{AFNOR 27MC5}, ou \textbf{EN-1.7149}. Cada série de coroas tem um bruto de dimensões específicas, bem como programas de maquinação e padrões de conformidade específicos. Como exemplo, na Figura \ref{fig:Bruto_desenho} vê-se as dimensões do bruto das coroas DB45 de aproximadamente 204,4 mm de diâmetro externo, 106 mm de diâmetro interno e 39 mm de espessura.
+O processo de produção da peça branca, inicia-se com um bruto de aço de baixa liga \textbf{AFNOR 27MC5}, ou \textbf{EN-1.7149}. Cada série de rodas de coroa tem um bruto de dimensões específicas, bem como programas de maquinação e padrões de conformidade específicos. Como exemplo, na Figura \ref{fig:Bruto_desenho} vê-se as dimensões do bruto das rodas de coroa DB45 de aproximadamente 204,4 mm de diâmetro externo, 106 mm de diâmetro interno e 39 mm de espessura.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
@@ -47,7 +47,7 @@ O processo de produção da peça branca, inicia-se com um bruto de aço de baix
 Deste bruto, serão removidos os excessos de material do diâmetro interno, das faces superior e inferior, e maquinado o dentado, tudo isto feito de forma automática, sendo apenas necessária a intervenção do operador na alimentação inicial dos brutos na linha de produção, na troca das ferramentas, seja por desgaste ou por mudança da série a maquinar, ou em casos de defeitos de máquina. Cada operação é realizada num centro de maquinagem diferente, e o transporte é realizado por meio de transportadores mecânicos, o que torna o processo mais ágil e permite a continuação do processo produtivo em caso de avaria de algum dos centros.
 
 \par
-Após estarem maquinadas as rodas de coroa, estas estão prontas para seguir para o processo de carbonitruração, processo que tornar-lhes-á peças negras. Portanto, após a saída do último centro de maquinagem, as coroas são direcionadas a uma ilha em que um braço mecânico carrega de forma ordenada uma carga, composta por três pratos de cinco colunas cada, totalizando quinze colunas por carga. O número de rodas de coroa por coluna varia entre 10, no caso das séries “DB45” e 11, no caso das séries “DB35” e “JT4”. Isto é devido ao peso máximo suportado pelo elevador do forno de carbonitruração, que tem um limite de 550kg. Sendo as séries “DB45” mais espessas, portanto, mais pesadas, existe a necessidade da redução do número de rodas de coroa de 55 para 50 por prato.
+Após estarem maquinadas as rodas de coroa, estas estão prontas para seguir para o processo de carbonitruração, processo que tornar-lhes-á peças negras. Portanto, após a saída do último centro de maquinagem, as rodas de coroa são direcionadas a uma ilha em que um braço mecânico carrega de forma ordenada uma carga, composta por três pratos de cinco colunas cada, totalizando quinze colunas por carga. O número de rodas de coroa por coluna varia entre 10, no caso das séries “DB45” e 11, no caso das séries “DB35” e “JT4”. Isto é devido ao peso máximo suportado pelo elevador do forno de carbonitruração, que tem um limite de 550kg. Sendo as séries “DB45” mais espessas, portanto, mais pesadas, existe a necessidade da redução do número de rodas de coroa de 55 para 50 por prato.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
@@ -65,7 +65,7 @@ Após estarem maquinadas as rodas de coroa, estas estão prontas para seguir par
         \label{fig:Carga_peca_branca}
     \end{subfigure}
     \caption[Peça branca final e Prato de Rodas de coroa série DB35]%
-    {À esquerda, uma fotografia de uma coroa DB45 peça branca. À direita, uma fotografia de um prato montado com 50 rodas de coroa DB45 “peça branca” maquinadas.}
+    {À esquerda, uma fotografia de uma roda de coroa DB45 peça branca. À direita, uma fotografia de um prato montado com 50 rodas de coroa DB45 “peça branca” maquinadas.}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Processo de tratamentos térmicos} \label{ssec:materiais_CS_carbonitruracao}
@@ -399,7 +399,7 @@ Uma vez que, mesmo com geometrias pouco complexas e com a utilização de uma ma
     \centering
     \includegraphics[width = 0.8\textwidth]{Figures/Cap3/resultado_serie.png}
     \caption[Resultado da simulação CFD da têmpera das rodas de coroa de série]%
-    {Imagem de um corte no plano XZ, a meio da coluna central, do fluxo de fluido resultante da imersão do prato de coroas DB45 de série no tanque de têmpera, onde o gradiente de cores corresponde à velocidade do fluido, com \colorbox{Blue}{\textcolor{White}{azul escuro sendo 0 m/s}}, e \colorbox{Red}{\textcolor{White}{vermelho sendo 5 m/s ou maior.}}}
+    {Imagem de um corte no plano XZ, a meio da coluna central, do fluxo de fluido resultante da imersão do prato de rodas de coroa DB45 de série no tanque de têmpera, onde o gradiente de cores corresponde à velocidade do fluido, com \colorbox{Blue}{\textcolor{White}{azul escuro sendo 0 m/s}}, e \colorbox{Red}{\textcolor{White}{vermelho sendo 5 m/s ou maior.}}}
     \label{fig:resultado_serie}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -452,13 +452,13 @@ Tendo o modelo CAD da ferramenta, fez-se então uma simulação nos mesmos parâ
     \centering
     \includegraphics[width = 0.8\textwidth]{Figures/Cap3/resultado_simples.png}
     \caption[Resultado da simulação CFD da têmpera das rodas de coroa com diâmetro protegido]%
-    {Imagem de um corte no plano XZ, a meio da coluna central, do fluxo de fluido resultante da imersão do prato de coroas DB45 com diâmetro protegido no tanque de têmpera, onde o gradiente de cores corresponde à velocidade do fluido, com \colorbox{Blue}{\textcolor{White}{azul escuro sendo 0 m/s}}, e \colorbox{Red}{\textcolor{White}{vermelho sendo 5 m/s ou maior.}}}
+    {Imagem de um corte no plano XZ, a meio da coluna central, do fluxo de fluido resultante da imersão do prato de rodas de coroa DB45 com diâmetro protegido no tanque de têmpera, onde o gradiente de cores corresponde à velocidade do fluido, com \colorbox{Blue}{\textcolor{White}{azul escuro sendo 0 m/s}}, e \colorbox{Red}{\textcolor{White}{vermelho sendo 5 m/s ou maior.}}}
     \label{fig:resultado_simples}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \subsection{Prototipagem da tampa simples}  \label{ssec:materiais_prototipagem_simples}
-Tendo então resultados satisfatórios na simulação, prosseguiu-se com a próxima etapa da conceção da ferramenta. Para verificar que as dimensões geométricas estavam compatíveis com os sistemas produtivos, fez-se uma impressão 3D dos componentes modificados que podem ser vistos nas Figuras \ref{fig:Tampa_simples_3d}, \ref{fig:falsa_coroa_torre_3d}. Estes componentes tiveram suas dimensões verificadas num prato de coroas de série DB45. Verificadas as dimensões, como pode ser visto na Figura \ref{fig:teste_impressao_3d}, prosseguiu-se com a ordem de trabalho para maquinar uma tampa simples e modificar a torre e a falsa coroa, de forma a realizar um ensaio de tratamento térmico, para verificar a microestrutura e as durezas e comparar os resultados com as rodas de coroa de série.
+Tendo então resultados satisfatórios na simulação, prosseguiu-se com a próxima etapa da conceção da ferramenta. Para verificar que as dimensões geométricas estavam compatíveis com os sistemas produtivos, fez-se uma impressão 3D dos componentes modificados que podem ser vistos nas Figuras \ref{fig:Tampa_simples_3d}, \ref{fig:falsa_coroa_torre_3d}. Estes componentes tiveram suas dimensões verificadas num prato de rodas de coroa de série DB45. Verificadas as dimensões, como pode ser visto na Figura \ref{fig:teste_impressao_3d}, prosseguiu-se com a ordem de trabalho para maquinar uma tampa simples e modificar a torre e a falsa coroa, de forma a realizar um ensaio de tratamento térmico, para verificar a microestrutura e as durezas e comparar os resultados com as rodas de coroa de série.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
@@ -482,8 +482,8 @@ Tendo então resultados satisfatórios na simulação, prosseguiu-se com a próx
 \begin{figure}[htb]
     \centering
     \includegraphics[width = 0.9\textwidth]{Figures/Cap3/Falta_imagem_larga.png}
-    \caption[Teste dos componentes impressos em 3D no prato e nas coroas]%
-    {Fotografia do teste dos componentes impressos em 3D no prato e nas coroas, para verificar se as dimensões projetadas são compatíveis com os componentes já existentes.}
+    \caption[Teste dos componentes impressos em 3D no prato e nas rodas de coroa]%
+    {Fotografia do teste dos componentes impressos em 3D no prato e nas rodas de coroa, para verificar se as dimensões projetadas são compatíveis com os componentes já existentes.}
     \label{fig:teste_impressao_3d}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -522,7 +522,7 @@ Para a realização das medições de dureza no Laboratório de Ensaios Mecânic
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
-Os resultados destas filiações de dureza serão discutidos no Capítulo \ref{ch:resultados}, no entanto, para efeitos da continuidade do trabalho, é necessário dizer que, mesmo que os resultados tenham sido satisfatórios, os valores das durezas em todas as zonas nas rodas de coroa inferiores foram consideravelmente superiores aos valores nas rodas de coroa do meio e de cima. Além disso, na roda de coroa Nº 10, a dureza na zona de soldadura da Cible não foi afetada pela proteção, além da “zona 1” ter durezas ligeiramente superiores às durezas na mesma zona nas outras rodas de coroa, o que leva à suspeita de que a existência de uma aba seria necessária para uniformizar os valores de durezas em todas as 10 coroas da coluna. Por fim, verificou-se que a soldadura feita na falsa coroa à torre da ferramenta porta-peças sofreu rotura, o que também pode explicar o motivo das durezas em todas as zonas da roda de coroa Nº 1 serem muito maiores que as demais.
+Os resultados destas filiações de dureza serão discutidos no Capítulo \ref{ch:resultados}, no entanto, para efeitos da continuidade do trabalho, é necessário dizer que, mesmo que os resultados tenham sido satisfatórios, os valores das durezas em todas as zonas nas rodas de coroa inferiores foram consideravelmente superiores aos valores nas rodas de coroa do meio e de cima. Além disso, na roda de coroa Nº 10, a dureza na zona de soldadura da Cible não foi afetada pela proteção, além da “zona 1” ter durezas ligeiramente superiores às durezas na mesma zona nas outras rodas de coroa, o que leva à suspeita de que a existência de uma aba seria necessária para uniformizar os valores de durezas em todas as 10 rodas de coroa da coluna. Por fim, verificou-se que a soldadura feita na falsa coroa à torre da ferramenta porta-peças sofreu rotura, o que também pode explicar o motivo das durezas em todas as zonas da roda de coroa Nº 1 serem muito maiores que as demais.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Novos protótipos e melhorias} \label{ssec:novos_prototipos}
 Devido aos problemas encontrados no ensaio do protótipo inicial, foram desenvolvidos dois outros protótipos. O primeiro, denominado “Tampa O” sendo uma modificação do protótipo inicial, apenas com a adição de uma aba de proteção para a cible. O segundo, alterando a geometria de um “copo” para um formato ajustado à torre da ferramenta porta-peças das peças de série, denominado “Tampa Y”. A Figura \ref{fig:novos_prototipos} ilustra as geometrias novas. A ferramenta inicial foi então denominada “Tampa P”, em homenagem ao “Engenheiro Pinto” responsável pela sua geometria e pela ideia de proteger o diâmetro interno das rodas de coroa quanto à Têmpera.
@@ -569,7 +569,7 @@ Além da modificação das tampas, também foi modificada a junção da falsa co
 \par
 Para a realização deste ensaio, as rodas de coroa precisaram ser marcadas não só de 1 a 10, mas também de forma alfabética, com as rodas de coroa “A” correspondentes à tampa Y, “B” correspondentes à tampa O, “C” correspondentes à tampa P, “D” correspondentes à coluna sem tampa, e “S” correspondentes à coluna de série. Portanto, a roda de coroa com marcação “B10” corresponde à roda de coroa do topo da coluna protegida pela tampa O, por exemplo. Além disso, na entrada do forno de revenido houve um problema quanto ao reconhecimento das peças, visto que o sistema utiliza o diâmetro do perfil da imagem da peça central, e as tampas não são identificadas automaticamente, portanto, para evitar problemas, as tampas foram removidas sempre após a primeira máquina de lavar, uma vez que após a têmpera as tampas encontram-se à 170\textdegree C e estão muito quentes para serem manuseadas.
 \par
-Para além desse ensaio, foi feito um segundo ensaio, com as mesmas configurações do primeiro, desta vez com rodas de coroa JT4, onde foram adicionados duas galés de material 27MC5, uma dentro da coluna com geometria protegida com tampa Y e uma dentro da coluna de série. Estas galés foram enviadas a um laboratório em França, onde foi feito uma espectroscopia de emissão ótica de descarga luminescente. Este ensaio serve para verificar a composição dos materiais constituintes nas galés, ou seja, verificar se há o enriquecimento de carbono e azoto no diâmetro interno das rodas de coroa protegidas no forno de carbonitruração, e comparar os resultados com o enriquecimento nas rodas de coroa de série. Um esquema do ensaio e a posição das galés podem ser vistos na Figura \ref{fig:ensaio_gales}. Uma fotografia das galés antes do ensaio também pode ser vista na Figura \ref{fig:gales}.
+Para além desse ensaio, foi feito um segundo ensaio, com as mesmas configurações do primeiro, desta vez com rodas de coroa JT4, onde foram adicionados dois provetes de material 27MC5, uma dentro da coluna com geometria protegida com tampa Y e uma dentro da coluna de série. Estes provetes foram enviadas a um laboratório em França, onde foi feito uma espectroscopia de emissão ótica de descarga luminescente. Este ensaio serve para verificar a composição dos materiais constituintes no provete, ou seja, verificar se há o enriquecimento de carbono e azoto no diâmetro interno das rodas de coroa protegidas no forno de carbonitruração, e comparar os resultados com o enriquecimento nas rodas de coroa de série. Um esquema do ensaio e a posição dos provetes podem ser vistos na Figura \ref{fig:ensaio_gales}. Uma fotografia de um provete antes do ensaio também pode ser vista na Figura \ref{fig:gales}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb!]
     \centering
