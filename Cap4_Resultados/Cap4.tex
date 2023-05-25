@@ -6,7 +6,6 @@ Como referido no Capítulo \ref{ch:intro}, este capítulo é dedicado à exposi�
 Uma vez que os resultados para as tres séries de rodas de coroa são similares, serão discutidos apenas resultados de uma série de rodas de coroa, para isto, foi selecionada a série DB45. A razão da escolha desta série de rodas de coroa não é outra além da disponibilidade dos resultados, uma vez que foi o primeiro ensaio a ser realizado, os resultados estavam disponíveis para serem tratados atempadamente. Pouco antes do final da redação deste documento, também estavam disponíveis os resultados das rodas de coroa de série JT4, e os resultados das rodas de coroa de série DB35 só estariam disponíveis após a data de entrega deste documento.
 Para os resultados das simulações, foram necessários calcular as temperaturas de austenitização A\textsubscript{C1} e A\textsubscript{C3} do material, de acordo com as Equações \ref{eq:A_C1} e \ref{eq:A_C3}, respetivamente. A Tabela \ref{tab:temp_sim} indica estes valores, e outros valores importantes para a análise dos resultados das simulações que serão mostradas a seguir, na Secção \ref{sec:resultados_simulacoes}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{table}[htb]
     \centering
     \caption[Valores de temperatura importantes para a análise de resultados]%
@@ -31,7 +30,7 @@ Para os resultados das simulações, foram necessários calcular as temperaturas
 \section{Resultados das simulações} \label{sec:resultados_simulacoes}
 Alguns resultados das simulações já foram expostas no Capítulo \ref{ch:materiais} para efeitos de continuidade do documento, no entanto, alguns resultados necessitam ser analisados de forma a perceber as informações que podem ser adquiridas por simulação numérica.
 \par
-Como foi referido no passado capítulo, foi realizada uma simulação CFD de todos os protótipos desenvolvidos, entretanto, para além do esquema de velocidades do fluido de têmpera, é possível obter outros parâmetros de uma simulação CFD, entre estes, por exemplo, é possível obter os coeficientes de transferência de calor por convecção na interface entre os elementos finitos das rodas de coroa e os elementos finitos do fluido de têmpera, estes valores podem então ser inseridos numa simulação puramente térmica (Ver Figura \ref{fig:simulacao_termica}) onde é possível obter os valores das velocidades de arrefecimento nos vários pontos. Em especial, foram obtidos os valores da velocidade de arrefecimento num ponto do dentado e num ponto do diâmetro interno.
+Como foi referido no passado capítulo, foi realizada uma simulação CFD de todos os protótipos desenvolvidos, entretanto, para além do esquema de velocidades do fluido de têmpera, é possível obter outros parâmetros de uma simulação CFD, entre estes, por exemplo, é possível obter os coeficientes de transferência de calor por convecção na interface entre os elementos finitos das rodas de coroa e os elementos finitos do fluido de têmpera, estes valores podem então ser inseridos numa simulação transiente puramente térmica (Ver Figura \ref{fig:simulacao_termica}) onde é possível obter os valores das velocidades de arrefecimento nos vários pontos. Em especial, foram obtidos os valores da velocidade de arrefecimento num ponto do dentado e num ponto do diâmetro interno.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
@@ -67,7 +66,7 @@ De forma a facilitar a visualização, nos resultados, as rodas de coroa são vi
         \label{fig:Tf_Dent}
     \end{subfigure}
     \caption[Pontos críticos dos elementos finitos do dentado]%
-    {Pontos críticos dos elementos finitos do dentado, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C3}, no centro, temperatura A\textsubscript{C1}, e à direita, temperatura T\textsubscript{F}, 170\textdegree C.}
+    {Pontos críticos dos elementos finitos do dentado, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 0,45s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 3,05 s, e à direita, temperatura T\textsubscript{F}, 170\textdegree C, que ocorre aos 42,00s.}
     \label{fig:Dentado}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,10 +93,14 @@ De forma a facilitar a visualização, nos resultados, as rodas de coroa são vi
         \label{fig:Tf_Dint}
     \end{subfigure}
     \caption[Pontos críticos dos elementos finitos do diâmetro interno]%
-    {Pontos críticos dos elementos finitos do diâmetro interno, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, no centro, temperatura A\textsubscript{C3}, e à direita, temperatura T\textsubscript{F}, 170\textdegree C.}
+    {Pontos críticos dos elementos finitos do diâmetro interno, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 27,65s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 47,15 s, e à direita, temperatura T\textsubscript{F}, 170\textdegree C, que ocorre aos 270,00s.}
     \label{fig:Diametro}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\par Nota-se que foi utilizado uma taxa de carbono de 0,7\% no dentado e de 0,24\% no diâmetro interno, o que pode não ser real porque nao se pode garantir que nao haja enriquecimento de carbono no diâmetro interno, mas, uma vez que nao há maneira de prever o valor final da percentagem de carbono no diâmetro interno, optou-se por utilizar o valor do material de base.
+\par
+De acordo com os valores adquiridos, então é possível estimar uma velocidade de arrefecimento média de 35,0\textdegree C/s para o dentado, e uma velocidade de arrefecimento média de 4,7\textdegree C/s para o diâmetro interno.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{table}[htb]
     \centering
@@ -120,6 +123,10 @@ De forma a facilitar a visualização, nos resultados, as rodas de coroa são vi
     \end{tabular}
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\par Nota-se que foi utilizado uma taxa de carbono de 0,7\% no dentado e de 0,24\% no diâmetro interno, o que pode não ser real porque nao se pode garantir que nao haja enriquecimento de carbono no diâmetro interno, mas, uma vez que nao há maneira de prever o valor final da percentagem de carbono no diâmetro interno, optou-se por utilizar o valor do material de base.
+\newpage
 \par
-aaa
+Com isto, é possível utilizar as equações para estimar a dureza final com base na composição química e velocidade de arrefecimento apresentadas no Capítulo \ref{ch:soa}.
+\par
+Para o dentado, estima-se níveis de dureza de cerca de 860HV para uma microestrutura maioritariamente martensítica, e 290HV para uma microestrutura maioritariamente ferrítica e perlítica. Já para o diâmetro interno, considerando que nao haja enriquecimento, estima-se que numa estrutura maioritariamente martensítica, os níveis de dureza estejam por volta de 500HV, e para uma estrutura maioritariamente ferrítica e perlítica, por vota de 190HV.
+\par
+Uma vez que para as velocidades de arrefecimento em questão, o dentado tem em sua maioria martensite e o diâmetro interno, ferrite e perlite. Por consequência, são esperadas durezas por volta de 860HV para o dentado e 190HV para o diâmetro interno. Novamente, deve-se ter em consideração que estas estimativas são para o material que não passa pelo processo de revenido, no caso do dentado, e não sofre enriquecimento de carbono, no caso do diâmetro interno. No caso do material passar por um processo de revenido, o nível de durezas deve reduzir. De igual maneira, no caso de haver enriquecimento de carbono no diâmetro, o nível de durezas deve aumentar.
