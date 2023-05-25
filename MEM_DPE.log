@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  25 MAY 2023 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  25 MAY 2023 09:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1088,7 +1088,7 @@ File: Figures/Cap4/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap4/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap4/Falta_Imagem.png  used on input line 92.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-) (./Cap5_Conclusao/Cap5.tex [36 <./Figures/Cap4/Falta_Imagem.png>] [37 <./Figures/Cap4/Ac3(dentado).png> <./Figures/Cap4/Ac1(dentado).png> <./Figures/Cap4/Ms(dentado).png>] [38
+ [36 <./Figures/Cap4/Falta_Imagem.png>]) (./Cap5_Conclusao/Cap5.tex [37 <./Figures/Cap4/Ac3(dentado).png> <./Figures/Cap4/Ac1(dentado).png> <./Figures/Cap4/Ms(dentado).png>] [38
 
 ]
 Cap\'{\i }tulo 5.
@@ -1134,7 +1134,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  125i,13n,131p,1501b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on MEM_DPE.pdf (66 pages, 75217011 bytes).
+Output written on MEM_DPE.pdf (66 pages, 75217022 bytes).
 PDF statistics:
  968 PDF objects out of 1000 (max. 8388607)
  743 compressed objects within 8 object streams
