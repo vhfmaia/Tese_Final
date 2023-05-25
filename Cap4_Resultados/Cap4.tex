@@ -34,7 +34,7 @@ Como foi referido no passado capítulo, foi realizada uma simulação CFD de tod
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
-    \includegraphics[width = 0.6\textwidth]{Figures/Cap4/Falta_Imagem.png}
+    \includegraphics[width = 0.6\textwidth]{Figures/Cap4/Solidworks_thermal.png}
     \caption[Simulação puramente térmica Solidworks]%
     {Add-in do Solidworks simulation thermal para uma simulação puramente térmica.}
     \label{fig:simulacao_termica}
@@ -42,32 +42,32 @@ Como foi referido no passado capítulo, foi realizada uma simulação CFD de tod
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 Concluída a simulação, foram obtidos os valores do tempo em seis pontos, três para o dentado e três para o diâmetro interno. O primeiro ponto, é obtido quando os elementos atingem o valor de temperatura de austenitização A3, o segundo ponto, quando os elementos atingem a temperatura de austenitização A1, por fim, o terceiro ponto, quando os elementos atingem a temperatura de 170 \textdegree C. As Figuras \ref{fig:Dentado} são referentes aos pontos de temperaturas do dentado, e as Figuras \ref{fig:Diametro}
-De forma a facilitar a visualização, nos resultados, as rodas de coroa são vistas pelo plano superior. Foram escolhidas sempre as rodas de coroa Nº 6, ou seja, as rodas do meio da coluna, e as simulações foram feitas num modelo CAD sem o dentado, com o objetivo de diminuir o número de elementos utilizados em cada simulação. A tabela \ref{tab:pontos_sim} indica os valores dos pontos e o tempo em cada um deles, que foram retirados das imagens. Com estes valores é então possível determinar a velocidade de arrefecimento nos pontos em questão e então estimar a microestrutura final no dentado e no diâmetro interno. Para além disso, é possível também prever a dureza final nos dois pontos, tendo em conta a microestrutura, a velocidade de arrefecimento e a composição química do material.
+De forma a facilitar a visualização, foi escolhida apenas a roda de coroa Nº 6, ou seja, a roda do meio da coluna, e as simulações foram feitas num modelo em corte por simetria, com elementos bidimensionais, com o objetivo de diminuir o número de elementos utilizados em cada simulação. A tabela \ref{tab:pontos_sim} indica os valores dos pontos e o tempo em cada um deles, que foram retirados das imagens. Com estes valores é então possível determinar a velocidade de arrefecimento nos pontos em questão e então estimar a microestrutura final no dentado e no diâmetro interno. Para além disso, é possível também prever a dureza final nos dois pontos, tendo em conta a microestrutura, a velocidade de arrefecimento e a composição química do material.
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[htb]
     \centering
     \begin{subfigure}{.33\textwidth}\
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Ac3(dentado).png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/AC3_Dentado.png}
         \caption[]%
         {}
         \label{fig:A3_Dent}
     \end{subfigure}%
     \begin{subfigure}{.33\textwidth}
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Ac1(dentado).png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/AC1_Dentado.png}
         \caption{}
         \label{fig:A1_Dent}
     \end{subfigure}
     \begin{subfigure}{.33\textwidth}
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Ms(dentado).png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/TF_Dentado.png}
         \caption{}
         \label{fig:Tf_Dent}
     \end{subfigure}
     \caption[Pontos críticos dos elementos finitos do dentado]%
-    {Pontos críticos dos elementos finitos do dentado, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 0,45s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 3,05 s, e à direita, temperatura T\textsubscript{F}, aos 42,00s.}
+    {Pontos críticos dos elementos finitos do dentado, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 0,45s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 3,05 s, e à direita, temperatura T\textsubscript{F}, aos 52,00s.}
     \label{fig:Dentado}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -76,25 +76,25 @@ De forma a facilitar a visualização, nos resultados, as rodas de coroa são vi
     \centering
     \begin{subfigure}{.33\textwidth}\
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/AC3_Diametro.png}
         \caption[]%
         {}
         \label{fig:A3_Dint}
     \end{subfigure}%
     \begin{subfigure}{.33\textwidth}
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/AC1_Diametro.png}
         \caption{}
         \label{fig:A1_Dint}
     \end{subfigure}
     \begin{subfigure}{.33\textwidth}
         \centering
-        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/Falta_Imagem.png}
+        \includegraphics[width = 0.9\textwidth]{Figures/Cap4/TF_Diametro.png}
         \caption{}
         \label{fig:Tf_Dint}
     \end{subfigure}
     \caption[Pontos críticos dos elementos finitos do diâmetro interno]%
-    {Pontos críticos dos elementos finitos do diâmetro interno, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 27,65s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 47,15 s, e à direita, temperatura T\textsubscript{F}, aos 270,00s.}
+    {Pontos críticos dos elementos finitos do diâmetro interno, para obtenção dos valores de tempo. À esquerda, temperatura A\textsubscript{C1}, que ocorre aos 27,65s, no centro, temperatura A\textsubscript{C3}, que ocorre aos 47,15 s, e à direita, temperatura T\textsubscript{F}, aos 170,00s.}
     \label{fig:Diametro}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,11 +115,11 @@ Para o dentado, estima-se níveis de dureza de cerca de 860HV para uma microestr
     \hline
     Final de Austenitização no dentado (A\textsubscript{C3\_t})           & 0,45 s                                         \\
     Início de Austenitização no dentado (A\textsubscript{C1\_t})          & 3,05 s                                         \\
-    Final de Têmpera no dentado (T\textsubscript{F\_t})                   & 42,00 s                                        \\ 
+    Final de Têmpera no dentado (T\textsubscript{F\_t})                   & 52,00 s                                        \\ 
     \hline\hline
     Final de Austenitização no dentado (A\textsubscript{C3\_t})           & 27,65 s                                        \\
     Início de Austenitização no diâmetro interno (A\textsubscript{C1\_d}) & 47,15 s                                        \\ 
-    Final de Têmpera (T\textsubscript{F\_d})                              & 270,00 s                                       \\
+    Final de Têmpera (T\textsubscript{F\_d})                              & 170,00 s                                       \\
     \bottomrule
     \end{tabular}
 \end{table}
