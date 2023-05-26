@@ -15,26 +15,31 @@
 \contentsline {section}{\numberline {2.3}Soldadura}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Soldabilidade de aços-carbono}{12}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Fissuração induzida por hidrogénio}{13}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Diagramas da curva de arrefecimento continuo}{14}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Materiais e Métodos}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introdução}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Caso de estudo}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Processo de obtenção da peça branca}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Processo de tratamentos térmicos}{19}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Processo de torneamento duro}{20}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Prensagem e Soldadura}{21}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Conceção da ferramenta}{24}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Simulação das peças de série}{24}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Simulação da tampa simples}{27}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Prototipagem da tampa simples}{29}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Ensaio da proposta inicial}{30}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Novos protótipos e melhorias}{31}{subsection.3.3.5}%
-\contentsline {chapter}{\numberline {4}Análise de Resultados}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Resultados das simulações}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Resultados do ensaio inicial}{38}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Resultados do ensaio dos protótipos melhorados}{39}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Resultados da Espectroscopia}{40}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusão}{41}{chapter.5}%
-\contentsline {chapter}{Referências}{41}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Apêndice}{45}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Apêndice}{47}{appendix.B}%
+\contentsline {subsection}{\numberline {2.3.3}Diagramas da curva de arrefecimento continuo}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Equações para previsão de temperaturas críticas}{16}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Equações para previsão de dureza}{16}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Espectrometria de descarga luminescente ótica por emissão de gás}{17}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Materiais e Métodos}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introdução}{19}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Caso de estudo}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Processo de obtenção da peça branca}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Processo de tratamentos térmicos}{21}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Processo de torneamento duro}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Prensagem e Soldadura}{23}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Conceção da ferramenta}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Simulação das peças de série}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Simulação da tampa simples}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Prototipagem da tampa simples}{31}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Ensaio da proposta inicial}{32}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Novos protótipos e melhorias}{33}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {4}Análise de Resultados}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Resultados das simulações}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Resultados do ensaio inicial}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Resultados dos ensaios nos protótipos aprimorados}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Resultados da Espectroscopia}{42}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusão}{45}{chapter.5}%
+\contentsline {chapter}{Referências}{46}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Apêndices}{49}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Apêndice 1}{49}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Apêndice 2}{51}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Apêndice 3}{53}{section.A.3}%

@@ -4,44 +4,44 @@ The top-level auxiliary file: MEM_DPE.aux
 A level-1 auxiliary file: packMEM/MEM22_begin.aux
 The style file: ieeetr.bst
 Database file #1: biblio/file_BiB.bib
-You've used 22 entries,
+You've used 25 entries,
             1876 wiz_defined-function locations,
-            635 strings with 6920 characters,
-and the built_in function-call counts, 5012 in all, are:
-= -- 509
-> -- 146
+            649 strings with 7336 characters,
+and the built_in function-call counts, 5343 in all, are:
+= -- 546
+> -- 155
 < -- 0
-+ -- 61
-- -- 39
-* -- 309
-:= -- 704
-add.period$ -- 29
-call.type$ -- 22
++ -- 66
+- -- 41
+* -- 321
+:= -- 756
+add.period$ -- 34
+call.type$ -- 25
 change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 283
-empty$ -- 511
-format.name$ -- 39
-if$ -- 1253
+cite$ -- 25
+duplicate$ -- 301
+empty$ -- 548
+format.name$ -- 41
+if$ -- 1332
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 25
 missing$ -- 29
-newline$ -- 76
-num.names$ -- 22
-pop$ -- 74
+newline$ -- 87
+num.names$ -- 24
+pop$ -- 85
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 172
+skip$ -- 180
 stack$ -- 0
 substring$ -- 280
-swap$ -- 112
+swap$ -- 114
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 43
-width$ -- 24
-write$ -- 210
+while$ -- 45
+width$ -- 27
+write$ -- 235

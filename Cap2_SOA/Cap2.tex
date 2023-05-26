@@ -312,9 +312,9 @@ Para além da relação entre o hidrogénio difusível e a ocorrência de fissur
 \par
 Apesar de ainda não existir um mecanismo universalmente aceite para sua deteção, a fissuração por hidrogénio pôde ser correlacionada, nesta aplicação, com duas variáveis que podem ser facilmente medidas ou calculadas. Ainda que o hidrogénio seja muito difícil de detetar no estudo da microestrutura, existem ferramentas que permitem estimar a ocorrência de fissuração por hidrogénio.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \subsection{Diagramas da curva de arrefecimento continuo}\label{ssec:diagramas_CCT}
 Por fim, é importante mencionar os diagramas CCT (Continuous Cooling Transformation), ou diagramas de curva de arrefecimento contínuo. Estes diagramas mostram as transformações de fase que ocorrem em um material à medida que ele é arrefecido continuamente a partir da temperatura de austenitização e são utilizados para tentar prever as fases que serão formadas de acordo com a velocidade de arrefecimento a que o material for submetido.
-\newpage
 \par
 As curvas de arrefecimento contínuo são obtidas por meio de ensaios onde o arrefecimento é controlado, onde uma amostra do material é aquecida até a temperatura de austenitização e arrefecida a uma taxa constante. Dependendo da composição química do material, diferentes taxas de arrefecimento podem dar origem a diferentes estruturas finais. A taxa de arrefecimento e a temperatura onde ocorrem as transformações da microestruturas são representadas por meio de curvas, como pode ser visto na Figura \ref{fig:CCT_SOA}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -328,7 +328,9 @@ As curvas de arrefecimento contínuo são obtidas por meio de ensaios onde o arr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 No entanto, nem sempre é possível realizar um ensaio para a realização de diagramas CCT, pelo que um grupo de pesquisadores tentou modelar por meio de algoritmos de \textit{machine learning}, baseado na composição química, as curvas de arrefecimento contínuo do material \cite{Martin2020}, portanto também é possível tentar prever a microestrutura final do material baseando-se na curva de arrefecimento e composição química. Para além disso, um outro parâmetro extremamente importante na microestrutura final de um material tratado termicamente, é a presença e quantidade de austenite residual, que da-se quando por exemplo, o material é arrefecido a uma taxa de resfriamento inadequada. Se o arrefecimento ocorrer muito rapidamente, a transformação completa da austenite pode ser dificultada.
-\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Equações para previsão de temperaturas críticas}\label{ssec:previsao_martensite}
 Outro fator que pode influenciar a presença de austenite residual é a temperatura de martensite final do material. Sendo esta muito baixa, não há possibilidade de toda a austenite ser transformada em martensite, portanto, resultando numa presença de austenite residual que pode não ser desejada na composição da microestrutura final. Existe, no entanto, uma maneira sugerida para prever as temperaturas de inicio de martensite(M\textsubscript{start}) e fim de martensite(M\textsubscript{finish}) pode ser vista nas Equações \ref{eq:Martensite_start} e \ref{eq:Martensite_finish}, respetivamente\cite{Honeycombe1995}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{equation}
@@ -342,7 +344,6 @@ Outro fator que pode influenciar a presença de austenite residual é a temperat
     \mathrm{M\textsubscript{(finish)}}^{\circ}\mathrm{C} = 346 - (474\%\mathrm{C}) - (33\%\mathrm{Mn}) - (17\%\mathrm{Ni}) - (21\%\mathrm{Mo})
 \end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
 \par
 Também é possível estimar as temperaturas de austenitização inicial(A\textsubscript{C1}) e final (A\textsubscript{C3}) através das equações \ref{eq:A_C1} e \ref{eq:A_C3}, respetivamente\cite{Platl2020}. No entanto, da mesma maneira que as equações para as temperaturas de martensite, estas são apenas estimativas e sempre que possível, deve-se optar pela realização de um ensaio experimental para determinar as temperaturas de transformação da microestrutura.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -362,7 +363,8 @@ Também é possível estimar as temperaturas de austenitização inicial(A\texts
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 Essas equações de previsão das temperaturas críticas são desenvolvidas com base em estudos experimentais e modelos termodinâmicos, levando em consideração as composições químicas e as características do material. Com os valores das temperaturas críticas, e com as curvas de transformação de fase mencionadas acima, é possível desenvolver um diagrama CCT estimado, sem a necessidade da realização de ensaios.
-\par
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Equações para previsão de dureza}\label{ssec:previsao_dureza}
 Outro uso interessante das velocidades de arrefecimento, para além da previsão da microestrutura final, é a estimativa teórica da dureza final de um aço após um tratamento térmico. Uma estudo apresenta um modelo matemático gerado por um algoritmo computacional para tentar prever a dureza de um aço de acordo com a sua composição química, a velocidade de arrefecimento a que foi submetido, e a microestrutura final\cite{Trzaska2016}. As Equações \ref{eq:HV_fe} e \ref{eq:HV_ma}, indicam a estimativa de dureza consoante a velocidade de arrefecimento e elementos de liga para estruturas ferríticas e martensíticas, respetivamente.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{equation}
@@ -384,3 +386,33 @@ Outro uso interessante das velocidades de arrefecimento, para além da previsão
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \par
 Este modelo, claro, tem suas limitações, pelo que está desenvolvido para um intervalo de percentagens de elementos de liga, e tem melhores resultados quando os valores estão mais próximos da média, no entanto, com erros absolutos por volta dos 20-30HVs, esta pode ser uma ferramenta valiosa para a previsão das durezas de um material quando se está a alterar os parâmetros de tratamento. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Espectrometria de descarga luminescente ótica por emissão de gás}\label{ssec:soa_espectrometria}
+A espectrometria de descarga luminescente ótica por emissão de gás (GDOES) é uma técnica analítica poderosa para análise de elementos e perfis de profundidade em materiais sólidos.
+\par
+A GDOES baseia-se na criação de um plasma, um estado altamente energético da matéria, a partir de uma descarga de gás numa pequena área do material a ser analisado. O gás, geralmente árgon, é ionizado por uma descarga elétrica (Ver Figura \ref{fig_GDOES_A_C}), formando um plasma que interage com a superfície do material. As partículas de árgon colidem com a superfície do material, causando a erosão da superfície e a formação de um plasma secundário a partir do material. É importante notar que a GDOES é uma técnica destrutiva, uma vez que envolve a erosão da superfície do material.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[htb]
+    \centering
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width = 0.9\linewidth]{Figures/Cap2/GDOES_A_C.png}
+      \caption{}
+      \label{fig_GDOES_A_C}
+    \end{subfigure}%
+    \begin{subfigure}{.4\textwidth}
+      \centering
+      \includegraphics[width = 0.9\linewidth]{Figures/Cap2/GDOES_comp.png}
+      \caption{}
+      \label{fig:GDOES_comp}
+    \end{subfigure}
+    \caption[Funcionamento e resultados de um GDOES]%
+    {À esquerda, Esquema de formação de um plasma GDOES, retirado de \cite{Santos2009}. À direita, Gráfico com resultado de uma espectroscopia, retirado de \cite{Covalent2022}.}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\par
+A luz emitida por este plasma secundário é coletada e o espectro formado é analisado. Cada elemento na amostra emite luz a um conjunto específico de comprimentos de onda, permitindo assim a determinação da composição elementar da amostra. A intensidade da emissão em cada comprimento de onda é proporcional à quantidade do elemento na amostra, permitindo uma análise quantitativa dos elementos presentes \cite{Saraiva2015}. Além disso, a composição elementar pode ser monitorizada ao longo do tempo, fornecendo um perfil de profundidade da composição do material, como pode ser visto na Figura \ref{fig:GDOES_comp}.
+\par
+Portanto, quando não se tem a certeza da composição química de uma liga metálica, por exemplo, após um tratamento de carbonitruração, pode-se realizar um ensaio de GDOES de forma a perceber a quantidade de carbono e azoto, e também outros elementos de liga, estão presentes no material, e as suas proporções em relação à profundidade.

@@ -15,38 +15,39 @@
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Fissuração induzida por hidrogénio e correlação de Graville}}{13}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Correlações entre hidrogénio difusível e fissuração induzida por hidrogénio}}{14}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Diagrama CCT de um aço CK45}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Funcionamento e resultados de um GDOES}}{17}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagens do bruto para fabricação da peça branca}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Peça branca final e Prato de Rodas de coroa série DB35}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Fotografias dos tres componentes da ferramenta porta-peças}}{19}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Tanque de têmpera}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Imagens das rodas de coroa antes e após o torneamento duro}}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa diferencial “nua”, e caixa diferencial montada.}}{22}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Microestrutura e perfil do diâmetro interno.}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Zona de recobrimento de uma roda de coroa DB45}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Modelos 3D das rodas de coroa e dos elementos da ferramenta porta-peças.}}{25}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Modelo 3D de um prato montado e esquema de malhas da simulação.}}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultado da simulação CFD da têmpera das rodas de coroa de série}}{27}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Imagens ilustrativas dos componentes modificados da proposta inicial.}}{27}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Imagens ilustrativas da proposta inicial montada e em corte.}}{28}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Resultado da simulação CFD da têmpera das rodas de coroa com diâmetro protegido}}{28}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Modelos dos componentes modificados impressos em PET-G.}}{29}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Teste dos componentes impressos em 3D no prato e nas rodas de coroa}}{29}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Montagem do ensaio do protótipo inicial da ferramenta modificada}}{30}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Desenho do esquema de montagem da ferramenta}}{30}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Zonas das filiações de dureza}}{31}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Modelos CAD dos novos protótipos de tampa}}{32}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Configuração do ensaio dos vários protótipos}}{32}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Configuração do ensaio dos vários protótipos}}{33}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagens do bruto para fabricação da peça branca}}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peça branca final e Prato de Rodas de coroa série DB35}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Fotografias dos tres componentes da ferramenta porta-peças}}{21}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Tanque de têmpera}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Imagens das rodas de coroa antes e após o torneamento duro}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Caixa diferencial “nua”, e caixa diferencial montada.}}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Microestrutura e perfil do diâmetro interno.}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Zona de recobrimento de uma roda de coroa DB45}}{26}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Modelos 3D das rodas de coroa e dos elementos da ferramenta porta-peças.}}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Modelo 3D de um prato montado e esquema de malhas da simulação.}}{28}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Resultado da simulação CFD da têmpera das rodas de coroa de série}}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Imagens ilustrativas dos componentes modificados da proposta inicial.}}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Imagens ilustrativas da proposta inicial montada e em corte.}}{30}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Resultado da simulação CFD da têmpera das rodas de coroa com diâmetro protegido}}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Modelos dos componentes modificados impressos em PET-G.}}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Teste dos componentes impressos em 3D no prato e nas rodas de coroa}}{31}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Montagem do ensaio do protótipo inicial da ferramenta modificada}}{32}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Desenho do esquema de montagem da ferramenta}}{32}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Zonas das filiações de dureza}}{33}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Modelos CAD dos novos protótipos de tampa}}{34}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Configuração do ensaio dos vários protótipos}}{34}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Configuração do ensaio dos vários protótipos}}{35}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulação puramente térmica Solidworks}}{36}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Pontos críticos dos elementos finitos do dentado}}{37}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pontos críticos dos elementos finitos do diâmetro interno}}{37}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultados do ensaio inicial e comparação com peças de série}}{38}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Filiações de dureza das quatro zonas na roda de coroa DB45 Nº 1}}{39}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Filiações de dureza das quatro zonas na roda de coroa DB45 Nº 1}}{40}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Simulação puramente térmica Solidworks}}{38}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Pontos críticos dos elementos finitos do dentado}}{39}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pontos críticos dos elementos finitos do diâmetro interno}}{39}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultados do ensaio inicial e comparação com peças de série}}{41}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Filiações de dureza das quatro zonas na roda de coroa DB45 Nº 1}}{42}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Filiações de dureza das quatro zonas na roda de coroa DB45 Nº 1}}{43}{figure.caption.53}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Caderno com as especificações da composição química do aço 27MC5.\relax }}{45}{figure.caption.54}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Caderno com as especificações da composição química do ferro fundido FCS-600-10.\relax }}{48}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Caderno com as especificações da composição química do aço 27MC5.\relax }}{50}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Caderno com as especificações da composição química do ferro fundido FCS-600-10.\relax }}{52}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Caderno com as especificações da composição química do ferro fundido FCS-600-10.\relax }}{54}{figure.caption.58}%
