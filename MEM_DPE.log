@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  26 MAY 2023 20:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.26)  26 MAY 2023 22:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,7 +1054,7 @@ Cap\'{\i }tulo 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 \newpage
+l.20 \newpage
               [1
 
 
@@ -1062,122 +1062,138 @@ l.18 \newpage
 
 ]) (Cap2_SOA/Cap2.tex [2]
 Cap\'{\i }tulo 2.
-<Figures/Cap2/Caixa_de_velocidades.png, id=431, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_de_velocidades.png, id=433, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_de_velocidades.png Graphic file (type png)
 <use Figures/Cap2/Caixa_de_velocidades.png>
-Package pdftex.def Info: Figures/Cap2/Caixa_de_velocidades.png  used on input line 11.
+Package pdftex.def Info: Figures/Cap2/Caixa_de_velocidades.png  used on input line 13.
 (pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
-<Figures/Cap2/Caixa_diferencial.png, id=432, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_diferencial.png, id=434, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_diferencial.png Graphic file (type png)
 <use Figures/Cap2/Caixa_diferencial.png>
-Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 17.
+Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 19.
 (pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
 [3
 
  <./Figures/Cap2/Caixa_de_velocidades.png> <./Figures/Cap2/Caixa_diferencial.png>]
-<Figures/Cap2/Completo_rodas.png, id=439, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Completo_rodas.png, id=441, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo_rodas.png Graphic file (type png)
 <use Figures/Cap2/Completo_rodas.png>
-Package pdftex.def Info: Figures/Cap2/Completo_rodas.png  used on input line 35.
+Package pdftex.def Info: Figures/Cap2/Completo_rodas.png  used on input line 37.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Completo2019.png, id=441, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Completo2019.png, id=443, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo2019.png Graphic file (type png)
 <use Figures/Cap2/Completo2019.png>
-Package pdftex.def Info: Figures/Cap2/Completo2019.png  used on input line 41.
+Package pdftex.def Info: Figures/Cap2/Completo2019.png  used on input line 43.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [4 <./Figures/Cap2/Completo_rodas.png> <./Figures/Cap2/Completo2019.png>]
-<Figures/Cap2/Iron_Carbon_Diagram.png, id=453, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Iron_Carbon_Diagram.png, id=455, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Iron_Carbon_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Iron_Carbon_Diagram.png>
-Package pdftex.def Info: Figures/Cap2/Iron_Carbon_Diagram.png  used on input line 65.
+Package pdftex.def Info: Figures/Cap2/Iron_Carbon_Diagram.png  used on input line 70.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
-<Figures/Cap2/Ferrite_Martensite.png, id=458, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Ferrite_Martensite.png, id=460, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Ferrite_Martensite.png Graphic file (type png)
 <use Figures/Cap2/Ferrite_Martensite.png>
-Package pdftex.def Info: Figures/Cap2/Ferrite_Martensite.png  used on input line 81.
+Package pdftex.def Info: Figures/Cap2/Ferrite_Martensite.png  used on input line 86.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/CFC_CS.png, id=459, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CFC_CS.png, id=461, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CFC_CS.png Graphic file (type png)
 <use Figures/Cap2/CFC_CS.png>
-Package pdftex.def Info: Figures/Cap2/CFC_CS.png  used on input line 87.
+Package pdftex.def Info: Figures/Cap2/CFC_CS.png  used on input line 92.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Tempera_Arrefecimento.png, id=461, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Tempera_Arrefecimento.png, id=463, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Tempera_Arrefecimento.png Graphic file (type png)
 <use Figures/Cap2/Tempera_Arrefecimento.png>
-Package pdftex.def Info: Figures/Cap2/Tempera_Arrefecimento.png  used on input line 101.
+Package pdftex.def Info: Figures/Cap2/Tempera_Arrefecimento.png  used on input line 106.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [5 <./Figures/Cap2/Iron_Carbon_Diagram.png>] [6 <./Figures/Cap2/Ferrite_Martensite.png> <./Figures/Cap2/CFC_CS.png> <./Figures/Cap2/Tempera_Arrefecimento.png>]
-<Figures/Cap2/Hardness_Temperature_Carbon.png, id=482, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Troostite.png, id=484, 263.48438pt x 188.20313pt>
+File: Figures/Cap2/Troostite.png Graphic file (type png)
+<use Figures/Cap2/Troostite.png>
+Package pdftex.def Info: Figures/Cap2/Troostite.png  used on input line 129.
+(pdftex.def)             Requested size: 250.95586pt x 179.26291pt.
+ [7 <./Figures/Cap2/Troostite.png>]
+<Figures/Cap2/Hardness_Temperature_Carbon.png, id=495, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hardness_Temperature_Carbon.png Graphic file (type png)
 <use Figures/Cap2/Hardness_Temperature_Carbon.png>
-Package pdftex.def Info: Figures/Cap2/Hardness_Temperature_Carbon.png  used on input line 129.
+Package pdftex.def Info: Figures/Cap2/Hardness_Temperature_Carbon.png  used on input line 142.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [7]
-<Figures/Cap2/Nitriding_3_microstructure.png, id=495, 1053.9375pt x 376.40625pt>
+ [8 <./Figures/Cap2/Hardness_Temperature_Carbon.png>]
+<Figures/Cap2/Cementacao_tempo.png, id=510, 263.48438pt x 188.20313pt>
+File: Figures/Cap2/Cementacao_tempo.png Graphic file (type png)
+<use Figures/Cap2/Cementacao_tempo.png>
+Package pdftex.def Info: Figures/Cap2/Cementacao_tempo.png  used on input line 163.
+(pdftex.def)             Requested size: 188.21368pt x 134.44359pt.
+<Figures/Cap2/Cementacao_temp_prof.png, id=511, 526.96875pt x 376.40625pt>
+File: Figures/Cap2/Cementacao_temp_prof.png Graphic file (type png)
+<use Figures/Cap2/Cementacao_temp_prof.png>
+Package pdftex.def Info: Figures/Cap2/Cementacao_temp_prof.png  used on input line 169.
+(pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
+<Figures/Cap2/Nitriding_3_microstructure.png, id=517, 1053.9375pt x 376.40625pt>
 File: Figures/Cap2/Nitriding_3_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Nitriding_3_microstructure.png>
-Package pdftex.def Info: Figures/Cap2/Nitriding_3_microstructure.png  used on input line 146.
+Package pdftex.def Info: Figures/Cap2/Nitriding_3_microstructure.png  used on input line 186.
 (pdftex.def)             Requested size: 376.4274pt x 134.43785pt.
- [8 <./Figures/Cap2/Hardness_Temperature_Carbon.png>]
-<Figures/Cap2/Nitriding_gradients.jpg, id=512, 447.69026pt x 319.77876pt>
+ [9 <./Figures/Cap2/Cementacao_tempo.png> <./Figures/Cap2/Cementacao_temp_prof.png>]
+<Figures/Cap2/Nitriding_gradients.jpg, id=533, 447.69026pt x 319.77876pt>
 File: Figures/Cap2/Nitriding_gradients.jpg Graphic file (type jpg)
 <use Figures/Cap2/Nitriding_gradients.jpg>
-Package pdftex.def Info: Figures/Cap2/Nitriding_gradients.jpg  used on input line 177.
+Package pdftex.def Info: Figures/Cap2/Nitriding_gradients.jpg  used on input line 217.
 (pdftex.def)             Requested size: 250.95586pt x 179.25055pt.
- [9 <./Figures/Cap2/Nitriding_3_microstructure.png>]
-<Figures/Cap2/Carbonitriding_microstructure.png, id=525, 526.96875pt x 376.40625pt>
+ [10 <./Figures/Cap2/Nitriding_3_microstructure.png>]
+<Figures/Cap2/Carbonitriding_microstructure.png, id=546, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_microstructure.png>
-Package pdftex.def Info: Figures/Cap2/Carbonitriding_microstructure.png  used on input line 194.
-(pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
-<Figures/Cap2/Carbonitriding_depth.png, id=530, 526.96875pt x 376.40625pt>
+Package pdftex.def Info: Figures/Cap2/Carbonitriding_microstructure.png  used on input line 239.
+(pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
+<Figures/Cap2/Carbonitriding_depth.png, id=547, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_depth.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_depth.png>
-Package pdftex.def Info: Figures/Cap2/Carbonitriding_depth.png  used on input line 205.
-(pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [10 <./Figures/Cap2/Nitriding_gradients.jpg>]
-<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=541, 526.96875pt x 376.40625pt>
+Package pdftex.def Info: Figures/Cap2/Carbonitriding_depth.png  used on input line 246.
+(pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
+ [11 <./Figures/Cap2/Nitriding_gradients.jpg>]
+<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=560, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbon_Hardness_Carbonitriding.png Graphic file (type png)
 <use Figures/Cap2/Carbon_Hardness_Carbonitriding.png>
-Package pdftex.def Info: Figures/Cap2/Carbon_Hardness_Carbonitriding.png  used on input line 216.
+Package pdftex.def Info: Figures/Cap2/Carbon_Hardness_Carbonitriding.png  used on input line 263.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
- [11 <./Figures/Cap2/Carbonitriding_microstructure.png>] [12 <./Figures/Cap2/Carbonitriding_depth.png>]
-<Figures/Cap2/Cold_Cracking.png, id=562, 526.96875pt x 376.40625pt>
+ [12 <./Figures/Cap2/Carbonitriding_microstructure.png> <./Figures/Cap2/Carbonitriding_depth.png> <./Figures/Cap2/Carbon_Hardness_Carbonitriding.png>] [13]
+<Figures/Cap2/Cold_Cracking.png, id=586, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Cold_Cracking.png Graphic file (type png)
 <use Figures/Cap2/Cold_Cracking.png>
-Package pdftex.def Info: Figures/Cap2/Cold_Cracking.png  used on input line 274.
+Package pdftex.def Info: Figures/Cap2/Cold_Cracking.png  used on input line 321.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/Graville_Diagram.png, id=563, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Graville_Diagram.png, id=587, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Graville_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Graville_Diagram.png>
-Package pdftex.def Info: Figures/Cap2/Graville_Diagram.png  used on input line 280.
+Package pdftex.def Info: Figures/Cap2/Graville_Diagram.png  used on input line 327.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/Hdif_CE.png, id=566, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Hdif_CE.png, id=590, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hdif_CE.png Graphic file (type png)
 <use Figures/Cap2/Hdif_CE.png>
-Package pdftex.def Info: Figures/Cap2/Hdif_CE.png  used on input line 293.
+Package pdftex.def Info: Figures/Cap2/Hdif_CE.png  used on input line 340.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/CE_Hdif_Crack.png, id=567, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CE_Hdif_Crack.png, id=591, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CE_Hdif_Crack.png Graphic file (type png)
 <use Figures/Cap2/CE_Hdif_Crack.png>
-Package pdftex.def Info: Figures/Cap2/CE_Hdif_Crack.png  used on input line 299.
+Package pdftex.def Info: Figures/Cap2/CE_Hdif_Crack.png  used on input line 346.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
- [13 <./Figures/Cap2/Carbon_Hardness_Carbonitriding.png>] [14 <./Figures/Cap2/Cold_Cracking.png> <./Figures/Cap2/Graville_Diagram.png>] [15 <./Figures/Cap2/Hdif_CE.png> <./Figures/Cap2/CE_Hdif_Crack.png>]
-<Figures/Cap2/CCT_SOA.png, id=602, 526.96875pt x 376.40625pt>
+ [14 <./Figures/Cap2/Cold_Cracking.png> <./Figures/Cap2/Graville_Diagram.png>] [15 <./Figures/Cap2/Hdif_CE.png> <./Figures/Cap2/CE_Hdif_Crack.png>]
+<Figures/Cap2/CCT_SOA.png, id=617, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CCT_SOA.png Graphic file (type png)
 <use Figures/Cap2/CCT_SOA.png>
-Package pdftex.def Info: Figures/Cap2/CCT_SOA.png  used on input line 331.
+Package pdftex.def Info: Figures/Cap2/CCT_SOA.png  used on input line 378.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [16 <./Figures/Cap2/CCT_SOA.png>] [17]
-<Figures/Cap2/GDOES_A_C.png, id=638, 526.96875pt x 376.40625pt>
+<Figures/Cap2/GDOES_A_C.png, id=653, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/GDOES_A_C.png Graphic file (type png)
 <use Figures/Cap2/GDOES_A_C.png>
-Package pdftex.def Info: Figures/Cap2/GDOES_A_C.png  used on input line 409.
+Package pdftex.def Info: Figures/Cap2/GDOES_A_C.png  used on input line 456.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/GDOES_comp.png, id=639, 526.96875pt x 376.40625pt>
+<Figures/Cap2/GDOES_comp.png, id=654, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/GDOES_comp.png Graphic file (type png)
 <use Figures/Cap2/GDOES_comp.png>
-Package pdftex.def Info: Figures/Cap2/GDOES_comp.png  used on input line 415.
+Package pdftex.def Info: Figures/Cap2/GDOES_comp.png  used on input line 462.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
 ) (Cap3_Materiais/Cap3.tex [18 <./Figures/Cap2/GDOES_A_C.png> <./Figures/Cap2/GDOES_comp.png>]
 Cap\'{\i }tulo 3.
@@ -1187,223 +1203,223 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19
 
 ]
-<Figures/Cap3/Bruto_fotografia.png, id=662, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Bruto_fotografia.png, id=677, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Bruto_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Bruto_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Bruto_fotografia.png  used on input line 31.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Bruto_CAD.png, id=663, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Bruto_CAD.png, id=678, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Bruto_CAD.png Graphic file (type png)
 <use Figures/Cap3/Bruto_CAD.png>
 Package pdftex.def Info: Figures/Cap3/Bruto_CAD.png  used on input line 37.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Peca_branca_fotografia.png, id=664, 2107.875pt x 1505.625pt>
+<Figures/Cap3/Peca_branca_fotografia.png, id=679, 2107.875pt x 1505.625pt>
 File: Figures/Cap3/Peca_branca_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Peca_branca_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Peca_branca_fotografia.png  used on input line 56.
-(pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
-<Figures/Cap3/Carga_fotografia.png, id=665, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 169.39117pt x 120.98085pt.
+<Figures/Cap3/Carga_fotografia.png, id=680, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Carga_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Carga_fotografia.png>
 Package pdftex.def Info: Figures/Cap3/Carga_fotografia.png  used on input line 63.
-(pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
+(pdftex.def)             Requested size: 169.39117pt x 120.99234pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./Figures/Cap3/Bruto_fotografia.png> <./Figures/Cap3/Bruto_CAD.png>]
-<Figures/Cap3/Prato.png, id=674, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Prato.png, id=689, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Prato.png Graphic file (type png)
 <use Figures/Cap3/Prato.png>
 Package pdftex.def Info: Figures/Cap3/Prato.png  used on input line 79.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/Torre.png, id=675, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Torre.png, id=690, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Torre.png Graphic file (type png)
 <use Figures/Cap3/Torre.png>
 Package pdftex.def Info: Figures/Cap3/Torre.png  used on input line 86.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/Falsa_coroa.png, id=676, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Falsa_coroa.png, id=691, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Falsa_coroa.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa.png>
 Package pdftex.def Info: Figures/Cap3/Falsa_coroa.png  used on input line 93.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
  [21 <./Figures/Cap3/Peca_branca_fotografia.png> <./Figures/Cap3/Carga_fotografia.png> <./Figures/Cap3/Prato.png> <./Figures/Cap3/Torre.png> <./Figures/Cap3/Falsa_coroa.png>]
-<Figures/Cap3/Tanque_Tempera.png, id=685, 677.53125pt x 376.40625pt>
+<Figures/Cap3/Tanque_Tempera.png, id=700, 677.53125pt x 376.40625pt>
 File: Figures/Cap3/Tanque_Tempera.png Graphic file (type png)
 <use Figures/Cap3/Tanque_Tempera.png>
 Package pdftex.def Info: Figures/Cap3/Tanque_Tempera.png  used on input line 111.
 (pdftex.def)             Requested size: 250.95586pt x 139.41745pt.
  [22 <./Figures/Cap3/Tanque_Tempera.png>]
-<Figures/Cap3/DB45_antes_torn.png, id=692, 526.96875pt x 376.40625pt>
+<Figures/Cap3/DB45_antes_torn.png, id=707, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/DB45_antes_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_antes_torn.png>
 Package pdftex.def Info: Figures/Cap3/DB45_antes_torn.png  used on input line 130.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/DB45_apos_torn.png, id=693, 542.025pt x 391.4625pt>
+<Figures/Cap3/DB45_apos_torn.png, id=708, 542.025pt x 391.4625pt>
 File: Figures/Cap3/DB45_apos_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_apos_torn.png>
 Package pdftex.def Info: Figures/Cap3/DB45_apos_torn.png  used on input line 136.
 (pdftex.def)             Requested size: 188.21368pt x 135.93277pt.
  [23 <./Figures/Cap3/DB45_antes_torn.png> <./Figures/Cap3/DB45_apos_torn.png>]
-<Figures/Cap3/Caixa_nua.png, id=700, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Caixa_nua.png, id=715, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_nua.png Graphic file (type png)
 <use Figures/Cap3/Caixa_nua.png>
 Package pdftex.def Info: Figures/Cap3/Caixa_nua.png  used on input line 159.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Caixa_montada.png, id=701, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Caixa_montada.png, id=716, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_montada.png Graphic file (type png)
 <use Figures/Cap3/Caixa_montada.png>
 Package pdftex.def Info: Figures/Cap3/Caixa_montada.png  used on input line 166.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Falta_Imagem.png, id=705, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falta_Imagem.png, id=720, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
 Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 181.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Microestrutura_serie.png, id=706, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Microestrutura_serie.png, id=721, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Microestrutura_serie.png Graphic file (type png)
 <use Figures/Cap3/Microestrutura_serie.png>
 Package pdftex.def Info: Figures/Cap3/Microestrutura_serie.png  used on input line 187.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [24 <./Figures/Cap3/Caixa_nua.png> <./Figures/Cap3/Caixa_montada.png> <./Figures/Cap3/Falta_Imagem.png> <./Figures/Cap3/Microestrutura_serie.png>] [25]
-<Figures/Cap3/Recobrimento.png, id=728, 1576.38937pt x 1111.15125pt>
+<Figures/Cap3/Recobrimento.png, id=743, 1576.38937pt x 1111.15125pt>
 File: Figures/Cap3/Recobrimento.png Graphic file (type png)
 <use Figures/Cap3/Recobrimento.png>
 Package pdftex.def Info: Figures/Cap3/Recobrimento.png  used on input line 250.
 (pdftex.def)             Requested size: 217.49464pt x 153.30511pt.
-<Figures/Cap3/CAD_DB35.png, id=735, 524.71031pt x 374.90062pt>
+<Figures/Cap3/CAD_DB35.png, id=750, 524.71031pt x 374.90062pt>
 File: Figures/Cap3/CAD_DB35.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB35.png>
 Package pdftex.def Info: Figures/Cap3/CAD_DB35.png  used on input line 272.
 (pdftex.def)             Requested size: 124.22171pt x 88.75378pt.
-<Figures/Cap3/CAD_DB45.png, id=736, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_DB45.png, id=751, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_DB45.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB45.png>
 Package pdftex.def Info: Figures/Cap3/CAD_DB45.png  used on input line 279.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_JT4.png, id=737, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_JT4.png, id=752, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_JT4.png Graphic file (type png)
 <use Figures/Cap3/CAD_JT4.png>
 Package pdftex.def Info: Figures/Cap3/CAD_JT4.png  used on input line 286.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_PRATO.png, id=738, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_PRATO.png, id=753, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_PRATO.png Graphic file (type png)
 <use Figures/Cap3/CAD_PRATO.png>
 Package pdftex.def Info: Figures/Cap3/CAD_PRATO.png  used on input line 293.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_FALSA.png, id=739, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_FALSA.png, id=754, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_FALSA.png Graphic file (type png)
 <use Figures/Cap3/CAD_FALSA.png>
 Package pdftex.def Info: Figures/Cap3/CAD_FALSA.png  used on input line 300.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_TORRE.png, id=740, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_TORRE.png, id=755, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_TORRE.png Graphic file (type png)
 <use Figures/Cap3/CAD_TORRE.png>
 Package pdftex.def Info: Figures/Cap3/CAD_TORRE.png  used on input line 307.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
  [26 <./Figures/Cap3/Recobrimento.png>] [27 <./Figures/Cap3/CAD_DB35.png> <./Figures/Cap3/CAD_DB45.png> <./Figures/Cap3/CAD_JT4.png> <./Figures/Cap3/CAD_PRATO.png> <./Figures/Cap3/CAD_FALSA.png> <./Figures/Cap3/CAD_TORRE.png>]
-<Figures/Cap3/Prato_montado.png, id=754, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Prato_montado.png, id=769, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado.png>
 Package pdftex.def Info: Figures/Cap3/Prato_montado.png  used on input line 365.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Prato_montado_malha.png, id=755, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Prato_montado_malha.png, id=770, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado_malha.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado_malha.png>
 Package pdftex.def Info: Figures/Cap3/Prato_montado_malha.png  used on input line 371.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
  [28 <./Figures/Cap3/Prato_montado.png> <./Figures/Cap3/Prato_montado_malha.png>]
-<Figures/Cap3/resultado_serie.png, id=764, 790.45313pt x 376.40625pt>
+<Figures/Cap3/resultado_serie.png, id=779, 790.45313pt x 376.40625pt>
 File: Figures/Cap3/resultado_serie.png Graphic file (type png)
 <use Figures/Cap3/resultado_serie.png>
 Package pdftex.def Info: Figures/Cap3/resultado_serie.png  used on input line 391.
 (pdftex.def)             Requested size: 334.60568pt x 159.33588pt.
-<Figures/Cap3/Tampa_P.png, id=769, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_P.png, id=784, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_P.png Graphic file (type png)
 <use Figures/Cap3/Tampa_P.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_P.png  used on input line 405.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
-<Figures/Cap3/Falsa_coroa_modificada.png, id=770, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falsa_coroa_modificada.png, id=785, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falsa_coroa_modificada.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa_modificada.png>
 Package pdftex.def Info: Figures/Cap3/Falsa_coroa_modificada.png  used on input line 411.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
  [29 <./Figures/Cap3/resultado_serie.png> <./Figures/Cap3/Tampa_P.png> <./Figures/Cap3/Falsa_coroa_modificada.png>]
-<Figures/Cap3/Coluna_P_Montada.png, id=776, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Coluna_P_Montada.png, id=791, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada.png>
 Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada.png  used on input line 425.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/Coluna_P_Montada_Corte.png, id=777, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Coluna_P_Montada_Corte.png, id=792, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada_Corte.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada_Corte.png>
 Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada_Corte.png  used on input line 431.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/resultado_simples.png, id=779, 789.70032pt x 376.40625pt>
+<Figures/Cap3/resultado_simples.png, id=794, 789.70032pt x 376.40625pt>
 File: Figures/Cap3/resultado_simples.png Graphic file (type png)
 <use Figures/Cap3/resultado_simples.png>
 Package pdftex.def Info: Figures/Cap3/resultado_simples.png  used on input line 444.
 (pdftex.def)             Requested size: 334.60568pt x 159.4852pt.
  [30 <./Figures/Cap3/Coluna_P_Montada.png> <./Figures/Cap3/Coluna_P_Montada_Corte.png> <./Figures/Cap3/resultado_simples.png>]
-<Figures/Cap3/tampa_simples_3d.png, id=788, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/tampa_simples_3d.png, id=803, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/tampa_simples_3d.png Graphic file (type png)
 <use Figures/Cap3/tampa_simples_3d.png>
 Package pdftex.def Info: Figures/Cap3/tampa_simples_3d.png  used on input line 458.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Falsa_coroa_torre_3d.png, id=789, 3161.8125pt x 2258.4375pt>
+<Figures/Cap3/Falsa_coroa_torre_3d.png, id=804, 3161.8125pt x 2258.4375pt>
 File: Figures/Cap3/Falsa_coroa_torre_3d.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa_torre_3d.png>
 Package pdftex.def Info: Figures/Cap3/Falsa_coroa_torre_3d.png  used on input line 464.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Teste_impressao_largo.png, id=790, 677.53125pt x 376.40625pt>
+<Figures/Cap3/Teste_impressao_largo.png, id=805, 677.53125pt x 376.40625pt>
 File: Figures/Cap3/Teste_impressao_largo.png Graphic file (type png)
 <use Figures/Cap3/Teste_impressao_largo.png>
 Package pdftex.def Info: Figures/Cap3/Teste_impressao_largo.png  used on input line 475.
 (pdftex.def)             Requested size: 376.4274pt x 209.13193pt.
  [31 <./Figures/Cap3/tampa_simples_3d.png> <./Figures/Cap3/Falsa_coroa_torre_3d.png> <./Figures/Cap3/Teste_impressao_largo.png>]
-<Figures/Cap3/Ensaio_simples.png, id=800, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Ensaio_simples.png, id=815, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Ensaio_simples.png>
 Package pdftex.def Info: Figures/Cap3/Ensaio_simples.png  used on input line 488.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Desenho_ensaio_simples.png, id=801, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Desenho_ensaio_simples.png, id=816, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Desenho_ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Desenho_ensaio_simples.png>
 Package pdftex.def Info: Figures/Cap3/Desenho_ensaio_simples.png  used on input line 497.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
  [32 <./Figures/Cap3/Ensaio_simples.png> <./Figures/Cap3/Desenho_ensaio_simples.png>]
-<Figures/Cap3/Zonas_dureza.png, id=807, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Zonas_dureza.png, id=822, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Zonas_dureza.png Graphic file (type png)
 <use Figures/Cap3/Zonas_dureza.png>
 Package pdftex.def Info: Figures/Cap3/Zonas_dureza.png  used on input line 509.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Tampa_O.png, id=810, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_O.png, id=825, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_O.png Graphic file (type png)
 <use Figures/Cap3/Tampa_O.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_O.png  used on input line 525.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Tampa_Y.png, id=811, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_Y.png, id=826, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_Y.png Graphic file (type png)
 <use Figures/Cap3/Tampa_Y.png>
 Package pdftex.def Info: Figures/Cap3/Tampa_Y.png  used on input line 530.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [33 <./Figures/Cap3/Zonas_dureza.png>]
-<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=817, 757.32938pt x 538.26094pt>
+<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=832, 757.32938pt x 538.26094pt>
 File: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png Graphic file (type png)
 <use Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png>
 Package pdftex.def Info: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png  used on input line 546.
 (pdftex.def)             Requested size: 188.21368pt x 133.76822pt.
-<Figures/Cap3/Ensaio_varias_tampas.png, id=818, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Ensaio_varias_tampas.png, id=833, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Ensaio_varias_tampas.png Graphic file (type png)
 <use Figures/Cap3/Ensaio_varias_tampas.png>
 Package pdftex.def Info: Figures/Cap3/Ensaio_varias_tampas.png  used on input line 551.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
  [34 <./Figures/Cap3/Tampa_O.png> <./Figures/Cap3/Tampa_Y.png> <./Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png> <./Figures/Cap3/Ensaio_varias_tampas.png>]
-<Figures/Cap3/Layout_ensaio_gallets.png, id=827, 822.07124pt x 587.19376pt>
+<Figures/Cap3/Layout_ensaio_gallets.png, id=842, 822.07124pt x 587.19376pt>
 File: Figures/Cap3/Layout_ensaio_gallets.png Graphic file (type png)
 <use Figures/Cap3/Layout_ensaio_gallets.png>
 Package pdftex.def Info: Figures/Cap3/Layout_ensaio_gallets.png  used on input line 569.
 (pdftex.def)             Requested size: 188.21368pt x 134.43349pt.
-<Figures/Cap3/Gallets.png, id=828, 2810.5pt x 2007.5pt>
+<Figures/Cap3/Gallets.png, id=843, 2810.5pt x 2007.5pt>
 File: Figures/Cap3/Gallets.png Graphic file (type png)
 <use Figures/Cap3/Gallets.png>
 Package pdftex.def Info: Figures/Cap3/Gallets.png  used on input line 575.
@@ -1413,80 +1429,79 @@ Cap\'{\i }tulo 4.
 [37
 
 ]
-<Figures/Cap4/Solidworks_thermal.png, id=851, 1445.4pt x 763.35187pt>
+<Figures/Cap4/Solidworks_thermal.png, id=866, 1445.4pt x 763.35187pt>
 File: Figures/Cap4/Solidworks_thermal.png Graphic file (type png)
 <use Figures/Cap4/Solidworks_thermal.png>
 Package pdftex.def Info: Figures/Cap4/Solidworks_thermal.png  used on input line 38.
 (pdftex.def)             Requested size: 250.95586pt x 132.52863pt.
  [38 <./Figures/Cap4/Solidworks_thermal.png>]
-<Figures/Cap4/AC3_Dentado.png, id=859, 526.96875pt x 376.40625pt>
+<Figures/Cap4/AC3_Dentado.png, id=874, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC3_Dentado.png Graphic file (type png)
 <use Figures/Cap4/AC3_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/AC3_Dentado.png  used on input line 53.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap4/AC1_Dentado.png, id=860, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/AC1_Dentado.png, id=875, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC1_Dentado.png Graphic file (type png)
 <use Figures/Cap4/AC1_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/AC1_Dentado.png  used on input line 60.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap4/TF_Dentado.png, id=861, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/TF_Dentado.png, id=876, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/TF_Dentado.png Graphic file (type png)
 <use Figures/Cap4/TF_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/TF_Dentado.png  used on input line 66.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap4/AC3_Diametro.png, id=862, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/AC3_Diametro.png, id=877, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC3_Diametro.png Graphic file (type png)
 <use Figures/Cap4/AC3_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/AC3_Diametro.png  used on input line 80.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap4/AC1_Diametro.png, id=863, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/AC1_Diametro.png, id=878, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC1_Diametro.png Graphic file (type png)
 <use Figures/Cap4/AC1_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/AC1_Diametro.png  used on input line 87.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap4/TF_Diametro.png, id=864, 526.96875pt x 376.40625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/TF_Diametro.png, id=879, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/TF_Diametro.png Graphic file (type png)
 <use Figures/Cap4/TF_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/TF_Diametro.png  used on input line 93.
-(pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
- [39 <./Figures/Cap4/AC3_Dentado.png> <./Figures/Cap4/AC1_Dentado.png> <./Figures/Cap4/TF_Dentado.png> <./Figures/Cap4/AC3_Diametro.png> <./Figures/Cap4/AC1_Diametro.png> <./Figures/Cap4/TF_Diametro.png>]
-<Figures/Cap4/Grafico_4_Zonas_P_inicial.png, id=880, 2258.4375pt x 1505.625pt>
+(pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
+<Figures/Cap4/Grafico_4_Zonas_P_inicial.png, id=885, 2258.4375pt x 1505.625pt>
 File: Figures/Cap4/Grafico_4_Zonas_P_inicial.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P_inicial.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P_inicial.png  used on input line 141.
 (pdftex.def)             Requested size: 150.56865pt x 100.37321pt.
-<Figures/Cap4/Grafico_4_Zonas_S_inicial.png, id=881, 2258.4375pt x 1505.625pt>
+<Figures/Cap4/Grafico_4_Zonas_S_inicial.png, id=886, 2258.4375pt x 1505.625pt>
 File: Figures/Cap4/Grafico_4_Zonas_S_inicial.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_S_inicial.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_S_inicial.png  used on input line 148.
 (pdftex.def)             Requested size: 150.56865pt x 100.37321pt.
-<Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png, id=882, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png, id=887, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png  used on input line 154.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png, id=883, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png, id=888, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png  used on input line 161.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
- [40]
-<Figures/Cap4/Grafico_4_Zonas_Y.png, id=891, 735.84pt x 480.705pt>
+ [39 <./Figures/Cap4/AC3_Dentado.png> <./Figures/Cap4/AC1_Dentado.png> <./Figures/Cap4/TF_Dentado.png> <./Figures/Cap4/AC3_Diametro.png> <./Figures/Cap4/AC1_Diametro.png> <./Figures/Cap4/TF_Diametro.png>] [40 <./Figures/Cap4/Grafico_4_Zonas_P_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png>]
+<Figures/Cap4/Grafico_4_Zonas_Y.png, id=910, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_Y.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_Y.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_Y.png  used on input line 181.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_O.png, id=892, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_O.png, id=911, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_O.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_O.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_O.png  used on input line 187.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_P.png, id=893, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_P.png, id=912, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_P.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P.png  used on input line 193.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_ST.png, id=894, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_ST.png, id=913, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_ST.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_ST.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_ST.png  used on input line 199.
@@ -1496,7 +1511,7 @@ Overfull \hbox (31.29851pt too wide) in paragraph at lines 175--207
 []\T1/cmr/m/n/10.95 Considerando que os re-sul-ta-dos da tampa P fo-ram in-flu-en-ci-a-dos pe-los "de-fei-tos"mencionados
  []
 
-[41 <./Figures/Cap4/Grafico_4_Zonas_P_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png>]
+[41 <./Figures/Cap4/Grafico_4_Zonas_Y.png> <./Figures/Cap4/Grafico_4_Zonas_O.png> <./Figures/Cap4/Grafico_4_Zonas_P.png> <./Figures/Cap4/Grafico_4_Zonas_ST.png>]
 File: Figures/Cap4/Grafico_4_Zonas_Y.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_Y.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_Y.png  used on input line 215.
@@ -1513,49 +1528,49 @@ File: Figures/Cap4/Grafico_4_Zonas_ST.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_ST.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_ST.png  used on input line 233.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-) (Cap5_Conclusao/Cap5.tex [42 <./Figures/Cap4/Grafico_4_Zonas_Y.png> <./Figures/Cap4/Grafico_4_Zonas_O.png> <./Figures/Cap4/Grafico_4_Zonas_P.png> <./Figures/Cap4/Grafico_4_Zonas_ST.png>] [43] [44
-
-]
+) (Cap5_Conclusao/Cap5.tex [42]
 Cap\'{\i }tulo 5.
-) [45] (MEM_DPE.bbl [46] [47
+) [43
 
-]) (Appendix/Ap1.tex [48]
+] (MEM_DPE.bbl [44] [45
+
+]) (Appendix/Ap1.tex [46]
 Ap\^endice A.
-<Figures/Apendix/Chemical_Comp_Coroa.png, id=939, 512.66531pt x 614.295pt>
+<Figures/Apendix/Chemical_Comp_Coroa.png, id=946, 512.66531pt x 614.295pt>
 File: Figures/Apendix/Chemical_Comp_Coroa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Coroa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input line 9.
 (pdftex.def)             Requested size: 334.60568pt x 400.93672pt.
-[49
+[47
 
-] [50 <./Figures/Apendix/Chemical_Comp_Coroa.png>]
-<Figures/Apendix/Chemical_Comp_Caixa.png, id=949, 470.50781pt x 663.98062pt>
+] [48 <./Figures/Apendix/Chemical_Comp_Coroa.png>]
+<Figures/Apendix/Chemical_Comp_Caixa.png, id=955, 470.50781pt x 663.98062pt>
 File: Figures/Apendix/Chemical_Comp_Caixa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Caixa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Caixa.png  used on input line 19.
 (pdftex.def)             Requested size: 334.60568pt x 472.19952pt.
- [51] [52 <./Figures/Apendix/Chemical_Comp_Caixa.png>] [53]
-<Figures/Apendix/Velocidades_tanque.png, id=963, 417.05812pt x 310.15875pt>
+ [49] [50 <./Figures/Apendix/Chemical_Comp_Caixa.png>] [51]
+<Figures/Apendix/Velocidades_tanque.png, id=970, 417.05812pt x 310.15875pt>
 File: Figures/Apendix/Velocidades_tanque.png Graphic file (type png)
 <use Figures/Apendix/Velocidades_tanque.png>
 Package pdftex.def Info: Figures/Apendix/Velocidades_tanque.png  used on input line 73.
 (pdftex.def)             Requested size: 334.60568pt x 248.85143pt.
-) [54 <./Figures/Apendix/Velocidades_tanque.png>] (MEM_DPE.aux (packMEM/MEM22_begin.aux))
+) [52 <./Figures/Apendix/Velocidades_tanque.png>] (MEM_DPE.aux (packMEM/MEM22_begin.aux))
 Package rerunfilecheck Info: File `MEM_DPE.out' has not changed.
 (rerunfilecheck)             Checksum: 075ED42EE47565D6C29CB6DB3AD14B9B;7780.
  ) 
 Here is how much of TeX's memory you used:
- 44016 strings out of 476411
- 1034988 string characters out of 5798949
+ 44050 strings out of 476411
+ 1036118 string characters out of 5798949
  1869845 words of memory out of 5000000
- 63330 multiletter control sequences out of 15000+600000
+ 63360 multiletter control sequences out of 15000+600000
  533010 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,13n,131p,1456b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\vhfm2\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on MEM_DPE.pdf (72 pages, 95605305 bytes).
+Output written on MEM_DPE.pdf (70 pages, 95912455 bytes).
 PDF statistics:
- 1666 PDF objects out of 1728 (max. 8388607)
- 198 named destinations out of 1000 (max. 500000)
- 770 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1694 PDF objects out of 1728 (max. 8388607)
+ 199 named destinations out of 1000 (max. 500000)
+ 785 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,9 +21,20 @@ G.~Krauss, {\em Steels}.
 G.~Krauss, ``Martensite before and after tempering, deformation and fracture
   of,'' {\em N/a}, pp.~5193--5197, 2001.
 
-\bibitem{Oberg1989}
-J.~F. Oberg~E and R.~H., {\em Machinery's Handbook 23rd Edition}.
-\newblock Industrial Press Inc., 1985.
+\bibitem{Liu2011}
+K.~Liu, Z.~Jiang, and J.~Li, ``Study on troostite structures of grey cast iron
+  processed by heat treatment,'' {\em Procedia Engineering}, vol.~15,
+  pp.~4387--4391, 2011.
+
+\bibitem{ASM_International1991}
+A.~International, {\em ASM handbook vol. 4}.
+\newblock ASM Handbooks, ASM International, Aug. 1991.
+
+\bibitem{Dychto2015}
+K.~Dychto{\'{n}}, P.~Rokicki, A.~Nowotnik, M.~Drajewicz, and J.~Sieniawski,
+  ``Process temperature effect on surface layer of vacuum carburized low-alloy
+  steel gears,'' {\em Solid State Phenomena}, vol.~227, pp.~425--428, Jan.
+  2015.
 
 \bibitem{EDAX2023}
 EDAX, ``Combining eds-ebsd analysis to characterize the microstructure of a
