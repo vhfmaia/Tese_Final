@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.5)  26 MAY 2023 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.27)  27 MAY 2023 00:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/pp01661/OneDrive - Alliance/Área de Trabalho/Entrega Final/MEM_DPE.tex"
-(c:/Users/pp01661/OneDrive - Alliance/Área de Trabalho/Entrega Final/MEM_DPE.tex
+**c:/Users/vhfm2/Tese_Final/MEM_DPE.tex
+(c:/Users/vhfm2/Tese_Final/MEM_DPE.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-04-20> (./packMEM/reportJM.cls
+L3 programming layer <2023-05-15> (packMEM/reportJM.cls
 Document Class: packMEM/reportJM 2004/02/16 v1.4f Standard LaTeX document class
-(c:/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,51 +23,51 @@ File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (./packMEM/DEMThesis.sty
+) (packMEM/DEMThesis.sty
 Package: packMEM/DEMThesis 2022/05/22 v1.0 DEM thesis
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/texlive/2023/texmf-dist/tex/latex/a4wide/a4wide.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Program Files\MiKTeX\tex/latex/a4wide\a4wide.sty
 Package: a4wide 1994/08/30
- (c:/texlive/2023/texmf-dist/tex/latex/ntgclass/a4.sty
+ (C:\Program Files\MiKTeX\tex/latex/ntgclass\a4.sty
 Package: a4 2023/01/10 v1.2g A4 based page layout
-)) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+)) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
- (c:/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
 )
 \XKV@depth=\count194
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+)) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
+) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (c:/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
+ (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box51
 )
@@ -76,7 +76,7 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen145
 \tc@ury=\dimen146
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (c:/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen147
@@ -87,23 +87,23 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen152
 \adjbox@pdepth=\dimen153
 \adjbox@ptotalheight=\dimen154
- (c:/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+ (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count195
-) (c:/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box52
 \sift@deathcycles=\count196
 \@vwid@loff=\dimen155
 \@vwid@roff=\dimen156
-)) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -113,17 +113,17 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
+ (C:\Program Files\MiKTeX\tex/latex/graphics\dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))) (./packMEM/MEM22_preambulo.sty
+))) (packMEM/MEM22_preambulo.sty
 Package: packMEM/MEM22_preambulo 2022/05/22 v1.0 MEM thesis
- (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+ (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks21
 \symAMSa=\mathgroup4
@@ -131,58 +131,58 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+)) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
- (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+) (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
- (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+ (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count197
-) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count198
 )
 \@linkdim=\dimen157
 \Hy@linkcounter=\count199
 \Hy@pagecounter=\count266
- (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count267
- (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -195,15 +195,15 @@ Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4449.
 \c@Hy@tempcnt=\count268
- (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+ (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4787.
 \XeTeXLinkMargin=\dimen158
- (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+ (C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count269
@@ -216,7 +216,7 @@ Package hyperref Info: backreferencing OFF on input line 6081.
 Package hyperref Info: Link coloring OFF on input line 6086.
 Package hyperref Info: Link coloring with OCG OFF on input line 6091.
 Package hyperref Info: PDF/A mode OFF on input line 6096.
- (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -225,25 +225,25 @@ package with kernel methods
 \c@Hfootnote=\count272
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
- (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
 \Fld@listcount=\count273
 \c@bookmark@seq@number=\count274
- (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip50
-) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+) (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip51
 \f@nch@O@elh=\skip52
@@ -254,17 +254,17 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip57
 \f@nch@O@olf=\skip58
 \f@nch@O@orf=\skip59
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/epsfig.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen161
 \epsfysize=\dimen162
-) (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip60
 \multirow@cntb=\count275
 \multirow@dima=\skip61
 \bigstrutjot=\dimen163
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/layout.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\layout.sty
 Package: layout 2021-03-10 v1.2e Show layout parameters
 \oneinch=\count276
 \cnt@paperwidth=\count277
@@ -297,11 +297,11 @@ Package: layout 2021-03-10 v1.2e Show layout parameters
 \PositionX=\count304
 \PositionY=\count305
 \ArrowLength=\count306
-) (c:/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+) (C:\Program Files\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip62
 \LTright=\skip63
@@ -319,14 +319,14 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@tables=\count310
 \c@LT@chunks=\count311
 \LT@p@ftn=\toks22
-) (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex
+) (C:\Program Files\MiKTeX\tex/latex/xstring\xstring.sty (C:\Program Files\MiKTeX\tex/generic/xstring\xstring.tex
 \integerpart=\count312
 \decimalpart=\count313
 )
 Package: xstring 2023/01/14 v1.85 String manipulations (CT)
-) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
- (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@tempdima=\dimen165
 \captionmargin=\dimen166
@@ -342,21 +342,21 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count315
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (c:/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
+ (C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+)) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 239.
 \c@subfigure=\count316
 Package caption Info: New subtype `subtable' on input line 239.
 \c@subtable=\count317
-) (c:/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+) (C:\Program Files\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2023-04-13 v3.2.5 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen173
 \l__siunitx_angle_marker_box=\box58
 \l__siunitx_angle_unit_box=\box59
 \l__siunitx_compound_count_int=\count318
- (c:/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+ (C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_number_exponent_fixed_int=\count319
@@ -368,9 +368,9 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_number_group_first_int=\count325
 \l__siunitx_number_group_size_int=\count326
 \l__siunitx_number_group_minimum_int=\count327
- (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen174
@@ -388,7 +388,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \l__siunitx_unit_tmp_int=\count328
 \l__siunitx_unit_position_int=\count329
 \l__siunitx_unit_total_int=\count330
- (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen179
 \ar@mcellbox=\box66
@@ -397,40 +397,40 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip66
 \backup@length=\skip67
 \ar@cellbox=\box67
-)) (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+)) (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/indentfirst.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count331
 \float@exts=\toks25
 \float@box=\box68
 \@float@everytoks=\toks26
 \@floatcapt=\box69
-) (c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+) (C:\Program Files\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen181
 \c@nlinenum=\count332
 \TeXr@lab=\toks27
-) (c:/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen182
 \pgfutil@tempdimb=\dimen183
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box70
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks29
 \pgfkeys@temptoks=\toks30
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen184
@@ -453,32 +453,32 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
 \pgf@sys@id@count=\count337
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count338
 \pgfsyssoftpath@bigbuffer@items=\count339
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
 \pgfmath@count=\count340
 \pgfmath@box=\box71
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
 \pgfmath@stack@operation=\toks37
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count341
-)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen195
 \pgf@picmaxx=\dimen196
@@ -494,75 +494,75 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen262
 \pgf@zx=\dimen263
 \pgf@zy=\dimen264
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen265
 \pgf@path@lasty=\dimen266
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box72
 \pgf@hbox=\box73
 \pgf@layerbox@main=\box74
 \pgf@picture@serial@count=\count342
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen269
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen270
 \pgf@pt@y=\dimen271
 \pgf@pt@temp=\dimen272
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen273
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count343
 \pgf@shadingcount=\count344
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box75
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box76
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen275
 \pgf@nodesepend=\dimen276
-) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen277
 \pgffor@skip=\dimen278
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
-)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count345
 \pgfplotmarksize=\dimen279
@@ -583,36 +583,35 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count347
 \tikznumberofcurrentchild=\count348
 \tikz@fig@count=\count349
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count350
 \pgfmatrixcurrentcolumn=\count351
 \pgf@matrix@numberofcolumns=\count352
 )
 \tikz@expandcount=\count353
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
 \pgfplots@tmpa=\dimen288
 \c@pgfplots@coordindex=\count354
 \c@pgfplots@scanlineindex=\count355
-
-(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks43
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
-(c:/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count356
-) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count357
 \t@pgfplotstable@a=\toks46
-) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count358
- (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen289
 \pgfdecoratedremainingdistance=\dimen290
 \pgfdecoratedinputsegmentcompleteddistance=\dimen291
@@ -623,7 +622,7 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen295
 )
 \tikz@lib@dec@box=\box81
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count360
 \pgfplots@xmin@reg=\dimen296
 \pgfplots@xmax@reg=\dimen297
@@ -631,13 +630,13 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen299
 \pgfplots@zmin@reg=\dimen300
 \pgfplots@zmax@reg=\dimen301
-) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2023/texmf-dist/tex/latex/tabularray/tabularray.sty (c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-04-20 L3 programming layer (loader) 
- (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (C:\Program Files\MiKTeX\tex/latex/tabularray\tabularray.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-05-15 L3 programming layer (loader) 
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count361
 \l__pdf_internal_box=\box82
@@ -732,7 +731,7 @@ Package: tabularray 2023-03-01 v2023A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen342
 \l__tblr_cell_ht_dim=\dimen343
 \l__tblr_diag_box=\box106
-) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen344
 \lightrulewidth=\dimen345
@@ -751,43 +750,43 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count387
 \@lastruleclass=\count388
 \@thisrulewidth=\dimen356
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/hhline.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/svg/svg.sty
+) (C:\Program Files\MiKTeX\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
- (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
 Package: scrbase 2023/04/24 v3.40 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2023/04/24 v3.40 KOMA-Script package (file load hooks)
- (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2023/04/24 v3.40 KOMA-Script package (using LaTeX hooks)
- (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2023/04/24 v3.40 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-) (c:/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+) (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-) (c:/texlive/2023/texmf-dist/tex/latex/tools/shellesc.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@svg@param@lastpage=\count389
 \svg@box=\box107
 \c@svg@param@currpage=\count390
-) (c:/texlive/2023/texmf-dist/tex/latex/transparent/transparent.sty
+) (C:\Program Files\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
- (c:/texlive/2023/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+ (C:\Program Files\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
-)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip68
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen357
-) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count391
@@ -837,11 +836,11 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks50
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/texlive/2023/texmf-dist/tex/latex/nomencl/nomencl.sty
+) (C:\Program Files\MiKTeX\tex/latex/nomencl\nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
- (c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/koma-script/tocbasic.sty
+) (C:\Program Files\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2023/04/24 v3.40 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip71
 \scr@dte@tocline@numbox=\box110
@@ -853,23 +852,29 @@ Package tocbasic Info: omitting babel extension for `nls'
 \nomlabelwidth=\dimen365
 \nom@tempdim=\dimen366
 \nomitemsep=\skip72
-) (c:/texlive/2023/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2023/04/18 3.88 The Babel package
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/05/11 v3.89 The Babel package
 \babel@savecnt=\count403
 \U@D=\dimen367
-\l@unhyphenated=\language87
- (c:/texlive/2023/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language79
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count404
- (c:/texlive/2023/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 143.
-)) (c:/texlive/2023/texmf-dist/tex/generic/babel/locale/pt/babel-portuguese.tex
+)) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex
 Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 11.
-) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)) (./User_Doc_Def.tex) (./MEM_DPE.aux (./packMEM/MEM22_begin.aux))
+)) (User_Doc_Def.tex) (MEM_DPE.aux (packMEM/MEM22_begin.aux))
 \openout1 = `MEM_DPE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -890,7 +895,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
- (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count405
 \scratchdimen=\dimen368
@@ -903,20 +908,20 @@ LaTeX Font Info:    ... okay on input line 31.
 \MPnumerator=\count409
 \makeMPintoPDFobject=\count410
 \everyMPtoPDFconversion=\toks52
-) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (c:/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
+ (C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 31.
- (./MEM_DPE.out) (./MEM_DPE.out)
+ (MEM_DPE.out) (MEM_DPE.out)
 \@outlinefile=\write4
 \openout4 = `MEM_DPE.out'.
 
@@ -927,27 +932,27 @@ Package translations Info: no dictionary file `translations-basic-dictionary-por
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-(c:/texlive/2023/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+(C:\Program Files\MiKTeX\tex/latex/ninecolors\ninecolors.sty
 Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
- (c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2023-02-02 L3 Experimental document command parser
 ))
 \openout2 = `packMEM/MEM22_begin.aux'.
 
- (./packMEM/MEM22_begin.tex
+ (packMEM/MEM22_begin.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
- (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
- (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 35.
- (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmss.fd
+ (C:\Program Files\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<packMEM/uaLogoNew.pdf, id=182, 60.225pt x 75.28125pt>
+<packMEM/uaLogoNew.pdf, id=181, 60.225pt x 75.28125pt>
 File: packMEM/uaLogoNew.pdf Graphic file (type pdf)
 <use packMEM/uaLogoNew.pdf>
 Package pdftex.def Info: packMEM/uaLogoNew.pdf  used on input line 35.
@@ -955,7 +960,7 @@ Package pdftex.def Info: packMEM/uaLogoNew.pdf  used on input line 35.
  [1
 
 
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./packMEM/uaLogoNew.pdf>]
+{C:/Users/vhfm2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./packMEM/uaLogoNew.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1018,13 +1023,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.172 \titlepage\ \endtitlepage
-                                                       % Página de verso em... [1] (./MEM_DPE.toc [1
+                                                       % Página de verso em... [1] (MEM_DPE.toc [1
 
 ])
 \tf@toc=\write5
 \openout5 = `MEM_DPE.toc'.
 
- [2] (./MEM_DPE.lot)
+ [2] (MEM_DPE.lot)
 \tf@lot=\write6
 \openout6 = `MEM_DPE.lot'.
 
@@ -1032,18 +1037,18 @@ l.172 \titlepage\ \endtitlepage
 
 ] [4
 
-] (./MEM_DPE.lof [5])
+] (MEM_DPE.lof [5])
 \tf@lof=\write7
 \openout7 = `MEM_DPE.lof'.
 
- (./Nomenclature/Nomenclature.tex
+ (Nomenclature/Nomenclature.tex
 \@nomenclaturefile=\write8
 \openout8 = `MEM_DPE.nlo'.
 
 Package nomencl Info: Writing nomenclature file MEM_DPE.nlo on input line 2.
 )
 No file MEM_DPE.nls.
-[6{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./Cap1_Intro/Cap1.tex
+[6{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (Cap1_Intro/Cap1.tex
 Cap\'{\i }tulo 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1055,14 +1060,14 @@ l.20 \newpage
 
 
 
-]) (./Cap2_SOA/Cap2.tex [2]
+]) (Cap2_SOA/Cap2.tex [2]
 Cap\'{\i }tulo 2.
-<Figures/Cap2/Caixa_de_velocidades.png, id=436, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_de_velocidades.png, id=433, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_de_velocidades.png Graphic file (type png)
 <use Figures/Cap2/Caixa_de_velocidades.png>
 Package pdftex.def Info: Figures/Cap2/Caixa_de_velocidades.png  used on input line 13.
 (pdftex.def)             Requested size: 188.21368pt x 134.42062pt.
-<Figures/Cap2/Caixa_diferencial.png, id=437, 2107.875pt x 1505.625pt>
+<Figures/Cap2/Caixa_diferencial.png, id=434, 2107.875pt x 1505.625pt>
 File: Figures/Cap2/Caixa_diferencial.png Graphic file (type png)
 <use Figures/Cap2/Caixa_diferencial.png>
 Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 19.
@@ -1070,430 +1075,430 @@ Package pdftex.def Info: Figures/Cap2/Caixa_diferencial.png  used on input line 
 [3
 
  <./Figures/Cap2/Caixa_de_velocidades.png> <./Figures/Cap2/Caixa_diferencial.png>]
-<Figures/Cap2/Completo_rodas.png, id=444, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Completo_rodas.png, id=441, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo_rodas.png Graphic file (type png)
 <use Figures/Cap2/Completo_rodas.png>
 Package pdftex.def Info: Figures/Cap2/Completo_rodas.png  used on input line 37.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Completo2019.png, id=446, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Completo2019.png, id=443, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Completo2019.png Graphic file (type png)
 <use Figures/Cap2/Completo2019.png>
 Package pdftex.def Info: Figures/Cap2/Completo2019.png  used on input line 43.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
- [4 <./Figures/Cap2/Completo_Rodas.png> <./Figures/Cap2/Completo2019.png>]
-<Figures/Cap2/Iron_Carbon_Diagram.png, id=458, 526.96875pt x 376.40625pt>
+ [4 <./Figures/Cap2/Completo_rodas.png> <./Figures/Cap2/Completo2019.png>]
+<Figures/Cap2/Iron_Carbon_Diagram.png, id=455, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Iron_Carbon_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Iron_Carbon_Diagram.png>
 Package pdftex.def Info: Figures/Cap2/Iron_Carbon_Diagram.png  used on input line 70.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
-<Figures/Cap2/Ferrite_Martensite.png, id=463, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Ferrite_Martensite.png, id=460, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Ferrite_Martensite.png Graphic file (type png)
 <use Figures/Cap2/Ferrite_Martensite.png>
 Package pdftex.def Info: Figures/Cap2/Ferrite_Martensite.png  used on input line 86.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/CFC_CS.png, id=464, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CFC_CS.png, id=461, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CFC_CS.png Graphic file (type png)
 <use Figures/Cap2/CFC_CS.png>
 Package pdftex.def Info: Figures/Cap2/CFC_CS.png  used on input line 92.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Tempera_Arrefecimento.png, id=466, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Tempera_Arrefecimento.png, id=463, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Tempera_Arrefecimento.png Graphic file (type png)
 <use Figures/Cap2/Tempera_Arrefecimento.png>
 Package pdftex.def Info: Figures/Cap2/Tempera_Arrefecimento.png  used on input line 106.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [5 <./Figures/Cap2/Iron_Carbon_Diagram.png>] [6 <./Figures/Cap2/Ferrite_Martensite.png> <./Figures/Cap2/CFC_CS.png> <./Figures/Cap2/Tempera_Arrefecimento.png>]
-<Figures/Cap2/Troostite.png, id=487, 263.48438pt x 188.20313pt>
+<Figures/Cap2/Troostite.png, id=484, 263.48438pt x 188.20313pt>
 File: Figures/Cap2/Troostite.png Graphic file (type png)
 <use Figures/Cap2/Troostite.png>
 Package pdftex.def Info: Figures/Cap2/Troostite.png  used on input line 129.
 (pdftex.def)             Requested size: 250.95586pt x 179.26291pt.
  [7 <./Figures/Cap2/Troostite.png>]
-<Figures/Cap2/Hardness_Temperature_Carbon.png, id=498, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Hardness_Temperature_Carbon.png, id=495, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hardness_Temperature_Carbon.png Graphic file (type png)
 <use Figures/Cap2/Hardness_Temperature_Carbon.png>
 Package pdftex.def Info: Figures/Cap2/Hardness_Temperature_Carbon.png  used on input line 142.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [8 <./Figures/Cap2/Hardness_Temperature_Carbon.png>]
-<Figures/Cap2/Cementacao_tempo.png, id=514, 263.48438pt x 188.20313pt>
+<Figures/Cap2/Cementacao_tempo.png, id=510, 263.48438pt x 188.20313pt>
 File: Figures/Cap2/Cementacao_tempo.png Graphic file (type png)
 <use Figures/Cap2/Cementacao_tempo.png>
 Package pdftex.def Info: Figures/Cap2/Cementacao_tempo.png  used on input line 163.
 (pdftex.def)             Requested size: 188.21368pt x 134.44359pt.
-<Figures/Cap2/Cementacao_temp_prof.png, id=515, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Cementacao_temp_prof.png, id=511, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Cementacao_temp_prof.png Graphic file (type png)
 <use Figures/Cap2/Cementacao_temp_prof.png>
 Package pdftex.def Info: Figures/Cap2/Cementacao_temp_prof.png  used on input line 169.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Nitriding_3_microstructure.png, id=521, 1053.9375pt x 376.40625pt>
+<Figures/Cap2/Nitriding_3_microstructure.png, id=517, 1053.9375pt x 376.40625pt>
 File: Figures/Cap2/Nitriding_3_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Nitriding_3_microstructure.png>
 Package pdftex.def Info: Figures/Cap2/Nitriding_3_microstructure.png  used on input line 186.
 (pdftex.def)             Requested size: 376.4274pt x 134.43785pt.
  [9 <./Figures/Cap2/Cementacao_tempo.png> <./Figures/Cap2/Cementacao_temp_prof.png>]
-<Figures/Cap2/Nitriding_gradients.jpg, id=537, 447.69026pt x 319.77876pt>
+<Figures/Cap2/Nitriding_gradients.jpg, id=533, 447.69026pt x 319.77876pt>
 File: Figures/Cap2/Nitriding_gradients.jpg Graphic file (type jpg)
 <use Figures/Cap2/Nitriding_gradients.jpg>
 Package pdftex.def Info: Figures/Cap2/Nitriding_gradients.jpg  used on input line 217.
 (pdftex.def)             Requested size: 250.95586pt x 179.25055pt.
  [10 <./Figures/Cap2/Nitriding_3_microstructure.png>]
-<Figures/Cap2/Carbonitriding_microstructure.png, id=550, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Carbonitriding_microstructure.png, id=546, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_microstructure.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_microstructure.png>
 Package pdftex.def Info: Figures/Cap2/Carbonitriding_microstructure.png  used on input line 239.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap2/Carbonitriding_depth.png, id=551, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Carbonitriding_depth.png, id=547, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbonitriding_depth.png Graphic file (type png)
 <use Figures/Cap2/Carbonitriding_depth.png>
 Package pdftex.def Info: Figures/Cap2/Carbonitriding_depth.png  used on input line 246.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [11 <./Figures/Cap2/Nitriding_gradients.jpg>]
-<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=564, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Carbon_Hardness_Carbonitriding.png, id=560, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Carbon_Hardness_Carbonitriding.png Graphic file (type png)
 <use Figures/Cap2/Carbon_Hardness_Carbonitriding.png>
 Package pdftex.def Info: Figures/Cap2/Carbon_Hardness_Carbonitriding.png  used on input line 263.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [12 <./Figures/Cap2/Carbonitriding_microstructure.png> <./Figures/Cap2/Carbonitriding_depth.png> <./Figures/Cap2/Carbon_Hardness_Carbonitriding.png>] [13]
-<Figures/Cap2/Cold_Cracking.png, id=590, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Cold_Cracking.png, id=586, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Cold_Cracking.png Graphic file (type png)
 <use Figures/Cap2/Cold_Cracking.png>
 Package pdftex.def Info: Figures/Cap2/Cold_Cracking.png  used on input line 321.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/Graville_Diagram.png, id=591, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Graville_Diagram.png, id=587, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Graville_Diagram.png Graphic file (type png)
 <use Figures/Cap2/Graville_Diagram.png>
 Package pdftex.def Info: Figures/Cap2/Graville_Diagram.png  used on input line 327.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/Hdif_CE.png, id=594, 526.96875pt x 376.40625pt>
+<Figures/Cap2/Hdif_CE.png, id=590, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/Hdif_CE.png Graphic file (type png)
 <use Figures/Cap2/Hdif_CE.png>
 Package pdftex.def Info: Figures/Cap2/Hdif_CE.png  used on input line 340.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/CE_Hdif_Crack.png, id=595, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CE_Hdif_Crack.png, id=591, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CE_Hdif_Crack.png Graphic file (type png)
 <use Figures/Cap2/CE_Hdif_Crack.png>
 Package pdftex.def Info: Figures/Cap2/CE_Hdif_Crack.png  used on input line 346.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
  [14 <./Figures/Cap2/Cold_Cracking.png> <./Figures/Cap2/Graville_Diagram.png>] [15 <./Figures/Cap2/Hdif_CE.png> <./Figures/Cap2/CE_Hdif_Crack.png>]
-<Figures/Cap2/CCT_SOA.png, id=621, 526.96875pt x 376.40625pt>
+<Figures/Cap2/CCT_SOA.png, id=617, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/CCT_SOA.png Graphic file (type png)
 <use Figures/Cap2/CCT_SOA.png>
 Package pdftex.def Info: Figures/Cap2/CCT_SOA.png  used on input line 378.
 (pdftex.def)             Requested size: 250.95586pt x 179.2543pt.
  [16 <./Figures/Cap2/CCT_SOA.png>] [17]
-<Figures/Cap2/GDOES_A_C.png, id=658, 526.96875pt x 376.40625pt>
+<Figures/Cap2/GDOES_A_C.png, id=653, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/GDOES_A_C.png Graphic file (type png)
 <use Figures/Cap2/GDOES_A_C.png>
 Package pdftex.def Info: Figures/Cap2/GDOES_A_C.png  used on input line 456.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-<Figures/Cap2/GDOES_comp.png, id=659, 526.96875pt x 376.40625pt>
+<Figures/Cap2/GDOES_comp.png, id=654, 526.96875pt x 376.40625pt>
 File: Figures/Cap2/GDOES_comp.png Graphic file (type png)
 <use Figures/Cap2/GDOES_comp.png>
 Package pdftex.def Info: Figures/Cap2/GDOES_comp.png  used on input line 462.
 (pdftex.def)             Requested size: 150.56865pt x 107.54683pt.
-) (./Cap3_Materiais/Cap3.tex [18 <./Figures/Cap2/GDOES_A_C.png> <./Figures/Cap2/GDOES_comp.png>]
+) (Cap3_Materiais/Cap3.tex [18 <./Figures/Cap2/GDOES_A_C.png> <./Figures/Cap2/GDOES_comp.png>]
 Cap\'{\i }tulo 3.
 [19
 
 ]
-<Figures/Cap3/Bruto_fotografia.png, id=682, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Bruto_fotografia.png, id=677, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Bruto_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Bruto_fotografia.png>
-Package pdftex.def Info: Figures/Cap3/Bruto_fotografia.png  used on input line 31.
+Package pdftex.def Info: Figures/Cap3/Bruto_fotografia.png  used on input line 24.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Bruto_CAD.png, id=683, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Bruto_CAD.png, id=678, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Bruto_CAD.png Graphic file (type png)
 <use Figures/Cap3/Bruto_CAD.png>
-Package pdftex.def Info: Figures/Cap3/Bruto_CAD.png  used on input line 37.
+Package pdftex.def Info: Figures/Cap3/Bruto_CAD.png  used on input line 30.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Peca_branca_fotografia.png, id=684, 2107.875pt x 1505.625pt>
+<Figures/Cap3/Peca_branca_fotografia.png, id=679, 2107.875pt x 1505.625pt>
 File: Figures/Cap3/Peca_branca_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Peca_branca_fotografia.png>
-Package pdftex.def Info: Figures/Cap3/Peca_branca_fotografia.png  used on input line 56.
+Package pdftex.def Info: Figures/Cap3/Peca_branca_fotografia.png  used on input line 49.
 (pdftex.def)             Requested size: 169.39117pt x 120.98085pt.
-<Figures/Cap3/Carga_fotografia.png, id=685, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Carga_fotografia.png, id=680, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Carga_fotografia.png Graphic file (type png)
 <use Figures/Cap3/Carga_fotografia.png>
-Package pdftex.def Info: Figures/Cap3/Carga_fotografia.png  used on input line 63.
+Package pdftex.def Info: Figures/Cap3/Carga_fotografia.png  used on input line 56.
 (pdftex.def)             Requested size: 169.39117pt x 120.99234pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <./Figures/Cap3/Bruto_fotografia.png> <./Figures/Cap3/Bruto_CAD.png>]
-<Figures/Cap3/Prato.png, id=694, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Prato.png, id=689, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Prato.png Graphic file (type png)
 <use Figures/Cap3/Prato.png>
-Package pdftex.def Info: Figures/Cap3/Prato.png  used on input line 79.
+Package pdftex.def Info: Figures/Cap3/Prato.png  used on input line 72.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/Torre.png, id=695, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Torre.png, id=690, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Torre.png Graphic file (type png)
 <use Figures/Cap3/Torre.png>
-Package pdftex.def Info: Figures/Cap3/Torre.png  used on input line 86.
+Package pdftex.def Info: Figures/Cap3/Torre.png  used on input line 79.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/Falsa_coroa.png, id=696, 1405.25pt x 1003.75pt>
+<Figures/Cap3/Falsa_coroa.png, id=691, 1405.25pt x 1003.75pt>
 File: Figures/Cap3/Falsa_coroa.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa.png>
-Package pdftex.def Info: Figures/Cap3/Falsa_coroa.png  used on input line 93.
+Package pdftex.def Info: Figures/Cap3/Falsa_coroa.png  used on input line 86.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
  [21 <./Figures/Cap3/Peca_branca_fotografia.png> <./Figures/Cap3/Carga_fotografia.png> <./Figures/Cap3/Prato.png> <./Figures/Cap3/Torre.png> <./Figures/Cap3/Falsa_coroa.png>]
-<Figures/Cap3/Tanque_Tempera.png, id=705, 677.53125pt x 376.40625pt>
+<Figures/Cap3/Tanque_Tempera.png, id=700, 677.53125pt x 376.40625pt>
 File: Figures/Cap3/Tanque_Tempera.png Graphic file (type png)
 <use Figures/Cap3/Tanque_Tempera.png>
-Package pdftex.def Info: Figures/Cap3/Tanque_Tempera.png  used on input line 111.
+Package pdftex.def Info: Figures/Cap3/Tanque_Tempera.png  used on input line 104.
 (pdftex.def)             Requested size: 250.95586pt x 139.41745pt.
  [22 <./Figures/Cap3/Tanque_Tempera.png>]
-<Figures/Cap3/DB45_antes_torn.png, id=712, 526.96875pt x 376.40625pt>
+<Figures/Cap3/DB45_antes_torn.png, id=707, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/DB45_antes_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_antes_torn.png>
-Package pdftex.def Info: Figures/Cap3/DB45_antes_torn.png  used on input line 130.
+Package pdftex.def Info: Figures/Cap3/DB45_antes_torn.png  used on input line 123.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/DB45_apos_torn.png, id=713, 542.025pt x 391.4625pt>
+<Figures/Cap3/DB45_apos_torn.png, id=708, 542.025pt x 391.4625pt>
 File: Figures/Cap3/DB45_apos_torn.png Graphic file (type png)
 <use Figures/Cap3/DB45_apos_torn.png>
-Package pdftex.def Info: Figures/Cap3/DB45_apos_torn.png  used on input line 136.
+Package pdftex.def Info: Figures/Cap3/DB45_apos_torn.png  used on input line 129.
 (pdftex.def)             Requested size: 188.21368pt x 135.93277pt.
  [23 <./Figures/Cap3/DB45_antes_torn.png> <./Figures/Cap3/DB45_apos_torn.png>]
-<Figures/Cap3/Caixa_nua.png, id=720, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Caixa_nua.png, id=715, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_nua.png Graphic file (type png)
 <use Figures/Cap3/Caixa_nua.png>
-Package pdftex.def Info: Figures/Cap3/Caixa_nua.png  used on input line 159.
+Package pdftex.def Info: Figures/Cap3/Caixa_nua.png  used on input line 152.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Caixa_montada.png, id=721, 1580.90625pt x 1129.21875pt>
+<Figures/Cap3/Caixa_montada.png, id=716, 1580.90625pt x 1129.21875pt>
 File: Figures/Cap3/Caixa_montada.png Graphic file (type png)
 <use Figures/Cap3/Caixa_montada.png>
-Package pdftex.def Info: Figures/Cap3/Caixa_montada.png  used on input line 166.
+Package pdftex.def Info: Figures/Cap3/Caixa_montada.png  used on input line 159.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Falta_Imagem.png, id=725, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falta_Imagem.png, id=720, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falta_Imagem.png Graphic file (type png)
 <use Figures/Cap3/Falta_Imagem.png>
-Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 181.
+Package pdftex.def Info: Figures/Cap3/Falta_Imagem.png  used on input line 174.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Microestrutura_serie.png, id=726, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Microestrutura_serie.png, id=721, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Microestrutura_serie.png Graphic file (type png)
 <use Figures/Cap3/Microestrutura_serie.png>
-Package pdftex.def Info: Figures/Cap3/Microestrutura_serie.png  used on input line 187.
+Package pdftex.def Info: Figures/Cap3/Microestrutura_serie.png  used on input line 180.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [24 <./Figures/Cap3/Caixa_nua.png> <./Figures/Cap3/Caixa_montada.png> <./Figures/Cap3/Falta_Imagem.png> <./Figures/Cap3/Microestrutura_serie.png>] [25]
-<Figures/Cap3/Recobrimento.png, id=748, 1576.38937pt x 1111.15125pt>
+<Figures/Cap3/Recobrimento.png, id=743, 1576.38937pt x 1111.15125pt>
 File: Figures/Cap3/Recobrimento.png Graphic file (type png)
 <use Figures/Cap3/Recobrimento.png>
-Package pdftex.def Info: Figures/Cap3/Recobrimento.png  used on input line 250.
+Package pdftex.def Info: Figures/Cap3/Recobrimento.png  used on input line 243.
 (pdftex.def)             Requested size: 217.49464pt x 153.30511pt.
-<Figures/Cap3/CAD_DB35.png, id=755, 524.71031pt x 374.90062pt>
+<Figures/Cap3/CAD_DB35.png, id=750, 524.71031pt x 374.90062pt>
 File: Figures/Cap3/CAD_DB35.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB35.png>
-Package pdftex.def Info: Figures/Cap3/CAD_DB35.png  used on input line 272.
+Package pdftex.def Info: Figures/Cap3/CAD_DB35.png  used on input line 265.
 (pdftex.def)             Requested size: 124.22171pt x 88.75378pt.
-<Figures/Cap3/CAD_DB45.png, id=756, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_DB45.png, id=751, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_DB45.png Graphic file (type png)
 <use Figures/Cap3/CAD_DB45.png>
-Package pdftex.def Info: Figures/Cap3/CAD_DB45.png  used on input line 279.
+Package pdftex.def Info: Figures/Cap3/CAD_DB45.png  used on input line 272.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_JT4.png, id=757, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_JT4.png, id=752, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_JT4.png Graphic file (type png)
 <use Figures/Cap3/CAD_JT4.png>
-Package pdftex.def Info: Figures/Cap3/CAD_JT4.png  used on input line 286.
+Package pdftex.def Info: Figures/Cap3/CAD_JT4.png  used on input line 279.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_PRATO.png, id=758, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_PRATO.png, id=753, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_PRATO.png Graphic file (type png)
 <use Figures/Cap3/CAD_PRATO.png>
-Package pdftex.def Info: Figures/Cap3/CAD_PRATO.png  used on input line 293.
+Package pdftex.def Info: Figures/Cap3/CAD_PRATO.png  used on input line 286.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_FALSA.png, id=759, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_FALSA.png, id=754, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_FALSA.png Graphic file (type png)
 <use Figures/Cap3/CAD_FALSA.png>
-Package pdftex.def Info: Figures/Cap3/CAD_FALSA.png  used on input line 300.
+Package pdftex.def Info: Figures/Cap3/CAD_FALSA.png  used on input line 293.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
-<Figures/Cap3/CAD_TORRE.png, id=760, 526.96875pt x 376.40625pt>
+<Figures/Cap3/CAD_TORRE.png, id=755, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/CAD_TORRE.png Graphic file (type png)
 <use Figures/Cap3/CAD_TORRE.png>
-Package pdftex.def Info: Figures/Cap3/CAD_TORRE.png  used on input line 307.
+Package pdftex.def Info: Figures/Cap3/CAD_TORRE.png  used on input line 300.
 (pdftex.def)             Requested size: 124.22171pt x 88.72542pt.
  [26 <./Figures/Cap3/Recobrimento.png>] [27 <./Figures/Cap3/CAD_DB35.png> <./Figures/Cap3/CAD_DB45.png> <./Figures/Cap3/CAD_JT4.png> <./Figures/Cap3/CAD_PRATO.png> <./Figures/Cap3/CAD_FALSA.png> <./Figures/Cap3/CAD_TORRE.png>]
-<Figures/Cap3/Prato_montado.png, id=774, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Prato_montado.png, id=769, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado.png>
-Package pdftex.def Info: Figures/Cap3/Prato_montado.png  used on input line 365.
+Package pdftex.def Info: Figures/Cap3/Prato_montado.png  used on input line 358.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Prato_montado_malha.png, id=775, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Prato_montado_malha.png, id=770, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Prato_montado_malha.png Graphic file (type png)
 <use Figures/Cap3/Prato_montado_malha.png>
-Package pdftex.def Info: Figures/Cap3/Prato_montado_malha.png  used on input line 371.
+Package pdftex.def Info: Figures/Cap3/Prato_montado_malha.png  used on input line 364.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
  [28 <./Figures/Cap3/Prato_montado.png> <./Figures/Cap3/Prato_montado_malha.png>]
-<Figures/Cap3/resultado_serie.png, id=784, 790.45313pt x 376.40625pt>
+<Figures/Cap3/resultado_serie.png, id=779, 790.45313pt x 376.40625pt>
 File: Figures/Cap3/resultado_serie.png Graphic file (type png)
 <use Figures/Cap3/resultado_serie.png>
-Package pdftex.def Info: Figures/Cap3/resultado_serie.png  used on input line 391.
+Package pdftex.def Info: Figures/Cap3/resultado_serie.png  used on input line 384.
 (pdftex.def)             Requested size: 334.60568pt x 159.33588pt.
-<Figures/Cap3/Tampa_P.png, id=789, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_P.png, id=784, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_P.png Graphic file (type png)
 <use Figures/Cap3/Tampa_P.png>
-Package pdftex.def Info: Figures/Cap3/Tampa_P.png  used on input line 405.
+Package pdftex.def Info: Figures/Cap3/Tampa_P.png  used on input line 398.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
-<Figures/Cap3/Falsa_coroa_modificada.png, id=790, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Falsa_coroa_modificada.png, id=785, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Falsa_coroa_modificada.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa_modificada.png>
-Package pdftex.def Info: Figures/Cap3/Falsa_coroa_modificada.png  used on input line 411.
+Package pdftex.def Info: Figures/Cap3/Falsa_coroa_modificada.png  used on input line 404.
 (pdftex.def)             Requested size: 104.56387pt x 74.68832pt.
  [29 <./Figures/Cap3/resultado_serie.png> <./Figures/Cap3/Tampa_P.png> <./Figures/Cap3/Falsa_coroa_modificada.png>]
-<Figures/Cap3/Coluna_P_Montada.png, id=797, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Coluna_P_Montada.png, id=791, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada.png>
-Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada.png  used on input line 425.
+Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada.png  used on input line 418.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/Coluna_P_Montada_Corte.png, id=798, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Coluna_P_Montada_Corte.png, id=792, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Coluna_P_Montada_Corte.png Graphic file (type png)
 <use Figures/Cap3/Coluna_P_Montada_Corte.png>
-Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada_Corte.png  used on input line 431.
+Package pdftex.def Info: Figures/Cap3/Coluna_P_Montada_Corte.png  used on input line 424.
 (pdftex.def)             Requested size: 146.38878pt x 104.56596pt.
-<Figures/Cap3/resultado_simples.png, id=800, 789.70032pt x 376.40625pt>
+<Figures/Cap3/resultado_simples.png, id=794, 789.70032pt x 376.40625pt>
 File: Figures/Cap3/resultado_simples.png Graphic file (type png)
 <use Figures/Cap3/resultado_simples.png>
-Package pdftex.def Info: Figures/Cap3/resultado_simples.png  used on input line 444.
+Package pdftex.def Info: Figures/Cap3/resultado_simples.png  used on input line 437.
 (pdftex.def)             Requested size: 334.60568pt x 159.4852pt.
  [30 <./Figures/Cap3/Coluna_P_Montada.png> <./Figures/Cap3/Coluna_P_Montada_Corte.png> <./Figures/Cap3/resultado_simples.png>]
-<Figures/Cap3/tampa_simples_3d.png, id=809, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/tampa_simples_3d.png, id=803, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/tampa_simples_3d.png Graphic file (type png)
 <use Figures/Cap3/tampa_simples_3d.png>
-Package pdftex.def Info: Figures/Cap3/tampa_simples_3d.png  used on input line 458.
+Package pdftex.def Info: Figures/Cap3/tampa_simples_3d.png  used on input line 451.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Falsa_coroa_torre_3d.png, id=810, 3161.8125pt x 2258.4375pt>
+<Figures/Cap3/Falsa_coroa_torre_3d.png, id=804, 3161.8125pt x 2258.4375pt>
 File: Figures/Cap3/Falsa_coroa_torre_3d.png Graphic file (type png)
 <use Figures/Cap3/Falsa_coroa_torre_3d.png>
-Package pdftex.def Info: Figures/Cap3/Falsa_coroa_torre_3d.png  used on input line 464.
+Package pdftex.def Info: Figures/Cap3/Falsa_coroa_torre_3d.png  used on input line 457.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
-<Figures/Cap3/Teste_impressao_largo.png, id=811, 677.53125pt x 376.40625pt>
+<Figures/Cap3/Teste_impressao_largo.png, id=805, 677.53125pt x 376.40625pt>
 File: Figures/Cap3/Teste_impressao_largo.png Graphic file (type png)
 <use Figures/Cap3/Teste_impressao_largo.png>
-Package pdftex.def Info: Figures/Cap3/Teste_impressao_largo.png  used on input line 475.
+Package pdftex.def Info: Figures/Cap3/Teste_impressao_largo.png  used on input line 468.
 (pdftex.def)             Requested size: 376.4274pt x 209.13193pt.
- [31 <./Figures/Cap3/tampa_simples_3d.png> <./Figures/Cap3/falsa_coroa_torre_3d.png> <./Figures/Cap3/Teste_impressao_largo.png>]
-<Figures/Cap3/Ensaio_simples.png, id=821, 526.96875pt x 376.40625pt>
+ [31 <./Figures/Cap3/tampa_simples_3d.png> <./Figures/Cap3/Falsa_coroa_torre_3d.png> <./Figures/Cap3/Teste_impressao_largo.png>]
+<Figures/Cap3/Ensaio_simples.png, id=815, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Ensaio_simples.png>
-Package pdftex.def Info: Figures/Cap3/Ensaio_simples.png  used on input line 488.
+Package pdftex.def Info: Figures/Cap3/Ensaio_simples.png  used on input line 481.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Desenho_ensaio_simples.png, id=822, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Desenho_ensaio_simples.png, id=816, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Desenho_ensaio_simples.png Graphic file (type png)
 <use Figures/Cap3/Desenho_ensaio_simples.png>
-Package pdftex.def Info: Figures/Cap3/Desenho_ensaio_simples.png  used on input line 497.
+Package pdftex.def Info: Figures/Cap3/Desenho_ensaio_simples.png  used on input line 490.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
  [32 <./Figures/Cap3/Ensaio_simples.png> <./Figures/Cap3/Desenho_ensaio_simples.png>]
-<Figures/Cap3/Zonas_dureza.png, id=828, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Zonas_dureza.png, id=822, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Zonas_dureza.png Graphic file (type png)
 <use Figures/Cap3/Zonas_dureza.png>
-Package pdftex.def Info: Figures/Cap3/Zonas_dureza.png  used on input line 509.
+Package pdftex.def Info: Figures/Cap3/Zonas_dureza.png  used on input line 502.
 (pdftex.def)             Requested size: 209.12775pt x 149.37666pt.
-<Figures/Cap3/Tampa_O.png, id=831, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_O.png, id=825, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_O.png Graphic file (type png)
 <use Figures/Cap3/Tampa_O.png>
-Package pdftex.def Info: Figures/Cap3/Tampa_O.png  used on input line 525.
+Package pdftex.def Info: Figures/Cap3/Tampa_O.png  used on input line 518.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
-<Figures/Cap3/Tampa_Y.png, id=832, 526.96875pt x 376.40625pt>
+<Figures/Cap3/Tampa_Y.png, id=826, 526.96875pt x 376.40625pt>
 File: Figures/Cap3/Tampa_Y.png Graphic file (type png)
 <use Figures/Cap3/Tampa_Y.png>
-Package pdftex.def Info: Figures/Cap3/Tampa_Y.png  used on input line 530.
+Package pdftex.def Info: Figures/Cap3/Tampa_Y.png  used on input line 523.
 (pdftex.def)             Requested size: 188.21368pt x 134.43785pt.
  [33 <./Figures/Cap3/Zonas_dureza.png>]
-<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=838, 757.32938pt x 538.26094pt>
+<Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png, id=832, 757.32938pt x 538.26094pt>
 File: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png Graphic file (type png)
 <use Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png>
-Package pdftex.def Info: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png  used on input line 546.
+Package pdftex.def Info: Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png  used on input line 539.
 (pdftex.def)             Requested size: 188.21368pt x 133.76822pt.
-<Figures/Cap3/Ensaio_varias_tampas.png, id=839, 1053.9375pt x 752.8125pt>
+<Figures/Cap3/Ensaio_varias_tampas.png, id=833, 1053.9375pt x 752.8125pt>
 File: Figures/Cap3/Ensaio_varias_tampas.png Graphic file (type png)
 <use Figures/Cap3/Ensaio_varias_tampas.png>
-Package pdftex.def Info: Figures/Cap3/Ensaio_varias_tampas.png  used on input line 551.
+Package pdftex.def Info: Figures/Cap3/Ensaio_varias_tampas.png  used on input line 544.
 (pdftex.def)             Requested size: 188.21368pt x 134.43211pt.
  [34 <./Figures/Cap3/Tampa_O.png> <./Figures/Cap3/Tampa_Y.png> <./Figures/Cap3/Esquema_Prato_Ensaio_08-05-2023.png> <./Figures/Cap3/Ensaio_varias_tampas.png>]
-<Figures/Cap3/Layout_ensaio_gallets.png, id=848, 822.07124pt x 587.19376pt>
+<Figures/Cap3/Layout_ensaio_gallets.png, id=842, 822.07124pt x 587.19376pt>
 File: Figures/Cap3/Layout_ensaio_gallets.png Graphic file (type png)
 <use Figures/Cap3/Layout_ensaio_gallets.png>
-Package pdftex.def Info: Figures/Cap3/Layout_ensaio_gallets.png  used on input line 569.
+Package pdftex.def Info: Figures/Cap3/Layout_ensaio_gallets.png  used on input line 562.
 (pdftex.def)             Requested size: 188.21368pt x 134.43349pt.
-<Figures/Cap3/Gallets.png, id=849, 2810.5pt x 2007.5pt>
+<Figures/Cap3/Gallets.png, id=843, 2810.5pt x 2007.5pt>
 File: Figures/Cap3/Gallets.png Graphic file (type png)
 <use Figures/Cap3/Gallets.png>
-Package pdftex.def Info: Figures/Cap3/Gallets.png  used on input line 575.
+Package pdftex.def Info: Figures/Cap3/Gallets.png  used on input line 568.
 (pdftex.def)             Requested size: 188.21368pt x 134.41296pt.
- [35 <./Figures/Cap3/Layout_ensaio_gallets.png> <./Figures/Cap3/Gallets.png>]) (./Cap4_Resultados/Cap4.tex [36]
+ [35 <./Figures/Cap3/Layout_ensaio_gallets.png> <./Figures/Cap3/Gallets.png>]) (Cap4_Resultados/Cap4.tex [36]
 Cap\'{\i }tulo 4.
 [37
 
 ]
-<Figures/Cap4/Solidworks_thermal.png, id=872, 1445.4pt x 763.35187pt>
+<Figures/Cap4/Solidworks_thermal.png, id=866, 1445.4pt x 763.35187pt>
 File: Figures/Cap4/Solidworks_thermal.png Graphic file (type png)
 <use Figures/Cap4/Solidworks_thermal.png>
 Package pdftex.def Info: Figures/Cap4/Solidworks_thermal.png  used on input line 38.
 (pdftex.def)             Requested size: 250.95586pt x 132.52863pt.
  [38 <./Figures/Cap4/Solidworks_thermal.png>]
-<Figures/Cap4/AC3_Dentado.png, id=880, 526.96875pt x 376.40625pt>
+<Figures/Cap4/AC3_Dentado.png, id=874, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC3_Dentado.png Graphic file (type png)
 <use Figures/Cap4/AC3_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/AC3_Dentado.png  used on input line 53.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/AC1_Dentado.png, id=881, 526.96875pt x 376.40625pt>
+<Figures/Cap4/AC1_Dentado.png, id=875, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC1_Dentado.png Graphic file (type png)
 <use Figures/Cap4/AC1_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/AC1_Dentado.png  used on input line 60.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/TF_Dentado.png, id=882, 526.96875pt x 376.40625pt>
+<Figures/Cap4/TF_Dentado.png, id=876, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/TF_Dentado.png Graphic file (type png)
 <use Figures/Cap4/TF_Dentado.png>
 Package pdftex.def Info: Figures/Cap4/TF_Dentado.png  used on input line 66.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/AC3_Diametro.png, id=883, 526.96875pt x 376.40625pt>
+<Figures/Cap4/AC3_Diametro.png, id=877, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC3_Diametro.png Graphic file (type png)
 <use Figures/Cap4/AC3_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/AC3_Diametro.png  used on input line 80.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/AC1_Diametro.png, id=884, 526.96875pt x 376.40625pt>
+<Figures/Cap4/AC1_Diametro.png, id=878, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/AC1_Diametro.png Graphic file (type png)
 <use Figures/Cap4/AC1_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/AC1_Diametro.png  used on input line 87.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/TF_Diametro.png, id=885, 526.96875pt x 376.40625pt>
+<Figures/Cap4/TF_Diametro.png, id=879, 526.96875pt x 376.40625pt>
 File: Figures/Cap4/TF_Diametro.png Graphic file (type png)
 <use Figures/Cap4/TF_Diametro.png>
 Package pdftex.def Info: Figures/Cap4/TF_Diametro.png  used on input line 93.
 (pdftex.def)             Requested size: 110.42047pt x 78.86958pt.
-<Figures/Cap4/Grafico_4_Zonas_P_inicial.png, id=891, 2258.4375pt x 1505.625pt>
+<Figures/Cap4/Grafico_4_Zonas_P_inicial.png, id=885, 2258.4375pt x 1505.625pt>
 File: Figures/Cap4/Grafico_4_Zonas_P_inicial.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P_inicial.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P_inicial.png  used on input line 141.
 (pdftex.def)             Requested size: 150.56865pt x 100.37321pt.
-<Figures/Cap4/Grafico_4_Zonas_S_inicial.png, id=892, 2258.4375pt x 1505.625pt>
+<Figures/Cap4/Grafico_4_Zonas_S_inicial.png, id=886, 2258.4375pt x 1505.625pt>
 File: Figures/Cap4/Grafico_4_Zonas_S_inicial.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_S_inicial.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_S_inicial.png  used on input line 148.
 (pdftex.def)             Requested size: 150.56865pt x 100.37321pt.
-<Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png, id=893, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png, id=887, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png  used on input line 154.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png, id=894, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png, id=888, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png  used on input line 161.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
  [39 <./Figures/Cap4/AC3_Dentado.png> <./Figures/Cap4/AC1_Dentado.png> <./Figures/Cap4/TF_Dentado.png> <./Figures/Cap4/AC3_Diametro.png> <./Figures/Cap4/AC1_Diametro.png> <./Figures/Cap4/TF_Diametro.png>] [40 <./Figures/Cap4/Grafico_4_Zonas_P_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial.png> <./Figures/Cap4/Grafico_4_Zonas_P_inicial_dentado.png> <./Figures/Cap4/Grafico_4_Zonas_S_inicial_dentado.png>]
-<Figures/Cap4/Grafico_4_Zonas_Y.png, id=916, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_Y.png, id=910, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_Y.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_Y.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_Y.png  used on input line 181.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_O.png, id=917, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_O.png, id=911, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_O.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_O.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_O.png  used on input line 187.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_P.png, id=918, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_P.png, id=912, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_P.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_P.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_P.png  used on input line 193.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-<Figures/Cap4/Grafico_4_Zonas_ST.png, id=919, 735.84pt x 480.705pt>
+<Figures/Cap4/Grafico_4_Zonas_ST.png, id=913, 735.84pt x 480.705pt>
 File: Figures/Cap4/Grafico_4_Zonas_ST.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_ST.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_ST.png  used on input line 199.
@@ -1515,15 +1520,15 @@ File: Figures/Cap4/Grafico_4_Zonas_ST.png Graphic file (type png)
 <use Figures/Cap4/Grafico_4_Zonas_ST.png>
 Package pdftex.def Info: Figures/Cap4/Grafico_4_Zonas_ST.png  used on input line 233.
 (pdftex.def)             Requested size: 150.56865pt x 98.36179pt.
-) (./Cap5_Conclusao/Cap5.tex [42]
+) (Cap5_Conclusao/Cap5.tex [42]
 Cap\'{\i }tulo 5.
 ) [43
 
-] (./MEM_DPE.bbl [44] [45
+] (MEM_DPE.bbl [44] [45
 
-]) (./Appendix/Ap1.tex [46]
+]) (Appendix/Ap1.tex [46]
 Ap\^endice A.
-<Figures/Apendix/Chemical_Comp_Coroa.png, id=953, 512.66531pt x 614.295pt>
+<Figures/Apendix/Chemical_Comp_Coroa.png, id=946, 512.66531pt x 614.295pt>
 File: Figures/Apendix/Chemical_Comp_Coroa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Coroa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input line 9.
@@ -1531,34 +1536,33 @@ Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Coroa.png  used on input 
 [47
 
 ] [48 <./Figures/Apendix/Chemical_Comp_Coroa.png>]
-<Figures/Apendix/Chemical_Comp_Caixa.png, id=962, 470.50781pt x 663.98062pt>
+<Figures/Apendix/Chemical_Comp_Caixa.png, id=955, 470.50781pt x 663.98062pt>
 File: Figures/Apendix/Chemical_Comp_Caixa.png Graphic file (type png)
 <use Figures/Apendix/Chemical_Comp_Caixa.png>
 Package pdftex.def Info: Figures/Apendix/Chemical_Comp_Caixa.png  used on input line 19.
 (pdftex.def)             Requested size: 334.60568pt x 472.19952pt.
  [49] [50 <./Figures/Apendix/Chemical_Comp_Caixa.png>] [51]
-<Figures/Apendix/Velocidades_tanque.png, id=977, 417.05812pt x 310.15875pt>
+<Figures/Apendix/Velocidades_tanque.png, id=970, 417.05812pt x 310.15875pt>
 File: Figures/Apendix/Velocidades_tanque.png Graphic file (type png)
 <use Figures/Apendix/Velocidades_tanque.png>
 Package pdftex.def Info: Figures/Apendix/Velocidades_tanque.png  used on input line 73.
 (pdftex.def)             Requested size: 334.60568pt x 248.85143pt.
-) [52 <./Figures/Apendix/Velocidades_tanque.png>] (./MEM_DPE.aux (./packMEM/MEM22_begin.aux))
+) [52 <./Figures/Apendix/Velocidades_tanque.png>] (MEM_DPE.aux (packMEM/MEM22_begin.aux))
 Package rerunfilecheck Info: File `MEM_DPE.out' has not changed.
 (rerunfilecheck)             Checksum: 075ED42EE47565D6C29CB6DB3AD14B9B;7780.
  ) 
 Here is how much of TeX's memory you used:
- 43782 strings out of 476001
- 1028381 string characters out of 5793198
- 1869068 words of memory out of 5000000
- 63222 multiletter control sequences out of 15000+600000
+ 44049 strings out of 476411
+ 1036101 string characters out of 5798949
+ 1869845 words of memory out of 5000000
+ 63357 multiletter control sequences out of 15000+600000
  533010 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,13n,131p,1501b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on MEM_DPE.pdf (70 pages, 95904998 bytes).
+ 114i,13n,131p,1456b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx0800.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx2074.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx2488.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfss1000.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfss1095.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfss1440.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on MEM_DPE.pdf (70 pages, 96023015 bytes).
 PDF statistics:
- 1114 PDF objects out of 1200 (max. 8388607)
- 844 compressed objects within 9 object streams
+ 1104 PDF objects out of 1200 (max. 8388607)
  199 named destinations out of 1000 (max. 500000)
  785 words of extra memory for PDF output out of 10000 (max. 10000000)
 
