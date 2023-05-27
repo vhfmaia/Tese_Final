@@ -1,7 +1,4 @@
-\nomenclatureentry{aEU@[{EU}]\begingroup \qquad - Europe union\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{aCOP@[{COP}]\begingroup \qquad - Coefficient of performance\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{a$\dot{Q}_\mathrm{L}$@[{$\dot{Q}_\mathrm{L}$}]\begingroup \qquad - Cooling capacity [W]\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{a${W_{\mathrm{net,in}}}$ @[{${W_{\mathrm{net,in}}}$ }]\begingroup \qquad - Work input [W]\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{aTES@[{TES}]\begingroup \qquad - Thermal Energy Storage\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{a$Q$ @[{$Q$ }]\begingroup \qquad - Total heat transferred\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{a$m$@[{$m$}]\begingroup \qquad - Mass \nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aZAT@[{ZAT}]\begingroup \qquad - Zona Afetada Termicamente\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aGDOES@[{GDOES}]\begingroup \qquad - Glow Discharge Optical Emission Spectroscopy\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aCFC@[{CFC}]\begingroup \qquad - Cúbico de Face Centrada\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aCCC@[{CCC}]\begingroup \qquad - Cúbico de Corpo Centrado\nomeqref {0}|nompageref}{vi}
