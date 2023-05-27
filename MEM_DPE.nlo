@@ -2,7 +2,11 @@
 \nomenclatureentry{aGDOES@[{GDOES}]\begingroup \qquad - Glow Discharge Optical Emission Spectroscopy\nomeqref {0}|nompageref}{vi}
 \nomenclatureentry{aCFC@[{CFC}]\begingroup \qquad - Cúbico de Face Centrada\nomeqref {0}|nompageref}{vi}
 \nomenclatureentry{aCCC@[{CCC}]\begingroup \qquad - Cúbico de Corpo Centrado\nomeqref {0}|nompageref}{vi}
-\nomenclatureentry{aZAT@[{ZAT}]\begingroup \qquad - Zona Afetada Termicamente\nomeqref {0}|nompageref}{1}
-\nomenclatureentry{aGDOES@[{GDOES}]\begingroup \qquad - Glow Discharge Optical Emission Spectroscopy\nomeqref {0}|nompageref}{1}
-\nomenclatureentry{aCFC@[{CFC}]\begingroup \qquad - Cúbico de Face Centrada\nomeqref {0}|nompageref}{1}
-\nomenclatureentry{aCCC@[{CCC}]\begingroup \qquad - Cúbico de Corpo Centrado\nomeqref {0}|nompageref}{1}
+\nomenclatureentry{aCFD@[{CFD}]\begingroup \qquad - Computer Fluid Dynamics\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aCible@[{Cible}]\begingroup \qquad - Adição nas rodas dentadas DB34 e DB45 para auxiliar na leitura das rotações da caixa diferencial\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aHV@[{HV}]\begingroup \qquad - Dureza Vickers\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aHV\textsubscript{0,5}@[{HV\textsubscript{0,5}}]\begingroup \qquad - Microdureza Vickers\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aHV\textsubscript{650}@[{HV\textsubscript{650}}]\begingroup \qquad - Profundidade de tratamento com dureza igual a 650 HV\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aHV\textsubscript{650}@[{HV\textsubscript{650}}]\begingroup \qquad - Profundidade de tratamento com dureza igual a 650 HV\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aEC@[{EC}]\begingroup \qquad - Espessura convencional de tratamento\nomeqref {0}|nompageref}{vi}
+\nomenclatureentry{aET@[{ET}]\begingroup \qquad - Espessura total de tratamento\nomeqref {0}|nompageref}{vi}

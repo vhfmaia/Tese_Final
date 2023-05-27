@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MEM_DPE.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: packMEM/MEM22_begin.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: ieeetr.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Database file #1: biblio/file_BiB.bib
+You've used 27 entries,
+            1876 wiz_defined-function locations,
+            662 strings with 7713 characters,
+and the built_in function-call counts, 6074 in all, are:
+= -- 625
+> -- 179
+< -- 0
++ -- 75
+- -- 48
+* -- 380
+:= -- 853
+add.period$ -- 36
+call.type$ -- 27
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 336
+empty$ -- 609
+format.name$ -- 48
+if$ -- 1509
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 31
+newline$ -- 93
+num.names$ -- 26
+pop$ -- 86
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 212
+stack$ -- 0
+substring$ -- 352
+swap$ -- 134
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 53
+width$ -- 29
+write$ -- 256
