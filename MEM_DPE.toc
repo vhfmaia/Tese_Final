@@ -15,10 +15,11 @@
 \contentsline {section}{\numberline {2.3}Soldadura}{13}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Soldabilidade de aços-carbono}{13}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Fissuração induzida por hidrogénio}{14}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Diagramas da Curva de Arrefecimento Contínuo}{16}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Equações para a previsão de temperaturas críticas}{17}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Equações para Previsão de Dureza}{17}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Espectrometria de descarga luminescente ótica por emissão de gás}{18}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Ferramentas de previsão e verificação de resultados}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Diagramas da Curva de Arrefecimento Contínuo}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Equações para a previsão de temperaturas críticas}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Equações para Previsão de Dureza}{17}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Espectrometria de descarga luminescente ótica por emissão de gás}{18}{subsection.2.4.4}%
 \contentsline {chapter}{\numberline {3}Materiais e Métodos}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introdução}{19}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Caso de estudo}{20}{section.3.2}%
@@ -37,10 +38,10 @@
 \contentsline {section}{\numberline {4.1}Resultados das Simulações}{38}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Resultados do ensaio inicial}{40}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Resultados dos ensaios nos protótipos aprimorados}{41}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Resultados da Espectroscopia}{42}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusão}{43}{chapter.5}%
-\contentsline {chapter}{Referências}{44}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Apêndices}{47}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Apêndice 1}{47}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Apêndice 2}{49}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Apêndice 3}{51}{section.A.3}%
+\contentsline {section}{\numberline {4.4}Análise dos Resultados do Torneamento Duro}{42}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusão}{45}{chapter.5}%
+\contentsline {chapter}{Referências}{46}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Apêndices}{49}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Apêndice 1}{49}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Apêndice 2}{51}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Apêndice 3}{53}{section.A.3}%
